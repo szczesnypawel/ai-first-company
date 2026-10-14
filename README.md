@@ -1,6 +1,12 @@
-# AI-first company: data
+# AI adoption evidence: company cases, AI readiness assessments and practices rated by evidence
 
-The data behind **[ai-first.company](https://www.ai-first.company)**, a guide to what works and what fails in running a business with AI. The guide is organised by company size, and every practice on it is rated by how strong the evidence is.
+Open data (CC BY 4.0) on what works and what fails when companies adopt AI:
+
+- **34 company cases of AI use** with their outcomes: measured results, company-reported results, and AI failures such as court sanctions over made-up citations, regulator fines for false AI claims, and chatbot rulings. Air Canada, Klarna, Procter & Gamble, Siemens, Rite Aid and more, each with public sources.
+- **21 AI readiness assessments**: questionnaires, AI literacy tests, task maps and interview guides, with how well each has been tested, who answers it, its length, licence and cost.
+- **28 practices for AI adoption**, each rated by strength of evidence (Strong, Moderate, Emerging, Common practice), with the studies for and against and the company sizes it fits.
+
+Every row links to its page on **[ai-first.company](https://www.ai-first.company)**, a guide to running a business with AI by company size, where each item is explained in full with its sources.
 
 This repository holds three lists from the site, each as JSON and CSV. They are built from the same files as the pages, so they always match what the site shows. They hold the lists only, not the full text of the pages. Each JSON file gives its number of rows in `count`.
 
