@@ -1,0 +1,729 @@
+{
+  "name": "AI readiness assessments: questionnaires, tests, task maps and interview guides",
+  "description": "Published instruments for assessing where a company stands with AI, one row per assessment. Each row gives the question it answers, its type, how well it has been tested, who answers it, its length, licence, cost and languages, and links to the provider and the source publications.",
+  "url": "https://www.ai-first.company/assessments/",
+  "version": "2026-10-13",
+  "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "count": 21,
+  "rows": [
+    {
+      "id": "nomad",
+      "url": "https://www.ai-first.company/assessments/nomad/",
+      "name": "NoMAD: is a new way of working taking hold?",
+      "by": "Finch, Rapley and colleagues, 2018",
+      "summary": "A 23-question staff survey that shows whether a new practice is becoming part of normal work. Use it during and after an AI rollout, not before.",
+      "question": "Is the new way of working becoming routine?",
+      "question_group": "Is the new way of working taking hold?",
+      "type": "Readiness surveys",
+      "testing_level": "Strong",
+      "who_answers": "The staff who use the new practice",
+      "length": "23 questions",
+      "takes": "23 questions",
+      "use": "Free to use and adapt",
+      "licence": "CC BY",
+      "cost": "Free",
+      "languages": "English, Swedish, Dutch (the Dutch version has 20 questions)",
+      "levels": [
+        "Person",
+        "Team"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Finch, Girling, May, Mair, Murray and colleagues (2018). Improving the normalization of complex interventions: part 2 – validation of the NoMAD instrument. BMC Medical Research Methodology.",
+          "url": "https://doi.org/10.1186/s12874-018-0591-x"
+        },
+        {
+          "label": "Rapley, Girling, Mair, Murray, Treweek and colleagues (2018). Improving the normalization of complex interventions: part 1 – development of the NoMAD instrument. BMC Medical Research Methodology.",
+          "url": "https://doi.org/10.1186/s12874-018-0590-y"
+        },
+        {
+          "label": "Elf, Nordmark, Lyhagen, Lindberg, Finch and colleagues (2018). The Swedish version of the Normalization Process Theory Measure S-NoMAD. Implementation Science.",
+          "url": "https://doi.org/10.1186/s13012-018-0835-5"
+        },
+        {
+          "label": "Vis, Ruwaard, Finch, Rapley, de Beurs and colleagues (2019). Psychometric Evaluation of the Normalization Measure Development (NoMAD) Questionnaire Among Mental Health Care Professionals. Journal of Medical Internet Research.",
+          "url": "https://doi.org/10.2196/12376"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ai-capability-scale",
+      "url": "https://www.ai-first.company/assessments/ai-capability-scale/",
+      "name": "AI Capability scale",
+      "by": "Mikalef and Gupta, 2021",
+      "summary": "A 46-question survey of what a company has in place to use AI: data, technology, skills and the ability to change. Use it to see where leaders, IT and operations agree and where they do not.",
+      "question": "Does the company have what it needs to use AI?",
+      "question_group": "Are we ready as a company?",
+      "type": "Readiness surveys",
+      "testing_level": "Moderate",
+      "who_answers": "Managers, about their own company",
+      "length": "46 questions in 8 groups",
+      "takes": "46 questions",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Organization"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Mikalef and Gupta (2021). Artificial intelligence capability: Conceptualization, measurement calibration, and empirical study on its impact on organizational creativity and firm performance. Information & Management.",
+          "url": "https://doi.org/10.1016/j.im.2021.103434"
+        },
+        {
+          "label": "Mikalef, Lemmer, Schaefer, Ylinen and colleagues (2021). Enabling AI capabilities in government agencies: A study of determinants for European municipalities. Government Information Quarterly.",
+          "url": "https://doi.org/10.1016/j.giq.2021.101596"
+        },
+        {
+          "label": "Mikalef, Lemmer, Schaefer, Ylinen and colleagues (2023). Examining how AI capabilities can foster organizational performance in public organizations. Government Information Quarterly.",
+          "url": "https://doi.org/10.1016/j.giq.2022.101797"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "oric",
+      "url": "https://www.ai-first.company/assessments/oric/",
+      "name": "Organizational Readiness for Implementing Change (ORIC)",
+      "by": "Shea and colleagues, 2014",
+      "summary": "A 12-question staff survey on one specific change: are people committed to it, and do they believe the organization can carry it out? Use it before a rollout, team by team.",
+      "question": "Are staff committed to this change, and do they believe it can be done?",
+      "question_group": "Are we ready as a company?",
+      "type": "Readiness surveys",
+      "testing_level": "Moderate",
+      "who_answers": "Staff, about their organization or team",
+      "length": "12 questions",
+      "takes": "12 questions",
+      "use": "Not established",
+      "licence": "Not established",
+      "cost": "Not established",
+      "languages": "English. Other language versions are not established.",
+      "levels": [
+        "Organization",
+        "Team"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Steen and Stewart (2024). A Psychometric Analysis of the Organizational Readiness for Implementing Change (ORIC) in a Child Welfare Setting. Journal of Evidence-Based Social Work.",
+          "url": "https://doi.org/10.1080/26408066.2024.2409092"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "dual-level-ai-readiness-model",
+      "url": "https://www.ai-first.company/assessments/dual-level-ai-readiness-model/",
+      "name": "Dual-level model of AI readiness in the public sector",
+      "by": "Hržica, Debelak and Pevcin, 2025",
+      "summary": "A model for public bodies that looks at the readiness of the organization and of its people together. Use it as a structured list of what to check. Its weights come from expert opinion, not from data.",
+      "question": "Are a public body and its people both ready for AI?",
+      "question_group": "Are we ready as a company?",
+      "type": "Readiness surveys",
+      "testing_level": "Not yet tested",
+      "who_answers": "Managers and staff, in a discussion",
+      "length": "4 categories of criteria. The number of questions is not established.",
+      "takes": "4 groups of criteria. The number of questions is not established",
+      "use": "Free to use and adapt",
+      "licence": "CC BY",
+      "cost": "Free",
+      "languages": "English. The model was developed in Slovenia.",
+      "levels": [
+        "Organization",
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Hržica, Debelak and Pevcin (2025). A Dual-Level Model of AI Readiness in the Public Sector: Merging Organizational and Individual Factors Using TOE and UTAUT. Systems.",
+          "url": "https://doi.org/10.3390/systems13080705"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "aias-4",
+      "url": "https://www.ai-first.company/assessments/aias-4/",
+      "name": "AI Attitude Scale (AIAS-4)",
+      "by": "Grassini, 2023",
+      "summary": "Four questions that show how positive staff are about AI in general. Use it as a quick reading before a rollout, and again afterwards, inside one country.",
+      "question": "How positive are staff about AI in general?",
+      "question_group": "How do staff feel about AI?",
+      "type": "Attitude and trust surveys",
+      "testing_level": "Strong",
+      "who_answers": "Staff, each about their own views",
+      "length": "4 questions",
+      "takes": "4 questions",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0 (original English version)",
+      "cost": "Free",
+      "languages": "English, Polish",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Grassini (2023). Development and validation of the AI attitude scale (AIAS-4): a brief measure of general attitude toward artificial intelligence. Frontiers in Psychology.",
+          "url": "https://doi.org/10.3389/fpsyg.2023.1191628"
+        },
+        {
+          "label": "Talik, Talik and Grassini (2025). Measurement invariance of the artificial intelligence attitude scale (AIAS-4): cross-cultural studies in Poland, the USA, and the UK. Current Psychology.",
+          "url": "https://doi.org/10.1007/s12144-025-08348-z"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "gaais",
+      "url": "https://www.ai-first.company/assessments/gaais/",
+      "name": "General Attitudes towards Artificial Intelligence Scale (GAAIS)",
+      "by": "Schepman and Rodway, 2020",
+      "summary": "A 20-question survey, with a 10-question short form, that scores positive and negative views of AI separately. It is the best-tested attitude scale here, but translating it needs the authors’ consent.",
+      "question": "What positive and negative views of AI do staff hold?",
+      "question_group": "How do staff feel about AI?",
+      "type": "Attitude and trust surveys",
+      "testing_level": "Strong",
+      "who_answers": "Staff, each about their own views",
+      "length": "20 questions; short form 10 questions",
+      "takes": "20 questions, or 10 in the short form",
+      "use": "Free to use, ask before changing",
+      "licence": "CC BY-NC-ND 4.0",
+      "cost": "Free for non-commercial use",
+      "languages": "English, Spanish, Turkish",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Schepman and Rodway (2020). Initial validation of the general attitudes towards Artificial Intelligence Scale. Computers in Human Behavior Reports.",
+          "url": "https://doi.org/10.1016/j.chbr.2020.100014"
+        },
+        {
+          "label": "Schepman and Rodway (2022). The General Attitudes towards Artificial Intelligence Scale (GAAIS): Confirmatory Validation and Associations with Personality, Corporate Distrust, and General Trust. International Journal of Human–Computer Interaction.",
+          "url": "https://doi.org/10.1080/10447318.2022.2085400"
+        },
+        {
+          "label": "Schepman and Rodway (2026). Validation of the Short General Attitudes Towards Artificial Intelligence Scale: The Short GAAIS-10. International Journal of Human–Computer Interaction.",
+          "url": "https://doi.org/10.1080/10447318.2025.2610446"
+        },
+        {
+          "label": "Asef Arees, Guntín, Fariña Rivera and Novo Pérez (2025). Spanish Adaptation and Validation of the General Attitudes Towards Artificial Intelligence Scale (GAAIS). European Journal of Investigation in Health, Psychology and Education.",
+          "url": "https://doi.org/10.3390/ejihpe15110230"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "atai",
+      "url": "https://www.ai-first.company/assessments/atai/",
+      "name": "Attitude Towards Artificial Intelligence scale (ATAI)",
+      "by": "Sindermann and colleagues, 2020",
+      "summary": "Five questions that give two scores: how far a person accepts AI, and how far they fear it. Use it when you want hope and worry kept apart in a very short survey.",
+      "question": "How far do staff accept AI, and how far do they fear it?",
+      "question_group": "How do staff feel about AI?",
+      "type": "Attitude and trust surveys",
+      "testing_level": "Moderate",
+      "who_answers": "Staff, each about their own views",
+      "length": "5 questions",
+      "takes": "5 questions",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "German, Chinese, English",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Sindermann, Sha, Zhou, Wernicke, Schmitt and colleagues (2020). Assessing the Attitude Towards Artificial Intelligence: Introduction of a Short Measure in German, Chinese, and English Language. KI – Künstliche Intelligenz.",
+          "url": "https://doi.org/10.1007/s13218-020-00689-0"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "s-tias",
+      "url": "https://www.ai-first.company/assessments/s-tias/",
+      "name": "Trust in Automation Scale, short form (S-TIAS)",
+      "by": "McGrath and colleagues, 2025",
+      "summary": "Three questions on how far a person trusts a particular AI system. A 12-question long form exists. Use it for one named tool, and remember that more trust is not always better.",
+      "question": "How far do staff trust one named AI system?",
+      "question_group": "How do staff feel about AI?",
+      "type": "Attitude and trust surveys",
+      "testing_level": "Moderate",
+      "who_answers": "The people who use that system",
+      "length": "3 questions; long form 12 questions",
+      "takes": "3 questions, or 12 in the long form",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "McGrath, Lack, Tisch and Duenser (2025). Measuring trust in artificial intelligence: validation of an established scale and its short form. Frontiers in Artificial Intelligence.",
+          "url": "https://doi.org/10.3389/frai.2025.1582880"
+        },
+        {
+          "label": "Lockey, Gillespie, Morrill and Pool (2024). Trust in Artificial Intelligence: A Critical Systematic Review. Academy of Management Proceedings.",
+          "url": "https://doi.org/10.5465/amproc.2024.14990abstract"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "dloq",
+      "url": "https://www.ai-first.company/assessments/dloq/",
+      "name": "Dimensions of the Learning Organization Questionnaire (DLOQ)",
+      "by": "Marsick and Watkins",
+      "summary": "A staff survey of how well an organization learns, in seven areas. Use it to judge whether the company can absorb a new way of working.",
+      "question": "How well does the organization learn?",
+      "question_group": "Can people speak up and learn?",
+      "type": "Culture and speaking-up surveys",
+      "testing_level": "Strong",
+      "who_answers": "Staff, about their organization",
+      "length": "21 questions in the version tested in Germany. The length of other versions is not established.",
+      "takes": "21 questions in the version tested in Germany",
+      "use": "Not established",
+      "licence": "Not established",
+      "cost": "Not established",
+      "languages": "English, German, Polish",
+      "levels": [
+        "Organization"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Kortsch and Kauffeld (2019). Validation of a German Version of the Dimensions of the Learning Organization Questionnaire (DLOQ) in German Craft Companies. Zeitschrift für Arbeits- und Organisationspsychologie A&O.",
+          "url": "https://doi.org/10.1026/0932-4089/a000282"
+        },
+        {
+          "label": "Ju, Lee, Park and Yoon (2021). A Meta-Analytic Review of the Relationship Between Learning Organization and Organizational Performance and Employee Attitudes: Using the Dimensions of Learning Organization Questionnaire. Human Resource Development Review.",
+          "url": "https://doi.org/10.1177/1534484320987363"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "perception-of-psychological-safety-scale",
+      "url": "https://www.ai-first.company/assessments/perception-of-psychological-safety-scale/",
+      "name": "Perception of Psychological Safety scale (PPS)",
+      "by": "Wang and Ning, 2024",
+      "summary": "A 14-question survey that separates three places where people feel safe or unsafe: the organization, their team, and one-to-one relations. Use it to find where the problem sits.",
+      "question": "Where do people feel unsafe to speak up: in the organization, the team or one-to-one?",
+      "question_group": "Can people speak up and learn?",
+      "type": "Culture and speaking-up surveys",
+      "testing_level": "Moderate",
+      "who_answers": "Each employee",
+      "length": "14 questions in 3 groups",
+      "takes": "14 questions",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "Published in English; tested in China. Other language versions are not established.",
+      "levels": [
+        "Organization",
+        "Team",
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Wang and Ning (2024). The employee’s perception of psychological safety: construct dimensions, scale development and validation. BMC Psychology.",
+          "url": "https://doi.org/10.1186/s40359-024-02295-3"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "psychological-safety-inventory",
+      "url": "https://www.ai-first.company/assessments/psychological-safety-inventory/",
+      "name": "Psychological Safety Inventory (PSI)",
+      "by": "Plouffe and colleagues, 2023",
+      "summary": "A 30-question survey of how safe each employee feels at work, in five areas. Use it when you want a detailed picture and have room for a longer survey.",
+      "question": "How safe does each employee feel at work?",
+      "question_group": "Can people speak up and learn?",
+      "type": "Culture and speaking-up surveys",
+      "testing_level": "Moderate",
+      "who_answers": "Each employee",
+      "length": "30 questions in 5 groups",
+      "takes": "30 questions",
+      "use": "Ask the authors",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Not established",
+      "languages": "English",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Plouffe, Ein, Liu, St. Cyr, Baker and colleagues (2023). Feeling safe at work: Development and validation of the Psychological Safety Inventory. International Journal of Selection and Assessment.",
+          "url": "https://doi.org/10.1111/ijsa.12434"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "composite-psychological-safety-measure",
+      "url": "https://www.ai-first.company/assessments/composite-psychological-safety-measure/",
+      "name": "Composite measure of psychological safety (observation and survey)",
+      "by": "O’Donovan, van Dun and McAuliffe, 2020",
+      "summary": "An observation sheet for a team meeting plus a short survey. It records what people do, such as speaking up or staying silent, not only what they say they do. Use it on the teams an AI rollout touches first.",
+      "question": "Do people in this team speak up, or stay silent?",
+      "question_group": "Can people speak up and learn?",
+      "type": "Culture and speaking-up surveys",
+      "testing_level": "Emerging",
+      "who_answers": "A trained observer and the team’s members",
+      "length": "Observation of one team meeting (31 behaviours in 7 groups), plus a 19-question survey and 3 questions on whether the meeting was typical",
+      "takes": "One observed team meeting, plus a 19-question survey",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free. Needs a trained observer.",
+      "languages": "English. The survey part has a Japanese version.",
+      "levels": [
+        "Team"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "O’Donovan, van Dun and McAuliffe (2020). Measuring psychological safety in healthcare teams: developing an observational measure to complement survey methods. BMC Medical Research Methodology.",
+          "url": "https://doi.org/10.1186/s12874-020-01066-z"
+        },
+        {
+          "label": "Sasaki, Inoue, Asaoka, Sekiya, Nishi and colleagues (2022). The Survey Measure of Psychological Safety and Its Association with Mental Health and Job Performance: A Validation Study and Cross-Sectional Analysis. International Journal of Environmental Research and Public Health.",
+          "url": "https://doi.org/10.3390/ijerph19169879"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "mails",
+      "url": "https://www.ai-first.company/assessments/mails/",
+      "name": "Meta AI Literacy Scale (MAILS)",
+      "by": "Carolus and colleagues, 2023; short version by Koch and colleagues, 2024",
+      "summary": "A self-rating questionnaire on AI skills that also asks how confident people feel about learning and solving problems with AI. Use it beside a knowledge test, not in place of one.",
+      "question": "How do staff rate their own AI skills and their confidence to learn?",
+      "question_group": "What do staff actually know?",
+      "type": "AI knowledge tests and self-ratings",
+      "testing_level": "Strong",
+      "who_answers": "Staff, each rating their own skills",
+      "length": "34 questions; short version 10 questions",
+      "takes": "34 questions, or 10 in the short version",
+      "use": "Free to use, ask before changing",
+      "licence": "Full version: CC BY-NC-ND 4.0. Short version: CC BY 4.0.",
+      "cost": "Free",
+      "languages": "Published in English; tested in Germany. A Greek version exists.",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Carolus, Koch, Straka, Latoschik and Wienrich (2023). MAILS – Meta AI literacy scale: Development and testing of an AI literacy questionnaire based on well-founded competency models and psychological change- and meta-competencies. Computers in Human Behavior: Artificial Humans.",
+          "url": "https://doi.org/10.1016/j.chbah.2023.100014"
+        },
+        {
+          "label": "Koch, Carolus, Wienrich and Latoschik (2024). Meta AI literacy scale: Further validation and development of a short version. Heliyon.",
+          "url": "https://doi.org/10.1016/j.heliyon.2024.e39686"
+        },
+        {
+          "label": "Papadakis, Vatou and Andreadakis (2026). Early Childhood Educators’ AI Literacy: Validation of the Meta-AI Literacy Scale in a Greek Context. Education Sciences.",
+          "url": "https://doi.org/10.3390/educsci16071117"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "aicos",
+      "url": "https://www.ai-first.company/assessments/aicos/",
+      "name": "AI Competency Objective Scale (AICOS)",
+      "by": "Markus, Carolus and Wienrich, 2025",
+      "summary": "A test of AI knowledge and skill with right and wrong answers, including a part on generative AI. Use it when you want a test, not a self-rating, and need questions on tools like chat assistants.",
+      "question": "What do staff know about AI, including generative AI?",
+      "question_group": "What do staff actually know?",
+      "type": "AI knowledge tests and self-ratings",
+      "testing_level": "Moderate",
+      "who_answers": "Staff, each taking a test",
+      "length": "A full version and a short version. The number of questions is not established.",
+      "takes": "A full and a short version. The number of questions is not established",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "Not established. The test was developed in Germany and published in an English-language journal.",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Markus, Carolus and Wienrich (2025). Objective measurement of AI literacy: Development and validation of the AI competency objective scale (AICOS). Computers and Education: Artificial Intelligence.",
+          "url": "https://doi.org/10.1016/j.caeai.2025.100485"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "sail4all",
+      "url": "https://www.ai-first.company/assessments/sail4all/",
+      "name": "Scale of Artificial Intelligence Literacy for All (SAIL4ALL)",
+      "by": "Soto-Sanfiel, Angulo-Brunet and Lutz, 2025",
+      "summary": "A knowledge test about AI for any adult, with right and wrong answers. It has four parts you can use separately. Use it to find out what staff know, not what they think they know.",
+      "question": "What do staff know about AI?",
+      "question_group": "What do staff actually know?",
+      "type": "AI knowledge tests and self-ratings",
+      "testing_level": "Moderate",
+      "who_answers": "Staff, each taking a test",
+      "length": "56 questions in 4 parts. Each part can be used on its own.",
+      "takes": "56 questions in 4 parts. Each part can be used on its own",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Person"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Soto-Sanfiel, Angulo-Brunet and Lutz (2025). The scale of artificial intelligence literacy for all (SAIL4ALL): assessing knowledge of artificial intelligence in all adult populations. Humanities and Social Sciences Communications.",
+          "url": "https://doi.org/10.1057/s41599-025-05978-3"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "aioe",
+      "url": "https://www.ai-first.company/assessments/aioe/",
+      "name": "AI Occupational Exposure measure (AIOE)",
+      "by": "Felten, Raj and Seamans, 2021",
+      "summary": "A public score of how far each occupation relies on abilities where AI has advanced. Matching scores exist for industries and regions. Use it to compare roles at a glance, then look at real tasks.",
+      "question": "Which of our roles could AI touch most?",
+      "question_group": "Which tasks could change?",
+      "type": "Task and job maps",
+      "testing_level": "Moderate",
+      "who_answers": "Nobody is surveyed",
+      "length": "No survey. You match your job titles to United States occupation codes.",
+      "takes": "You match your job titles to United States occupation codes",
+      "use": "Free to use, ask before changing",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Free",
+      "languages": "English. Built on United States job classifications; other countries need a mapping.",
+      "levels": [
+        "Job and its tasks"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Felten, Raj and Seamans (2021). Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses. Strategic Management Journal.",
+          "url": "https://doi.org/10.1002/smj.3286"
+        },
+        {
+          "label": "Felten, Raj and Seamans (2023). How will Language Modelers like ChatGPT Affect Occupations and Industries? Working paper, not peer-reviewed.",
+          "url": "https://doi.org/10.2139/ssrn.4375268"
+        },
+        {
+          "label": "Georgieff and Hyee (2022). Artificial Intelligence and Employment: New Cross-Country Evidence. Frontiers in Artificial Intelligence.",
+          "url": "https://doi.org/10.3389/frai.2022.832736"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ilo-generative-ai-exposure-index",
+      "url": "https://www.ai-first.company/assessments/ilo-generative-ai-exposure-index/",
+      "name": "ILO index of occupational exposure to generative AI",
+      "by": "Gmyrek, Berg and Bescond, International Labour Organization, 2023",
+      "summary": "A public score of how far generative AI could do the tasks in each occupation, and whether it would more likely replace or assist the worker. Use it to choose where to look first. It is not a decision.",
+      "question": "In which roles could generative AI take over tasks, and in which could it assist?",
+      "question_group": "Which tasks could change?",
+      "type": "Task and job maps",
+      "testing_level": "Emerging",
+      "who_answers": "Nobody is surveyed",
+      "length": "No survey. You match your job titles to a standard list of occupations.",
+      "takes": "You match your job titles to a standard list of occupations",
+      "use": "Free to use and adapt",
+      "licence": "CC BY 4.0",
+      "cost": "Free",
+      "languages": "English. A national version exists in Polish.",
+      "levels": [
+        "Job and its tasks"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Gmyrek, Berg and Bescond (2023). Generative AI and jobs: A global analysis of potential effects on job quantity and quality. International Labour Organization.",
+          "url": "https://doi.org/10.54394/fhem8239"
+        },
+        {
+          "label": "Troszyński, Berg, Gmyrek, Kamiński, Konopczyński and colleagues (2025). Generatywna sztuczna inteligencja a polski rynek pracy. Raport badawczy. NASK – National Research Institute.",
+          "url": "https://nask.pl/media/2025/06/Generatywna-sztuczna-inteligencja-a-polski-rynek-pracy.pdf"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "tpah",
+      "url": "https://www.ai-first.company/assessments/tpah/",
+      "name": "TPAH task analysis",
+      "by": "Research team at Rzeszów University of Technology and the Human for Future foundation",
+      "summary": "A method that scores each task in a company, not each job, on four separate scales: can AI do it, can this company deploy it, can AI help the person, and how much the task depends on a human.",
+      "question": "Which of our own tasks could AI do or help with?",
+      "question_group": "Which tasks could change?",
+      "type": "Task and job maps",
+      "testing_level": "Emerging",
+      "who_answers": "Nobody is surveyed. Process owners check the results",
+      "length": "No staff survey. The analysis starts from a description of the company and its roles. Process owners then need time to check the results.",
+      "takes": "An analysis from a description of the company and its roles",
+      "use": "Paid service",
+      "licence": "Not stated",
+      "cost": "Paid service. The price is not published.",
+      "languages": "Polish. No English materials are available.",
+      "levels": [
+        "Job and its tasks"
+      ],
+      "provider": {
+        "label": "Human for Future foundation: TPAH",
+        "url": "https://human4future.org/tpah/"
+      },
+      "sources": [
+        {
+          "label": "Rzeszów University of Technology and Human for Future foundation (2026). Research report, part I: the state of AI and robotics, with the task analysis of 50 roles and its expert review (in Polish).",
+          "url": "https://aits.kia.prz.edu.pl/assets/Raport_WUP.pdf"
+        },
+        {
+          "label": "Human for Future foundation. TPAH: description of the method (in Polish).",
+          "url": "https://human4future.org/tpah/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "cfir",
+      "url": "https://www.ai-first.company/assessments/cfir/",
+      "name": "Consolidated Framework for Implementation Research (CFIR)",
+      "by": "Damschroder and colleagues, updated 2022",
+      "summary": "A widely used list of everything that can help or block a new practice, with example interview questions for each item. Use it to plan interviews before an AI rollout, or to find out why one is stuck.",
+      "question": "What will help or block the rollout?",
+      "question_group": "What will get in the way?",
+      "type": "Interview guides and checklists",
+      "testing_level": "Strong",
+      "who_answers": "People at several levels, in interviews",
+      "length": "5 areas and 48 factors. You choose the factors that matter and ask about those.",
+      "takes": "Interviews on the factors you choose, out of 48",
+      "use": "Free to use, ask before changing",
+      "licence": "Not stated (tools and templates)",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Organization",
+        "Team"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Damschroder, Reardon, Opra Widerquist and Lowery (2022). The updated Consolidated Framework for Implementation Research based on user feedback. Implementation Science.",
+          "url": "https://doi.org/10.1186/s13012-022-01245-0"
+        },
+        {
+          "label": "CFIR Leadership Team (2025). CFIR Tools and Templates.",
+          "url": "https://cfirguide.org/cfir-tools-templates"
+        },
+        {
+          "label": "Nevedal, Reardon, Opra Widerquist, Jackson and colleagues (2021). Rapid versus traditional qualitative analysis using the Consolidated Framework for Implementation Research (CFIR). Implementation Science.",
+          "url": "https://doi.org/10.1186/s13012-021-01111-5"
+        },
+        {
+          "label": "Liao, Yao, Jin, Zhang and Liu (2024). Barriers and facilitators to implementing imaging-based diagnostic artificial intelligence-assisted decision-making software in hospitals in China: a qualitative study using the updated Consolidated Framework for Implementation Research. BMJ Open.",
+          "url": "https://doi.org/10.1136/bmjopen-2024-084398"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "nasss-cat",
+      "url": "https://www.ai-first.company/assessments/nasss-cat/",
+      "name": "NASSS-CAT: complexity assessment tools for technology projects",
+      "by": "Greenhalgh and colleagues, 2020",
+      "summary": "Two checklists, a monitoring questionnaire and an interview guide for finding what makes a technology project hard. Use them to plan an AI rollout with the people it affects.",
+      "question": "What makes this technology project hard?",
+      "question_group": "What will get in the way?",
+      "type": "Interview guides and checklists",
+      "testing_level": "Moderate",
+      "who_answers": "The project team, and staff in interviews",
+      "length": "A short and a long checklist, a 35-question monitoring questionnaire, and a set of interview prompts",
+      "takes": "Two checklists, a 35-question form and an interview guide",
+      "use": "Free to use, ask before changing",
+      "licence": "No formal licence",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Organization"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Greenhalgh, Maylor, Shaw, Wherton, Papoutsi and colleagues (2020). The NASSS-CAT Tools for Understanding, Guiding, Monitoring, and Researching Technology Implementation Projects in Health and Social Care: Protocol for an Evaluation Study in Real-World Settings. JMIR Research Protocols.",
+          "url": "https://doi.org/10.2196/16861"
+        },
+        {
+          "label": "Greenhalgh, Wherton, Papoutsi, Lynch, Hughes and colleagues (2018). Analysing the role of complexity in explaining the fortunes of technology programmes: empirical application of the NASSS framework. BMC Medicine.",
+          "url": "https://doi.org/10.1186/s12916-018-1050-6"
+        },
+        {
+          "label": "Shin, Hamovitch, Gatov, MacKinnon and colleagues (2025). The NASSS framework use over time: A scoping review. PLOS Digital Health.",
+          "url": "https://doi.org/10.1371/journal.pdig.0000418"
+        },
+        {
+          "label": "Alami, Lehoux, Papoutsi, Shaw, Fleet and colleagues (2024). Understanding the integration of artificial intelligence in healthcare organisations and systems through the NASSS framework. BMC Health Services Research.",
+          "url": "https://doi.org/10.1186/s12913-024-11112-x"
+        },
+        {
+          "label": "Gama, Tyskbo, Nygren, Barlow, Reed and Svedberg (2022). Implementation Frameworks for Artificial Intelligence Translation Into Health Care Practice: Scoping Review. Journal of Medical Internet Research.",
+          "url": "https://doi.org/10.2196/32215"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ai-pre-implementation-checklist",
+      "url": "https://www.ai-first.company/assessments/ai-pre-implementation-checklist/",
+      "name": "AI readiness pre-implementation checklist (SID and ADE)",
+      "by": "Adesuyi, Singh, Patel and Saravanan, 2026",
+      "summary": "A checklist of what should be in place before an AI system goes live, in eight areas including staff readiness and human factors. It was built from one hospital’s experience. Use it as a prompt list, not as a standard.",
+      "question": "Is everything in place before an AI system goes live?",
+      "question_group": "What will get in the way?",
+      "type": "Interview guides and checklists",
+      "testing_level": "Emerging",
+      "who_answers": "The team responsible for the deployment",
+      "length": "8 areas of requirements that can be audited",
+      "takes": "A checklist in 8 areas",
+      "use": "Free to use and adapt",
+      "licence": "CC BY",
+      "cost": "Free",
+      "languages": "English",
+      "levels": [
+        "Organization"
+      ],
+      "provider": null,
+      "sources": [
+        {
+          "label": "Adesuyi, Singh, Patel and Saravanan (2026). Translating Real-World Safety and Implementation Gaps Into a Deployment-Derived AI Readiness Preimplementation Checklist for NHS Health Care Providers: Checklist Development Study. JMIR AI.",
+          "url": "https://doi.org/10.2196/93900"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    }
+  ]
+}

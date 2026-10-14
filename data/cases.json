@@ -1,0 +1,1625 @@
+{
+  "name": "Company cases of AI use, with outcomes and sources",
+  "description": "Named companies that used AI at work, one row per case. Each row gives the company, what it does, the country, the period, the size band, how the case turned out, who produced the figures, the practices the case bears on, and the public sources.",
+  "url": "https://www.ai-first.company/evidence/cases/",
+  "version": "2026-10-13",
+  "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "count": 34,
+  "rows": [
+    {
+      "id": "accessibe-ai-accessibility-claims",
+      "url": "https://www.ai-first.company/evidence/cases/accessibe-ai-accessibility-claims/",
+      "title": "accessiBe: an AI plug-in sold as making any website accessible, and a $1 million order",
+      "summary": "accessiBe sold website owners an AI plug-in and said it would make any site meet accessibility standards. The US consumer regulator said it did not, and that reviews praising it were paid for. The company paid $1 million.",
+      "company": "accessiBe",
+      "business": "Software vendor: website accessibility plug-in",
+      "country": "United States",
+      "period": "Complaint January 2025, order final April 2025",
+      "size": "",
+      "industries": [
+        "E-commerce and retail",
+        "Agencies"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "missing"
+        },
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Federal Trade Commission (3 January 2025). FTC order requires online marketer to pay $1 million for deceptive claims that its AI product could make websites compliant with accessibility guidelines. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-order-requires-online-marketer-pay-1-million-deceptive-claims-its-ai-product-could-make-websites"
+        },
+        {
+          "label": "US Federal Trade Commission (22 April 2025). FTC approves final order requiring accessiBe to pay $1 million. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "air-canada-chatbot-ruling",
+      "url": "https://www.ai-first.company/evidence/cases/air-canada-chatbot-ruling/",
+      "title": "Air Canada: held responsible for what its website chatbot told a customer",
+      "summary": "Air Canada’s website chatbot gave a customer wrong information about refunds. A Canadian tribunal ordered the airline to pay. It rejected the argument that the company was not responsible for its chatbot.",
+      "company": "Air Canada",
+      "business": "Airline",
+      "country": "Canada (British Columbia)",
+      "period": "November 2022 – February 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Court or tribunal record",
+      "practices": [
+        {
+          "id": "name-one-accountable-ai-owner",
+          "title": "Name one accountable AI owner",
+          "url": "https://www.ai-first.company/practices/name-one-accountable-ai-owner/",
+          "relation": "missing"
+        },
+        {
+          "id": "budget-for-the-work-ai-creates",
+          "title": "Budget for the work AI creates",
+          "url": "https://www.ai-first.company/practices/budget-for-the-work-ai-creates/",
+          "relation": "missing"
+        },
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Moffatt v. Air Canada, 2024 BCCRT 149. Reasons for decision, 14 February 2024. British Columbia Civil Resolution Tribunal.",
+          "url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/item/525448/index.do"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ashurst-generative-ai-trials",
+      "url": "https://www.ai-first.company/evidence/cases/ashurst-generative-ai-trials/",
+      "title": "Ashurst: first drafts 45–80% faster in timed trials, with lawyers still ahead on accuracy",
+      "summary": "The law firm Ashurst tested generative AI with 411 of its people for five months and published the results. First drafts came 45% to 80% faster in timed tests. In a blind comparison, lawyers’ own drafts were more accurate on average, and one AI draft cited a wrong verdict.",
+      "company": "Ashurst",
+      "business": "International law firm",
+      "country": "United Kingdom and 13 other countries",
+      "period": "November 2023 – March 2024, published June 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "applied"
+        },
+        {
+          "id": "decide-what-data-goes-into-which-ai-tools",
+          "title": "Decide what data may go into which AI tools",
+          "url": "https://www.ai-first.company/practices/decide-what-data-goes-into-which-ai-tools/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ashurst (10 June 2024). Vox PopulAI: Lessons from a global law firm’s exploration of generative AI. Report.",
+          "url": "https://www.ashurstperkinscoie.com/en/insights/vox-populai-lessons-from-a-global-law-firms-exploration-of-generative-ai/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "butler-snow-ai-policy-ignored",
+      "url": "https://www.ai-first.company/evidence/cases/butler-snow-ai-policy-ignored/",
+      "title": "Butler Snow: a firm with an AI policy, and a partner who did not follow it",
+      "summary": "The firm’s policy required written approval before using ChatGPT for legal research. A partner used it without approval and filed five citations it had made up. The court removed three lawyers from the case. The firm paid for a check of 2,400 citations.",
+      "company": "Butler Snow",
+      "business": "Law firm",
+      "country": "United States (federal court in Alabama)",
+      "period": "May – July 2025",
+      "size": "",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Court or tribunal record",
+      "practices": [
+        {
+          "id": "write-a-short-ai-use-policy",
+          "title": "Write a one-page AI-use policy staff will actually read",
+          "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "later"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "later"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "applied"
+        },
+        {
+          "id": "budget-for-the-work-ai-creates",
+          "title": "Budget for the work AI creates",
+          "url": "https://www.ai-first.company/practices/budget-for-the-work-ai-creates/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Johnson v. Dunn, No. 2:21-cv-1701-AMM. Sanctions order, 23 July 2025. US District Court, Northern District of Alabama.",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.179677/gov.uscourts.alnd.179677.204.0.pdf"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "deloitte-australia-report-corrections",
+      "url": "https://www.ai-first.company/evidence/cases/deloitte-australia-report-corrections/",
+      "title": "Deloitte Australia: a government report reissued to fix wrong citations",
+      "summary": "A Deloitte report for an Australian government department had to be reissued to correct citations and a summary of a court case. The corrected version disclosed the use of a generative AI tool. The report does not say AI caused the errors.",
+      "company": "Deloitte (Australia)",
+      "business": "Professional services firm",
+      "country": "Australia",
+      "period": "December 2024 – February 2026",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "budget-for-the-work-ai-creates",
+          "title": "Budget for the work AI creates",
+          "url": "https://www.ai-first.company/practices/budget-for-the-work-ai-creates/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "later"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Australian Government, Department of Employment and Workplace Relations. Targeted Compliance Framework Assurance Review – Final Report. Publication page and report (version updated 3 February 2026).",
+          "url": "https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "delphia-global-predictions-ai-claims",
+      "url": "https://www.ai-first.company/evidence/cases/delphia-global-predictions-ai-claims/",
+      "title": "Delphia and Global Predictions: fined for saying they used AI that they did not have",
+      "summary": "Two investment advisers advertised AI they did not have. One said its AI learned from client data. The other called itself the first regulated AI financial advisor. The US securities regulator fined them $225,000 and $175,000.",
+      "company": "Delphia (USA) and Global Predictions",
+      "business": "Investment advisers",
+      "country": "United States (the firms are based in Toronto and San Francisco)",
+      "period": "Statements made 2019–2023, settled March 2024",
+      "size": "",
+      "industries": [],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        },
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Securities and Exchange Commission (18 March 2024). SEC charges two investment advisers with making false and misleading statements about their use of artificial intelligence. Press release 2024-36.",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-36"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "victoria-child-protection-chatgpt",
+      "url": "https://www.ai-first.company/evidence/cases/victoria-child-protection-chatgpt/",
+      "title": "Victoria’s child protection service: a worker put case details into ChatGPT, and the regulator ordered the tools blocked",
+      "summary": "A child protection worker typed personal details of a family into ChatGPT to draft a court report. The report contained errors. The privacy regulator found the department had no rules, no training and no technical limits for such tools, and ordered it to block them.",
+      "company": "Department of Families, Fairness and Housing (Victoria)",
+      "business": "State government department, including child protection",
+      "country": "Australia (Victoria)",
+      "period": "2023 – September 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "decide-what-data-goes-into-which-ai-tools",
+          "title": "Decide what data may go into which AI tools",
+          "url": "https://www.ai-first.company/practices/decide-what-data-goes-into-which-ai-tools/",
+          "relation": "missing"
+        },
+        {
+          "id": "write-a-short-ai-use-policy",
+          "title": "Write a one-page AI-use policy staff will actually read",
+          "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
+          "relation": "later"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Office of the Victorian Information Commissioner (September 2024). Investigation into the use of ChatGPT by a Child Protection worker. Report, with the compliance notice and the department’s response.",
+          "url": "https://ovic.vic.gov.au/regulatory-action/investigation-into-the-use-of-chatgpt-by-a-child-protection-worker/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "donotpay-robot-lawyer",
+      "url": "https://www.ai-first.company/evidence/cases/donotpay-robot-lawyer/",
+      "title": "DoNotPay: a “robot lawyer” that was never tested against a lawyer",
+      "summary": "DoNotPay told customers its AI could do the work of a lawyer. The US consumer regulator said the company had never tested whether that was true and employed no lawyers to check. It paid $193,000 and had to tell past subscribers about the limits.",
+      "company": "DoNotPay",
+      "business": "Online subscription service for legal documents",
+      "country": "United States",
+      "period": "Subscribers 2021–2023, order final February 2025",
+      "size": "",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Federal Trade Commission (25 September 2024). FTC announces crackdown on deceptive AI claims and schemes. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes"
+        },
+        {
+          "label": "US Federal Trade Commission (11 February 2025). FTC finalizes order with DoNotPay that prohibits deceptive “AI lawyer” claims, imposes monetary relief, and requires notice to past subscribers. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "duolingo-ai-course-content",
+      "url": "https://www.ai-first.company/evidence/cases/duolingo-ai-course-content/",
+      "title": "Duolingo: 148 new language courses in about a year, after 12 years for the first 100",
+      "summary": "Duolingo replaced a slow, manual way of writing language courses with one built around AI. It launched 148 new courses in under a year, after taking about 12 years over its first 100. The same week, its chief executive told all staff what “AI-first” would mean for contractors, hiring and headcount.",
+      "company": "Duolingo",
+      "business": "Language-learning app",
+      "country": "United States",
+      "period": "2024 – April 2025",
+      "size": "Mid-market (250–999 employees)",
+      "industries": [],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "redesign-the-workflow",
+          "title": "Redesign the workflow instead of adding a tool to it",
+          "url": "https://www.ai-first.company/practices/redesign-the-workflow/",
+          "relation": "applied"
+        },
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "protect-psychological-safety-during-rollout",
+          "title": "Protect psychological safety during an AI rollout",
+          "url": "https://www.ai-first.company/practices/protect-psychological-safety-during-rollout/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Duolingo (30 April 2025). Duolingo Launches 148 New Language Courses. Press release, as carried by Nasdaq.",
+          "url": "https://www.nasdaq.com/press-release/duolingo-launches-148-new-language-courses-expands-access-popular-languages-including"
+        },
+        {
+          "label": "Duolingo (1 May 2025). First quarter 2025 shareholder letter, filed with the US Securities and Exchange Commission.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000098/q1fy25duolingo3-31x25share.htm"
+        },
+        {
+          "label": "Duolingo (28 April 2025). All-hands email from chief executive Luis von Ahn, published by the company on LinkedIn.",
+          "url": "https://www.linkedin.com/posts/duolingo_below-is-an-all-hands-email-from-our-activity-7322560534824865792-l9vh"
+        },
+        {
+          "label": "Duolingo (28 February 2025). Annual report for 2024 (Form 10-K), filed with the US Securities and Exchange Commission. Source of the employee count.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000042/duol-20241231.htm"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ebay-machine-translation",
+      "url": "https://www.ai-first.company/evidence/cases/ebay-machine-translation/",
+      "title": "eBay: machine translation raised cross-border sales by about 11%",
+      "summary": "eBay began translating search queries and listing titles for Spanish-speaking buyers. A peer-reviewed study found that US exports to those buyers on eBay rose by 10.9%. It is one of the few AI results in retail measured by outside researchers.",
+      "company": "eBay",
+      "business": "Online marketplace",
+      "country": "United States sellers, buyers in Spanish-speaking Latin America",
+      "period": "2014, published 2019",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Brynjolfsson, Hui and Liu (2019). Does Machine Translation Affect International Trade? Evidence from a Large Digital Platform. Management Science, 65(12), 5449–5460.",
+          "url": "https://doi.org/10.1287/mnsc.2019.3388"
+        },
+        {
+          "label": "Brynjolfsson, Hui and Liu (2018). The same study as NBER Working Paper 24917 (earlier version, free to read).",
+          "url": "https://www.nber.org/papers/w24917"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "eist-ai-quoting",
+      "url": "https://www.ai-first.company/evidence/cases/eist-ai-quoting/",
+      "title": "EIST: a six-person metalworking shop cut quoting time from two hours to ten minutes",
+      "summary": "A metalworking shop with five employees and an owner used AI to price custom parts from 3D files and its own production history. A quote that could take two hours now takes about ten minutes. Most of the project was spent cleaning the firm’s data, and the owner still checks every quote.",
+      "company": "EIST",
+      "business": "Maker of custom sheet-metal parts and industrial equipment",
+      "country": "France",
+      "period": "A project of six to eight months, published June 2026",
+      "size": "Micro and small (1–49 employees)",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "budget-for-people-and-process",
+          "title": "Budget for people and process, not just tools",
+          "url": "https://www.ai-first.company/practices/budget-for-people-and-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "put-your-records-in-order-before-ai-predicts-from-them",
+          "title": "Put your own records in order before you ask AI to predict from them",
+          "url": "https://www.ai-first.company/practices/put-your-records-in-order-before-ai-predicts-from-them/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "France Num (9 June 2026). Comment une TPE industrielle utilise l’IA pour réaliser un devis en 10 minutes au lieu de 2 heures. Case page, in French.",
+          "url": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/analyse-et-exploitation-des-donnees-metiers-avec-lia-7"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "gilberts-chartered-accountants-ai-first-steps",
+      "url": "https://www.ai-first.company/evidence/cases/gilberts-chartered-accountants-ai-first-steps/",
+      "title": "Gilberts: a smaller audit firm started with the AI in its existing tools and two firm rules",
+      "summary": "A smaller UK audit and accountancy firm began with the AI features in tools it already had, on low-risk internal tasks. A partner reports that summarising a long document now takes 10 to 15 minutes where it took 45. The firm bars client data from public AI tools and treats every AI output as a first draft.",
+      "company": "Gilberts Chartered Accountants",
+      "business": "Audit and accountancy firm",
+      "country": "United Kingdom",
+      "period": "Published July 2025",
+      "size": "",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-ai-in-software-you-already-pay-for",
+          "title": "Start with ready-made AI in software you already use, before building your own",
+          "url": "https://www.ai-first.company/practices/start-with-ai-in-software-you-already-pay-for/",
+          "relation": "applied"
+        },
+        {
+          "id": "decide-what-data-goes-into-which-ai-tools",
+          "title": "Decide what data may go into which AI tools",
+          "url": "https://www.ai-first.company/practices/decide-what-data-goes-into-which-ai-tools/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "write-a-short-ai-use-policy",
+          "title": "Write a one-page AI-use policy staff will actually read",
+          "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
+          "relation": "applied"
+        },
+        {
+          "id": "protect-psychological-safety-during-rollout",
+          "title": "Protect psychological safety during an AI rollout",
+          "url": "https://www.ai-first.company/practices/protect-psychological-safety-during-rollout/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Luke Parker, Partner, Gilberts Chartered Accountants (July 2025). AI: a smaller firm’s perspective. Audit & Beyond, ICAEW Audit and Assurance Faculty.",
+          "url": "https://www.icaew.com/technical/audit-and-assurance/faculty-resources/audit-and-beyond/2025/articles/ai-a-smaller-firms-perspective"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "herges-ai-production-time-estimates",
+      "url": "https://www.ai-first.company/evidence/cases/herges-ai-production-time-estimates/",
+      "title": "Herges: an AI model estimated production times five times more accurately than the firm’s experts",
+      "summary": "A family-owned steel fabricator prices one-off jobs from its experts’ estimates of how long the work will take. A public support centre helped it record real times and train an AI model on them. The model’s estimates were five times closer to the real figure than the experts’ own.",
+      "company": "Herges Stahl- und Blechbau",
+      "business": "Family-owned maker of welded steel and sheet-metal constructions, mostly one-off",
+      "country": "Germany",
+      "period": "Published March 2026",
+      "size": "",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "put-your-records-in-order-before-ai-predicts-from-them",
+          "title": "Put your own records in order before you ask AI to predict from them",
+          "url": "https://www.ai-first.company/practices/put-your-records-in-order-before-ai-predicts-from-them/",
+          "relation": "applied"
+        },
+        {
+          "id": "make-the-ai-show-what-its-answer-is-based-on",
+          "title": "Make the AI show what its answer is based on",
+          "url": "https://www.ai-first.company/practices/make-the-ai-show-what-its-answer-is-based-on/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Mittelstand-Digital Zentrum Saarbrücken (March 2026). KI-gestützte Datenanalyse zur Prozesszeitenermittlung. Project report, in German.",
+          "url": "https://digitalzentrum-saarbruecken.de/ki-gestuetzte-datenanalyse-zur-prozesszeitenermittlung/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "hitachi-energy-chip-yield",
+      "url": "https://www.ai-first.company/evidence/cases/hitachi-energy-chip-yield/",
+      "title": "Hitachi Energy: an AI model pointed to the two production steps that were spoiling chips",
+      "summary": "Researchers trained an AI model on the production records of a chip plant and asked it which process steps did most to spoil chips. Engineers tested its two suggestions on a live batch, and losses fell by 21.7%. On a second product the same method cut losses by 51.3%. The plant’s usual analysis had missed both causes.",
+      "company": "Hitachi Energy",
+      "business": "Maker of power semiconductors; at the time of the study the plant belonged to Hitachi ABB Power Grids",
+      "country": "Switzerland",
+      "period": "Data to April 2019, rollout February – August 2020, published 2021",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "make-the-ai-show-what-its-answer-is-based-on",
+          "title": "Make the AI show what its answer is based on",
+          "url": "https://www.ai-first.company/practices/make-the-ai-show-what-its-answer-is-based-on/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Senoner, Netland and Feuerriegel (2022). Using Explainable Artificial Intelligence to Improve Process Quality: Evidence from Semiconductor Manufacturing. Management Science, 68(8), 5704–5723.",
+          "url": "https://doi.org/10.1287/mnsc.2021.4190"
+        },
+        {
+          "label": "The same paper, free to read in the ETH Zurich Research Collection.",
+          "url": "https://doi.org/10.3929/ethz-b-000492028"
+        },
+        {
+          "label": "ETH Zurich (15 December 2021). Improving quality through artificial intelligence. News article naming the plant as Hitachi Energy, Lenzburg.",
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2021/12/improving-quality-through-artificial-intelligence.html"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "klarna-ai-marketing",
+      "url": "https://www.ai-first.company/evidence/cases/klarna-ai-marketing/",
+      "title": "Klarna: AI cut spending on outside marketing suppliers by a quarter",
+      "summary": "Klarna reported that AI tools let it spend 25% less on outside marketing suppliers while running more campaigns. For agencies, it is a client saying in public which work it has taken in-house.",
+      "company": "Klarna",
+      "business": "Payments and shopping service",
+      "country": "Sweden",
+      "period": "First quarter of 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Agencies"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "map-tasks-before-automating",
+          "title": "Map tasks before deciding what to automate",
+          "url": "https://www.ai-first.company/practices/map-tasks-before-automating/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Klarna (28 May 2024). AI helps Klarna cut marketing agency spend by 25% and run more campaigns. Press release.",
+          "url": "https://www.klarna.com/international/press/ai-helps-klarna-cut-marketing-agency-spend-by-25-and-run-more-campaigns/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "klarna-ai-customer-service",
+      "url": "https://www.ai-first.company/evidence/cases/klarna-ai-customer-service/",
+      "title": "Klarna: an AI assistant took two-thirds of support chats, then the company hired people again",
+      "summary": "Klarna reported large savings from an AI support assistant. About a year later its chief executive said the company had judged the work too much on cost, and it began hiring human agents again. The AI assistant stayed.",
+      "company": "Klarna",
+      "business": "Payments and shopping service",
+      "country": "Sweden, with customers in 23 markets",
+      "period": "2024–2025",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Partly walked back",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "later"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Klarna (27 February 2024). Klarna AI assistant handles two-thirds of customer service chats in its first month. Press release.",
+          "url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/"
+        },
+        {
+          "label": "Klarna (19 May 2025). First-quarter 2025 results. Press release.",
+          "url": "https://www.klarna.com/international/press/klarna-accelerates-global-momentum-in-q1-2025-and-unlocks-large-gains-from/"
+        },
+        {
+          "label": "Customer Experience Dive (9 May 2025). Klarna changes its AI tune and again recruits humans for customer service. Reports the chief executive’s interview with Bloomberg and a statement from Klarna.",
+          "url": "https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/"
+        },
+        {
+          "label": "Customer Experience Dive (20 November 2025). Klarna says its AI agent is doing the work of 853 employees. Reports Klarna’s third-quarter 2025 earnings call.",
+          "url": "https://www.customerexperiencedive.com/news/klarna-says-ai-agent-work-853-employees/805987/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "mata-v-avianca-fake-citations",
+      "url": "https://www.ai-first.company/evidence/cases/mata-v-avianca-fake-citations/",
+      "title": "Levidow, Levidow & Oberman: fined after filing court papers with cases ChatGPT made up",
+      "summary": "A lawyer used ChatGPT for legal research and filed six court decisions that did not exist. The court fined the firm and two of its lawyers. The judge said using AI was not the problem. Not checking was.",
+      "company": "Levidow, Levidow & Oberman P.C.",
+      "business": "Law firm",
+      "country": "United States (federal court in New York)",
+      "period": "March–June 2023",
+      "size": "",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Court or tribunal record",
+      "practices": [
+        {
+          "id": "test-ai-knowledge-not-self-ratings",
+          "title": "Test AI knowledge instead of asking staff to rate their own",
+          "url": "https://www.ai-first.company/practices/test-ai-knowledge-not-self-ratings/",
+          "relation": "missing"
+        },
+        {
+          "id": "budget-for-the-work-ai-creates",
+          "title": "Budget for the work AI creates",
+          "url": "https://www.ai-first.company/practices/budget-for-the-work-ai-creates/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "missing"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "later"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Mata v. Avianca, Inc., No. 22-cv-1461 (PKC). Opinion and Order on Sanctions, 22 June 2023. US District Court, Southern District of New York.",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "meta-regalbau-warehouse-analysis",
+      "url": "https://www.ai-first.company/evidence/cases/meta-regalbau-warehouse-analysis/",
+      "title": "META-Regalbau: sensors and AI analysis of order picking paid back in about a year",
+      "summary": "A shelving manufacturer with about 300 employees had staff wear small sensors so that AI could analyse how orders are picked in its warehouse. The findings shaped the layout of a new warehouse and save about €22,000 a year. Managers, the works council and all staff were told the purpose from the start.",
+      "company": "META-Regalbau",
+      "business": "Maker of shelving and racking systems",
+      "country": "Germany",
+      "period": "Published August 2021",
+      "size": "Mid-market (250–999 employees)",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "protect-psychological-safety-during-rollout",
+          "title": "Protect psychological safety during an AI rollout",
+          "url": "https://www.ai-first.company/practices/protect-psychological-safety-during-rollout/",
+          "relation": "applied"
+        },
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "map-tasks-before-automating",
+          "title": "Map tasks before deciding what to automate",
+          "url": "https://www.ai-first.company/practices/map-tasks-before-automating/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Plattform Lernende Systeme (August 2021). KI im Mittelstand: Potenziale erkennen, Voraussetzungen schaffen, Transformation meistern. Report, in German, with a section on this company.",
+          "url": "https://www.acatech.de/publikation/ki-im-mittelstand-potenziale-erkennen-voraussetzungen-schaffen-transformation-meistern/download-pdf/?lang=de"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "milkforbubs-whatsapp-chatbot",
+      "url": "https://www.ai-first.company/evidence/cases/milkforbubs-whatsapp-chatbot/",
+      "title": "Milkforbubs: a small online shop put a ready-made chatbot on customer questions",
+      "summary": "A small online shop in Singapore bought a ready-made AI chatbot to answer customers. The team loaded it with common questions, trained staff, and keeps correcting its answers. The founder estimates the team spends 30% less time on customer questions.",
+      "company": "Milkforbubs",
+      "business": "Online shop for foods and accessories for breastfeeding mothers",
+      "country": "Singapore",
+      "period": "Mid-2024 – September 2025",
+      "size": "",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-ai-in-software-you-already-pay-for",
+          "title": "Start with ready-made AI in software you already use, before building your own",
+          "url": "https://www.ai-first.company/practices/start-with-ai-in-software-you-already-pay-for/",
+          "relation": "applied"
+        },
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "applied"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Infocomm Media Development Authority, Singapore (9 September 2025). Happier customers and 30% time savings for Milkforbubs. Article.",
+          "url": "https://www.imda.gov.sg/resources/blog/blog-articles/2025/09/milkforbubs-saves-time-with-imda-genai-initiative"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "ministry-of-clean-ai-crm",
+      "url": "https://www.ai-first.company/evidence/cases/ministry-of-clean-ai-crm/",
+      "title": "Ministry of Clean: a cleaning company moved its customers from spreadsheets to a CRM with AI built in",
+      "summary": "A Singapore cleaning company kept its customer list in spreadsheets. It moved to ready-made customer-management software that drafts replies and suggests the next step with each lead. The company reports replies in 10 minutes where they took an hour, and 30% more sales revenue.",
+      "company": "Ministry of Clean",
+      "business": "Cleaning services and disinfecting coatings for homes and businesses",
+      "country": "Singapore",
+      "period": "Published October 2025",
+      "size": "",
+      "industries": [],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-ai-in-software-you-already-pay-for",
+          "title": "Start with ready-made AI in software you already use, before building your own",
+          "url": "https://www.ai-first.company/practices/start-with-ai-in-software-you-already-pay-for/",
+          "relation": "applied"
+        },
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "give-ai-assistance-to-newer-staff-first",
+          "title": "Give AI assistance to newer staff first",
+          "url": "https://www.ai-first.company/practices/give-ai-assistance-to-newer-staff-first/",
+          "relation": "applied"
+        },
+        {
+          "id": "put-your-records-in-order-before-ai-predicts-from-them",
+          "title": "Put your own records in order before you ask AI to predict from them",
+          "url": "https://www.ai-first.company/practices/put-your-records-in-order-before-ai-predicts-from-them/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Infocomm Media Development Authority, Singapore (October 2025). SMEs’ Digital Transformation Success Stories. Annex B to the press release for SMEs Go Digital Day.",
+          "url": "https://www.imda.gov.sg/assets/02f04126-12e6-4022-82a4-0b849738a3e6.pdf"
+        },
+        {
+          "label": "Infocomm Media Development Authority, Singapore (October 2025). Smarter, Simpler, Safer: Singapore Offers Stronger Support to Help Local SMEs Go Digital with Confidence. Press release.",
+          "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/smes-go-digital-day"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "morgan-and-morgan-in-house-ai-fake-cases",
+      "url": "https://www.ai-first.company/evidence/cases/morgan-and-morgan-in-house-ai-fake-cases/",
+      "title": "Morgan & Morgan: eight made-up cases from the firm’s own AI tool, signed by three lawyers",
+      "summary": "A lawyer asked his firm’s own AI tool to add case law to a court filing. Eight of the nine cases it cited did not exist. Two other lawyers signed without reading. The firm had trained staff, and it then added a warning inside the tool.",
+      "company": "Morgan & Morgan",
+      "business": "Law firm",
+      "country": "United States (federal court in Wyoming)",
+      "period": "January – February 2025",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Court or tribunal record",
+      "practices": [
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "applied"
+        },
+        {
+          "id": "write-a-short-ai-use-policy",
+          "title": "Write a one-page AI-use policy staff will actually read",
+          "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
+          "relation": "later"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wadsworth v. Walmart Inc., No. 2:23-cv-118-KHR. Order on Sanctions and Other Disciplinary Action, 24 February 2025. US District Court, District of Wyoming.",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0.pdf"
+        },
+        {
+          "label": "Morgan & Morgan. About us (the firm’s own description of its size).",
+          "url": "https://www.forthepeople.com/about-us/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "nsw-reconstruction-authority-chatgpt-upload",
+      "url": "https://www.ai-first.company/evidence/cases/nsw-reconstruction-authority-chatgpt-upload/",
+      "title": "NSW Reconstruction Authority: a temporary worker uploaded data on 2,031 people to ChatGPT",
+      "summary": "A temporary staff member uploaded a spreadsheet of flood-recovery applicants to ChatGPT, which the agency had not approved. It held personal and health details of 2,031 people. The agency then wrote AI guidance, tightened training and blocked such uploads.",
+      "company": "NSW Reconstruction Authority",
+      "business": "State government agency for disaster recovery",
+      "country": "Australia (New South Wales)",
+      "period": "March 2025 – March 2026",
+      "size": "",
+      "industries": [],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "decide-what-data-goes-into-which-ai-tools",
+          "title": "Decide what data may go into which AI tools",
+          "url": "https://www.ai-first.company/practices/decide-what-data-goes-into-which-ai-tools/",
+          "relation": "later"
+        },
+        {
+          "id": "write-a-short-ai-use-policy",
+          "title": "Write a one-page AI-use policy staff will actually read",
+          "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
+          "relation": "later"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "later"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NSW Reconstruction Authority. Resilient Homes Program data breach. Public notice and questions and answers (updated 26 March 2026).",
+          "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-reconstruction-authority/resilient-homes-program-data-breach"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "primus-solicitors-fake-citations",
+      "url": "https://www.ai-first.company/evidence/cases/primus-solicitors-fake-citations/",
+      "title": "Primus Solicitors: 18 court citations that did not exist, taken from a client’s AI research",
+      "summary": "A solicitor at a small law firm filed a statement with 45 case citations. Eighteen of the cases did not exist. His client had produced the research with public AI tools, and nobody at the firm checked it. The court referred him to his regulator.",
+      "company": "Primus Solicitors",
+      "business": "Law firm",
+      "country": "United Kingdom (England and Wales)",
+      "period": "April – June 2025",
+      "size": "Micro and small (1–49 employees)",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Court or tribunal record",
+      "practices": [
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "R (Ayinde) v London Borough of Haringey and Al-Haroun v Qatar National Bank [2025] EWHC 1383 (Admin). Judgment of 6 June 2025. High Court of England and Wales, Divisional Court.",
+          "url": "https://www.judiciary.uk/wp-content/uploads/2025/06/Ayinde-v-London-Borough-of-Haringey-and-Al-Haroun-v-Qatar-National-Bank.pdf"
+        },
+        {
+          "label": "Companies House. Primus Solicitors Limited (company number 10999760). Filing history, accounts for the year to 30 April 2025.",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/10999760/filing-history"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "procter-and-gamble-product-teams",
+      "url": "https://www.ai-first.company/evidence/cases/procter-and-gamble-product-teams/",
+      "title": "Procter & Gamble: one person with AI matched a two-person team without it",
+      "summary": "Researchers ran an experiment with 776 Procter & Gamble staff on real product-development tasks. People working alone with AI produced ideas rated as highly as those of two-person teams without AI, and did it faster.",
+      "company": "Procter & Gamble",
+      "business": "Consumer goods manufacturer",
+      "country": "Europe and the Americas",
+      "period": "May–July 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dell’Acqua, Ayoubi, Lifshitz, Sadun, Mollick, Mollick, Han, Goldman, Nair, Taub and Lakhani (2025). The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise. NBER Working Paper 33641.",
+          "url": "https://www.nber.org/papers/w33641"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "psg-global-solutions-ai-interviews",
+      "url": "https://www.ai-first.company/evidence/cases/psg-global-solutions-ai-interviews/",
+      "title": "PSG Global Solutions: AI ran the job interviews, and people made the hiring decisions",
+      "summary": "A recruitment firm let an AI voice agent carry out job interviews, while its human recruiters kept every hiring decision. In a randomised study of 70,884 applications, people interviewed by the AI were 12% more likely to get an offer and more likely to stay in the job.",
+      "company": "PSG Global Solutions",
+      "business": "Recruitment outsourcing firm, part of Teleperformance",
+      "country": "Philippines",
+      "period": "Study completed June 2025",
+      "size": "",
+      "industries": [],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "set-the-limits-before-the-tool-acts",
+          "title": "Set the limits before the tool acts",
+          "url": "https://www.ai-first.company/practices/set-the-limits-before-the-tool-acts/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Jabarian and Henkel (2026). Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews. Working paper, arXiv 2607.28222.",
+          "url": "https://arxiv.org/abs/2607.28222"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "rite-aid-facial-recognition",
+      "url": "https://www.ai-first.company/evidence/cases/rite-aid-facial-recognition/",
+      "title": "Rite Aid: banned from facial recognition for five years after buying it without testing it",
+      "summary": "Rite Aid used facial recognition to spot suspected shoplifters. The US consumer regulator said the chain never asked its vendors how accurate the system was, never tested it and did not train staff. Shoppers were wrongly accused. The chain was banned from the technology for five years.",
+      "company": "Rite Aid",
+      "business": "Pharmacy and retail chain",
+      "country": "United States",
+      "period": "2012–2020, order announced December 2023",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "missing"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "missing"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "missing"
+        },
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "missing"
+        },
+        {
+          "id": "put-your-records-in-order-before-ai-predicts-from-them",
+          "title": "Put your own records in order before you ask AI to predict from them",
+          "url": "https://www.ai-first.company/practices/put-your-records-in-order-before-ai-predicts-from-them/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Federal Trade Commission (19 December 2023). Rite Aid banned from using AI facial recognition after FTC says retailer deployed technology without reasonable safeguards. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "rue-la-la-price-recommendations",
+      "url": "https://www.ai-first.company/evidence/cases/rue-la-la-price-recommendations/",
+      "title": "Rue La La: machine-learning price recommendations raised revenue by about 10% in a test",
+      "summary": "Rue La La, an online fashion retailer, had a tool built that predicts demand for products it has never sold and recommends a price for each. In a five-month test, researchers estimated that revenue on the tested products rose by 9.7%. The retailer set firm limits on what the tool could do before it let it near a price.",
+      "company": "Rue La La",
+      "business": "Online retailer selling designer clothing and accessories in short sales events",
+      "country": "United States",
+      "period": "January – May 2014, published 2016",
+      "size": "",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "set-the-limits-before-the-tool-acts",
+          "title": "Set the limits before the tool acts",
+          "url": "https://www.ai-first.company/practices/set-the-limits-before-the-tool-acts/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ferreira, Lee and Simchi-Levi (2016). Analytics for an Online Retailer: Demand Forecasting and Price Optimization. Manufacturing & Service Operations Management, 18(1), 69–88.",
+          "url": "https://doi.org/10.1287/msom.2015.0561"
+        },
+        {
+          "label": "The same paper, free to read in Harvard’s open-access repository.",
+          "url": "https://dash.harvard.edu/handle/1/26964422"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "sam-retirement-advisory-ai-agents",
+      "url": "https://www.ai-first.company/evidence/cases/sam-retirement-advisory-ai-agents/",
+      "title": "SAM: a two-person advisory firm cut the paperwork on each client file from six hours to two and a half",
+      "summary": "A two-person firm that advises clients on retirement turned each client file into a fixed sequence of steps and gave the routine ones to AI. Administrative time per file fell from about six hours to two and a half. Set-up cost about €3,000 and 60 hours, and the adviser still approves important letters.",
+      "company": "SAM",
+      "business": "Retirement advisory firm for individuals and business owners",
+      "country": "France",
+      "period": "Six months of use, published May 2026",
+      "size": "Micro and small (1–49 employees)",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "redesign-the-workflow",
+          "title": "Redesign the workflow instead of adding a tool to it",
+          "url": "https://www.ai-first.company/practices/redesign-the-workflow/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "put-your-records-in-order-before-ai-predicts-from-them",
+          "title": "Put your own records in order before you ask AI to predict from them",
+          "url": "https://www.ai-first.company/practices/put-your-records-in-order-before-ai-predicts-from-them/",
+          "relation": "applied"
+        },
+        {
+          "id": "set-the-limits-before-the-tool-acts",
+          "title": "Set the limits before the tool acts",
+          "url": "https://www.ai-first.company/practices/set-the-limits-before-the-tool-acts/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "France Num (26 May 2026). Dans les Alpes-de-Haute-Provence, une entreprise de conseil retraite déploie des agents IA pour automatiser le traitement de ses dossiers. Case page, in French.",
+          "url": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/automatisation-et-optimisation-des-processus/dans-les"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "siemens-ai-visual-inspection",
+      "url": "https://www.ai-first.company/evidence/cases/siemens-ai-visual-inspection/",
+      "title": "Siemens: inspectors caught more defects when the AI showed what it had seen",
+      "summary": "Researchers gave 48 inspectors at a Siemens electronics factory an AI aid for checking circuit boards. Half saw only the AI’s score. Half also saw a picture marking where the AI had found a problem. The second group caught more defects, and most of them did better than the AI working alone.",
+      "company": "Siemens",
+      "business": "Industrial manufacturer; the study was run at its electronics factory in Zug",
+      "country": "Switzerland",
+      "period": "June – July 2021, published December 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Manufacturing"
+      ],
+      "outcome": "Measured result",
+      "figures_from": "Measured by researchers",
+      "practices": [
+        {
+          "id": "check-human-plus-ai-by-task-type",
+          "title": "For each kind of task, test whether a person with AI beats either one alone",
+          "url": "https://www.ai-first.company/practices/check-human-plus-ai-by-task-type/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "make-the-ai-show-what-its-answer-is-based-on",
+          "title": "Make the AI show what its answer is based on",
+          "url": "https://www.ai-first.company/practices/make-the-ai-show-what-its-answer-is-based-on/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Senoner, Schallmoser, Kratzwald, Feuerriegel and Netland (2024). Explainable AI improves task performance in human–AI collaboration. Scientific Reports, 14, 31150.",
+          "url": "https://www.nature.com/articles/s41598-024-82501-9"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "temple-and-webster-ai-customer-care",
+      "url": "https://www.ai-first.company/evidence/cases/temple-and-webster-ai-customer-care/",
+      "title": "Temple & Webster: an online furniture retailer with about 200 staff put AI into customer care first",
+      "summary": "Temple & Webster sells furniture online with about 200 employees. It reports that AI and automation handle 80% of customer contacts in whole or in part, and that customer care now costs over 60% less as a share of revenue. It then set up central approval, training and a contact person for AI in every department.",
+      "company": "Temple & Webster",
+      "business": "Online retailer of furniture and homewares",
+      "country": "Australia",
+      "period": "July 2022 – June 2026",
+      "size": "Medium (50–249 employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        },
+        {
+          "id": "redesign-the-workflow",
+          "title": "Redesign the workflow instead of adding a tool to it",
+          "url": "https://www.ai-first.company/practices/redesign-the-workflow/",
+          "relation": "applied"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Temple & Webster Group (29 September 2026). Annual Report 2026. Filed with the Australian Securities Exchange.",
+          "url": "https://announcements.asx.com.au/asxpdf/20260929/pdf/074n0zggpwv77d.pdf"
+        },
+        {
+          "label": "Temple & Webster Group (14 August 2025). Appendix 4E and annual report for the year to 30 June 2025. Filed with the Australian Securities Exchange.",
+          "url": "https://announcements.asx.com.au/asxpdf/20250814/pdf/06mvk2ym4lbgj8.pdf"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "uk-department-for-business-and-trade-copilot-pilot",
+      "url": "https://www.ai-first.company/evidence/cases/uk-department-for-business-and-trade-copilot-pilot/",
+      "title": "UK Department for Business and Trade: 1,000 Copilot licences, satisfied users, no proven productivity gain",
+      "summary": "A UK government department gave 1,000 staff an AI assistant inside the office software they already used, and measured the result. Most users were satisfied and writing tasks went faster. Some tasks went slower or came out worse, and the department found no evidence of higher productivity.",
+      "company": "UK Department for Business and Trade",
+      "business": "National government department",
+      "country": "United Kingdom",
+      "period": "October – December 2024, published August 2025",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [],
+      "outcome": "Measured result",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "start-with-ai-in-software-you-already-pay-for",
+          "title": "Start with ready-made AI in software you already use, before building your own",
+          "url": "https://www.ai-first.company/practices/start-with-ai-in-software-you-already-pay-for/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UK Department for Business and Trade (August 2025). The evaluation of the M365 Copilot pilot in the Department for Business and Trade. Report.",
+          "url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf"
+        },
+        {
+          "label": "UK Government Digital Service (2 June 2025). Microsoft 365 Copilot experiment: cross-government findings report. The wider trial this pilot was part of.",
+          "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "walmart-product-catalogue",
+      "url": "https://www.ai-first.company/evidence/cases/walmart-product-catalogue/",
+      "title": "Walmart: generative AI used to fix 850 million pieces of product data",
+      "summary": "Walmart told investors it used generative AI to create or improve more than 850 million pieces of product data. The task is narrow, repetitive and easy to check, which is where AI tends to work.",
+      "company": "Walmart",
+      "business": "Retailer",
+      "country": "United States",
+      "period": "Reported August 2024",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "start-with-one-costly-process",
+          "title": "Start with one costly process, not a company-wide rollout",
+          "url": "https://www.ai-first.company/practices/start-with-one-costly-process/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Walmart Inc. (15 August 2024). Q2 fiscal year 2025 earnings call. Corrected transcript, published on Walmart’s investor site.",
+          "url": "https://stock.walmart.com/_assets/_03bc6c6c19d917c293f3e6e109724517/walmart/db/938/9486/transcript_management_call/Q2-2025-Earnings-Call.pdf"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "workado-ai-detector-accuracy",
+      "url": "https://www.ai-first.company/evidence/cases/workado-ai-detector-accuracy/",
+      "title": "Workado: an AI detector sold as 98% accurate that tested at 53%",
+      "summary": "Workado sold a tool that claims to tell AI-written text from human writing, and advertised it as 98% accurate. The US consumer regulator said independent testing put it at 53% on general text. Buyers had only the vendor’s word.",
+      "company": "Workado (formerly Content at Scale AI)",
+      "business": "Software vendor: AI writing and detection tools",
+      "country": "United States",
+      "period": "Complaint April 2025, order final August 2025",
+      "size": "",
+      "industries": [
+        "Agencies"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "missing"
+        },
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Federal Trade Commission (28 April 2025). FTC order requires Workado to back up artificial intelligence detection claims. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims"
+        },
+        {
+          "label": "US Federal Trade Commission (28 August 2025). FTC approves final order against Workado, LLC. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-approves-final-order-against-workado-llc-which-misrepresented-accuracy-its-artificial"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "wpp-open-ai-platform",
+      "url": "https://www.ai-first.company/evidence/cases/wpp-open-ai-platform/",
+      "title": "WPP: £300 million a year on an AI platform, and revenue still fell",
+      "summary": "WPP, one of the largest advertising groups, invested heavily in its own AI platform and reported wide use by staff. Its revenue still fell in 2025. Investing in AI did not, on its own, protect an agency’s income.",
+      "company": "WPP",
+      "business": "Advertising and communications group",
+      "country": "United Kingdom, operating worldwide",
+      "period": "2024–2025",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "Agencies"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [],
+      "sources": [
+        {
+          "label": "WPP plc (2025). Annual report on Form 20-F for the year ended 31 December 2024. US Securities and Exchange Commission.",
+          "url": "https://www.sec.gov/Archives/edgar/data/806968/000162828025015363/wpp-20241231.htm"
+        },
+        {
+          "label": "WPP plc (30 October 2025). Third Quarter Trading Update 2025.",
+          "url": "https://www.wpp.com/en/news/2025/10/third-quarter-trading-update-2025"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    }
+  ]
+}
