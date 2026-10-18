@@ -1,0 +1,182 @@
+{
+  "name": "Checks of widely repeated AI figures against their primary sources",
+  "description": "Figures about AI that are often quoted, each checked against the source it is credited to, one row per claim. Each row gives the claim as it is usually repeated, the verdict, why, the sentence to cite instead, and the sources.",
+  "url": "https://www.ai-first.company/evidence/claim-checks/",
+  "version": "2026-10-17",
+  "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
+  "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "count": 7,
+  "rows": [
+    {
+      "id": "us-small-businesses-using-ai",
+      "url": "https://www.ai-first.company/evidence/claim-checks/us-small-businesses-using-ai/",
+      "title": "“66% of small businesses use AI”",
+      "claim": "66% of small businesses use AI.",
+      "verdict": "Needs correcting",
+      "summary": "The figure is in the source, a 2026 online survey for the US Chamber of Commerce, a business lobby that argues against state AI laws in the same report. The report does not say how firms were recruited or weighted. Other US counts of the same kind of firm, made in other ways, are far lower.",
+      "correct": "In a 2026 online survey of US firms with fewer than 250 employees, run by Teneo Research for the US Chamber of Commerce, which campaigns against state AI laws, 66% said they used AI. Other US counts are lower: 46% of employer firms in the Federal Reserve Banks’ 2025 survey, 17.7% of firms that had paid an AI provider by the end of 2025 in Chase bank records, and under 20% of firms with four or fewer employees in the US Census Bureau’s survey.",
+      "studies": [
+        "us-small-employer-firms-ai-survey",
+        "small-business-ai-payments-bank-data",
+        "us-census-ai-use-by-firms"
+      ],
+      "sources": [
+        {
+          "label": "US Chamber of Commerce Technology Engagement Center and Teneo Research (2026). Empowering Small Business: The Impact of Technology on U.S. Small Business. Report.",
+          "url": "https://www.uschamber.com/assets/documents/Empowering-Small-Business-The-Impact-of-Technology-on-U.S.-Small-Business-Small-Business-Report-2026.pdf"
+        },
+        {
+          "label": "Federal Reserve Banks (2026). Small Business Credit Survey: 2026 Report on Employer Firms. Findings from the 2025 survey.",
+          "url": "https://www.fedsmallbusiness.org/-/media/project/clevelandfedtenant/fsbsite/reports/2026/2026-report-on-employer-firms/2026-report-on-employer-firms.pdf"
+        },
+        {
+          "label": "JPMorganChase Institute, Wheat, Mac and Passalacqua (14 April 2026). Understanding the use of AI among small businesses. Based on Chase business bank account records.",
+          "url": "https://www.jpmorganchase.com/institute/all-topics/business-growth-and-entrepreneurship/understanding-ai-use-by-small-businesses"
+        },
+        {
+          "label": "US Census Bureau, Grundy, Breaux and Khatiwoda (26 May 2026). Large firms with at least 20 employees biggest AI users. Story on the Business Trends and Outlook Survey.",
+          "url": "https://census.gov/library/stories/2026/05/ai-use-businesses.html"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "mit-95-percent-of-ai-pilots-fail",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail/",
+      "title": "“95% of generative AI pilots at companies are failing (MIT)”",
+      "claim": "95% of generative AI pilots at companies are failing, according to MIT.",
+      "verdict": "Needs correcting",
+      "summary": "The figure is in the report, but the report is preliminary and not representative. It rests on 52 interviews, 153 survey answers collected at conferences and a review of public announcements. Its authors call the figures “directionally accurate” rather than based on company reporting, and it defines success in two different ways.",
+      "correct": "A preliminary 2025 report from MIT’s Project NANDA, based on interviews at 52 organizations, 153 survey answers from senior leaders at industry conferences and a review of over 300 public AI initiatives, estimated that 5% of organizations had task-specific generative AI tools in production. The authors describe their figures as “directionally accurate based on individual interviews rather than official company reporting”.",
+      "studies": [],
+      "sources": [
+        {
+          "label": "Challapally, Pease, Raskar and Chari (July 2025). The GenAI Divide: State of AI in Business 2025. MIT NANDA, preliminary findings. Copy of the report hosted by MLQ.ai.",
+          "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf"
+        },
+        {
+          "label": "Fortune (18 August 2025). MIT report: 95% of generative AI pilots at companies are failing. The press coverage behind the claim.",
+          "url": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "bcg-ai-maturity-matrix-rates-economies",
+      "url": "https://www.ai-first.company/evidence/claim-checks/bcg-ai-maturity-matrix-rates-economies/",
+      "title": "“BCG’s AI Maturity Matrix shows how mature companies are”",
+      "claim": "BCG’s AI maturity model shows where a company stands on AI maturity.",
+      "verdict": "Needs correcting",
+      "summary": "Two different BCG publications get mixed up. The AI Maturity Matrix rates national economies. The company figures come from a separate executive survey, and the tool behind it is not public.",
+      "correct": "BCG’s AI Maturity Matrix (November 2024) assesses 73 economies, not companies. Separately, BCG’s 2024 survey of 1,000 executives in 59 countries found that 26% of companies had the capabilities to move beyond proofs of concept and generate tangible value from AI.",
+      "studies": [
+        "decade-of-digital-maturity-models",
+        "digital-readiness-model-for-smes"
+      ],
+      "sources": [
+        {
+          "label": "Boston Consulting Group (2024). Which Economies Are Ready for AI? Report, 20 November 2024.",
+          "url": "https://www.bcg.com/publications/2024/which-economies-are-ready-for-ai"
+        },
+        {
+          "label": "Boston Consulting Group (2024). AI Adoption in 2024: 74% of Companies Struggle to Achieve and Scale Value. Press release for the report “Where’s the Value in AI?”, 24 October 2024.",
+          "url": "https://www.bcg.com/press/24october2024-ai-adoption-in-2024-74-of-companies-struggle-to-achieve-and-scale-value"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "uk-copilot-26-minutes-a-day",
+      "url": "https://www.ai-first.company/evidence/claim-checks/uk-copilot-26-minutes-a-day/",
+      "title": "“Copilot saves UK civil servants 26 minutes a day”",
+      "claim": "Microsoft 365 Copilot saves UK civil servants 26 minutes a day.",
+      "verdict": "Needs correcting",
+      "summary": "The figure is in the UK government’s report, but it is what users estimated, not time measured. It comes from one survey question with answers in ranges. HMRC, with licences given at random, put the estimate at about an hour a week. The Department for Business and Trade found no evidence that time saved led to higher productivity.",
+      "correct": "In a UK government trial of Microsoft 365 Copilot with about 20,000 staff from October to December 2024, users estimated in a survey that it saved them 26 minutes a day on average. The figure is self-reported, and two departments that evaluated the tool separately found smaller or unproven gains.",
+      "studies": [],
+      "sources": [
+        {
+          "label": "UK Government Digital Service (2 June 2025). Microsoft 365 Copilot experiment: cross-government findings report.",
+          "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+        },
+        {
+          "label": "HM Revenue & Customs (9 July 2026). Evaluating the impact of Microsoft Copilot in HMRC. Evaluation report, phase III trial.",
+          "url": "https://www.gov.uk/government/publications/evaluation-report-phase-3-trial-of-microsoft-copilot/evaluating-the-impact-of-microsoft-copilot-in-hmrc"
+        },
+        {
+          "label": "UK Department for Business and Trade (August 2025). The evaluation of the M365 Copilot pilot in the Department for Business and Trade. Report.",
+          "url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "microsoft-responsible-ai-maturity-model",
+      "url": "https://www.ai-first.company/evidence/claim-checks/microsoft-responsible-ai-maturity-model/",
+      "title": "“Microsoft has a maturity model for responsible AI”",
+      "claim": "Microsoft’s Responsible AI Maturity Model can be used to assess an organization’s AI maturity.",
+      "verdict": "Confirmed",
+      "summary": "The model exists as described: 24 dimensions, five levels, built from interviews with more than 90 specialists. One limit: it covers responsible AI only, not AI readiness in general.",
+      "correct": "Microsoft Research’s Responsible AI Maturity Model (Vorvoreanu and colleagues, 2023) describes 24 dimensions of responsible AI practice, each at five levels from Latent to Leading. It is a planning framework for responsible AI, not a measure of general AI readiness.",
+      "studies": [
+        "decade-of-digital-maturity-models"
+      ],
+      "sources": [
+        {
+          "label": "Vorvoreanu, Heger, Passi, Dhanorkar, Kahn and Wang (2023). Responsible AI Maturity Model. Microsoft Research, report MSR-TR-2023-26.",
+          "url": "https://www.microsoft.com/en-us/research/publication/responsible-ai-maturity-model/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "mit-sloan-path-to-digital-transformation",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-sloan-path-to-digital-transformation/",
+      "title": "“MIT Sloan shows that the barriers to digital transformation are mainly cultural”",
+      "claim": "MIT Sloan Management Review’s “The Path to Digital Transformation” shows that the barriers to digital transformation are mainly cultural, not technical.",
+      "verdict": "No support found",
+      "summary": "The page cited is a collection of short articles with no single author or date. It says cultural, organizational and technical shifts are all needed. It does not say that culture is the main barrier.",
+      "correct": "MIT Sloan Management Review’s collection “The Path to Digital Transformation” says that “a variety of cultural, organizational, and technical shifts need to take place” as companies build digital capabilities. It does not rank them. For evidence that people-related barriers weigh most, cite a study that measured it.",
+      "studies": [
+        "ai-barriers-and-ai-maturity",
+        "individual-adoption-vs-organisational-maturity",
+        "state-of-ai-2025-survey"
+      ],
+      "sources": [
+        {
+          "label": "MIT Sloan Management Review. The Path to Digital Transformation. Collection page, no author or date.",
+          "url": "https://sloanreview.mit.edu/the-path-to-digital-transformation/"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    },
+    {
+      "id": "cisco-ai-readiness-index-fully-ready",
+      "url": "https://www.ai-first.company/evidence/claim-checks/cisco-ai-readiness-index-fully-ready/",
+      "title": "“Only 13% of companies are ready for AI”",
+      "claim": "Only 13% of companies are ready for AI, according to Cisco’s AI Readiness Index.",
+      "verdict": "Needs correcting",
+      "summary": "The number is in the source. The population is not “companies”: Cisco surveyed leaders at organizations with 500 or more employees. Smaller firms are not in it.",
+      "correct": "In Cisco’s 2024 AI Readiness Index, a survey of 7,985 senior business leaders at organizations with 500 or more employees in 30 markets, 13% of organizations were classed as fully ready for AI, down from 14% in 2023.",
+      "studies": [
+        "digital-readiness-model-for-smes",
+        "decade-of-digital-maturity-models"
+      ],
+      "sources": [
+        {
+          "label": "Cisco (2024). Cisco’s 2024 AI Readiness Index: Urgency Rises, Readiness Falls. Press release, 19 November 2024.",
+          "url": "https://investor.cisco.com/news/news-details/2024/Ciscos-2024-AI-Readiness-Index-Urgency-Rises-Readiness-Falls/default.aspx"
+        },
+        {
+          "label": "Cisco (2023). Cisco AI Readiness Index: Intentions Outpacing Abilities. Global report.",
+          "url": "https://www.cisco.com/c/dam/m/en_us/solutions/ai/readiness-index/documents/cisco-global-ai-readiness-index.pdf"
+        },
+        {
+          "label": "Cisco (2025). Cisco AI Readiness Index 2025: Realizing the Value of AI.",
+          "url": "https://www.cisco.com/c/m/en_us/solutions/ai/readiness-index/realizing-the-value-of-ai.html"
+        }
+      ],
+      "reviewed": "2026-10-13"
+    }
+  ]
+}

@@ -2,10 +2,10 @@
   "name": "Company cases of AI use, with outcomes and sources",
   "description": "Named companies that used AI at work, one row per case. Each row gives the company, what it does, the country, the period, the size band, how the case turned out, who produced the figures, the practices the case bears on, and the public sources.",
   "url": "https://www.ai-first.company/evidence/cases/",
-  "version": "2026-10-13",
+  "version": "2026-10-17",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 34,
+  "count": 39,
   "rows": [
     {
       "id": "accessibe-ai-accessibility-claims",
@@ -48,6 +48,49 @@
         }
       ],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "air-ai-ftc-ai-business-opportunity",
+      "url": "https://www.ai-first.company/evidence/cases/air-ai-ftc-ai-business-opportunity/",
+      "title": "Air AI: the US regulator says small firms were sold “AI that replaces staff” and lost up to $250,000",
+      "summary": "Air AI sold small-business owners “conversational AI” that it said could replace customer-service staff, with promises that they would earn their money back. The US consumer regulator alleges that buyers lost up to $250,000 each and that promised refunds were rarely paid. Under a proposed settlement the owners are banned from marketing business opportunities.",
+      "company": "Air AI Technologies",
+      "business": "Seller of AI calling software, business coaching and licences to resell its services",
+      "country": "United States",
+      "period": "Sales from at least February 2023; sued August 2025; proposed settlement March 2026",
+      "size": "",
+      "industries": [],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "ask-ai-vendors-for-proof",
+          "title": "Ask AI vendors for proof before you buy, and test on your own material",
+          "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+          "relation": "missing"
+        },
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Federal Trade Commission (25 August 2025). FTC sues to stop Air AI from using deceptive claims about business growth, earnings potential, and refund guarantees. Press release.",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-sues-stop-air-ai-using-deceptive-claims-about-business-growth-earnings-potential-refund"
+        },
+        {
+          "label": "US Federal Trade Commission (24 March 2026). Air AI and its owners will be banned from marketing business opportunities to settle FTC charges the company misled many entrepreneurs and small businesses. Press release.",
+          "url": "https://ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled"
+        },
+        {
+          "label": "US Federal Trade Commission. FTC v. Air AI Technologies, Inc. Case page with the complaint and the proposed order.",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/airai"
+        }
+      ],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "air-canada-chatbot-ruling",
@@ -209,6 +252,51 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "commonwealth-bank-voice-bot-job-cuts",
+      "url": "https://www.ai-first.company/evidence/cases/commonwealth-bank-voice-bot-job-cuts/",
+      "title": "Commonwealth Bank of Australia cut 45 roles for a voice bot, then said they were not redundant",
+      "summary": "Commonwealth Bank of Australia announced that an AI voice bot would replace 45 customer-service roles. The staff union said calls were rising, not falling. A month later the bank said its assessment had been an error, that the roles were not redundant, and apologised.",
+      "company": "Commonwealth Bank of Australia",
+      "business": "Bank",
+      "country": "Australia",
+      "period": "July – August 2025",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [],
+      "outcome": "Partly walked back",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "missing"
+        },
+        {
+          "id": "map-tasks-before-automating",
+          "title": "Map tasks before deciding what to automate",
+          "url": "https://www.ai-first.company/practices/map-tasks-before-automating/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "later"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Finance Sector Union (28 July 2025). Voice bot to replace CBA jobs: urgent union meeting.",
+          "url": "https://www.fsunion.org.au/voice-bot-to-replace-cba-jobs-urgent-union-meeting/"
+        },
+        {
+          "label": "Information Age, Australian Computer Society (21 August 2025). CBA reverses AI-driven job cuts, admits ‘error’. Quotes the bank’s spokesperson and the Finance Sector Union.",
+          "url": "https://ia.acs.org.au/article/2025/cba-reverses-ai-driven-job-cuts--admits--error-.html"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
       "id": "deloitte-australia-report-corrections",
       "url": "https://www.ai-first.company/evidence/cases/deloitte-australia-report-corrections/",
       "title": "Deloitte Australia: a government report reissued to fix wrong citations",
@@ -247,9 +335,13 @@
         {
           "label": "Australian Government, Department of Employment and Workplace Relations. Targeted Compliance Framework Assurance Review – Final Report. Publication page and report (version updated 3 February 2026).",
           "url": "https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report"
+        },
+        {
+          "label": "HR Reporter (25 November 2025). Press report on a Deloitte report for the province of Newfoundland and Labrador, Canada.",
+          "url": "https://www.hrreporter.com/focus-areas/automation-ai/ai-errors-province-grapples-with-deloitte-report-marred-by-false-citations/393782"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "delphia-global-predictions-ai-claims",
@@ -530,6 +622,47 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "garfield-law-ai-law-firm",
+      "url": "https://www.ai-first.company/evidence/cases/garfield-law-ai-law-firm/",
+      "title": "Garfield.Law: a regulator authorised an AI-run law firm for small debt claims, with limits",
+      "summary": "The regulator of solicitors in England and Wales authorised its first law firm that delivers legal services through AI. It helps businesses recover unpaid debts through the small-claims court. The regulator set limits: the AI may not propose case law, takes no step the client has not approved, and named solicitors stay accountable.",
+      "company": "Garfield.Law",
+      "business": "Law firm that uses AI to help businesses recover unpaid debts through the small-claims court",
+      "country": "United Kingdom (England and Wales)",
+      "period": "Authorised May 2025; first trial reported June 2026",
+      "size": "",
+      "industries": [
+        "Professional services"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "set-the-limits-before-the-tool-acts",
+          "title": "Set the limits before the tool acts",
+          "url": "https://www.ai-first.company/practices/set-the-limits-before-the-tool-acts/",
+          "relation": "applied"
+        },
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Solicitors Regulation Authority (6 May 2025). SRA approves first AI-driven law firm. Announcement.",
+          "url": "https://www.sra.org.uk/garfield-ai"
+        },
+        {
+          "label": "Scottish Legal News (23 June 2026). England: AI law firm wins first court case after landmark trial.",
+          "url": "https://www.scottishlegal.com/articles/england-ai-law-firm-wins-first-court-case-after-landmark-trial"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
       "id": "gilberts-chartered-accountants-ai-first-steps",
       "url": "https://www.ai-first.company/evidence/cases/gilberts-chartered-accountants-ai-first-steps/",
       "title": "Gilberts: a smaller audit firm started with the AI in its existing tools and two firm rules",
@@ -703,6 +836,51 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "hmrc-copilot-randomised-licences",
+      "url": "https://www.ai-first.company/evidence/cases/hmrc-copilot-randomised-licences/",
+      "title": "HMRC gave 3,000 Copilot licences at random: about an hour a week saved, by staff estimate",
+      "summary": "The UK tax authority picked 3,000 staff at random and gave them an AI assistant inside their office software for three months. Most used it and liked it. Staff estimated it saved about an hour a week, and the authority cut self-reported estimates to allow for keen users answering more often.",
+      "company": "HM Revenue & Customs (HMRC)",
+      "business": "National tax authority",
+      "country": "United Kingdom",
+      "period": "September – December 2024, published July 2026",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [],
+      "outcome": "Measured result",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "start-with-ai-in-software-you-already-pay-for",
+          "title": "Start with ready-made AI in software you already use, before building your own",
+          "url": "https://www.ai-first.company/practices/start-with-ai-in-software-you-already-pay-for/",
+          "relation": "applied"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "applied"
+        },
+        {
+          "id": "decide-what-data-goes-into-which-ai-tools",
+          "title": "Decide what data may go into which AI tools",
+          "url": "https://www.ai-first.company/practices/decide-what-data-goes-into-which-ai-tools/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "HM Revenue & Customs (9 July 2026). Evaluating the impact of Microsoft Copilot in HMRC. Evaluation report, phase III trial.",
+          "url": "https://www.gov.uk/government/publications/evaluation-report-phase-3-trial-of-microsoft-copilot/evaluating-the-impact-of-microsoft-copilot-in-hmrc"
+        },
+        {
+          "label": "UK Government Digital Service (2 June 2025). Microsoft 365 Copilot experiment: cross-government findings report. The wider trial with about 20,000 staff.",
+          "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
       "id": "klarna-ai-marketing",
       "url": "https://www.ai-first.company/evidence/cases/klarna-ai-marketing/",
       "title": "Klarna: AI cut spending on outside marketing suppliers by a quarter",
@@ -784,9 +962,13 @@
         {
           "label": "Customer Experience Dive (20 November 2025). Klarna says its AI agent is doing the work of 853 employees. Reports Klarna’s third-quarter 2025 earnings call.",
           "url": "https://www.customerexperiencedive.com/news/klarna-says-ai-agent-work-853-employees/805987/"
+        },
+        {
+          "label": "Klarna Group plc. Fourth-quarter 2025 results. Press release.",
+          "url": "https://s205.q4cdn.com/644747736/files/doc_earnings/2025/q4/earnings-result/Q4-25-Klarna-Group-plc-Press-Release.pdf"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "mata-v-avianca-fake-citations",
@@ -1087,6 +1269,47 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "presto-automation-sec-ai-ordering",
+      "url": "https://www.ai-first.company/evidence/cases/presto-automation-sec-ai-ordering/",
+      "title": "Presto Automation: the US regulator found most “AI” drive-through orders needed a person",
+      "summary": "Presto sold restaurants a voice AI for drive-through orders and told investors it eliminated human order-taking. The US securities regulator found that people working off site, mainly in the Philippines and India, entered the vast majority of orders. Presto settled without admitting or denying the findings.",
+      "company": "Presto Automation",
+      "business": "Restaurant technology company",
+      "country": "United States",
+      "period": "Statements made November 2021 – May 2023, order January 2025",
+      "size": "",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "claim-only-what-your-ai-has-been-tested-to-do",
+          "title": "Claim only what your AI has been tested to do",
+          "url": "https://www.ai-first.company/practices/claim-only-what-your-ai-has-been-tested-to-do/",
+          "relation": "missing"
+        },
+        {
+          "id": "correct-ai-mistakes-fast-and-in-the-open",
+          "title": "When AI output goes wrong, correct it fast and in the open",
+          "url": "https://www.ai-first.company/practices/correct-ai-mistakes-fast-and-in-the-open/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Securities and Exchange Commission (14 January 2025). In the Matter of Presto Automation Inc. Announcement of settled charges, File No. 3-22413.",
+          "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s"
+        },
+        {
+          "label": "US Securities and Exchange Commission (14 January 2025). Order instituting cease-and-desist proceedings, Release No. 33-11352.",
+          "url": "https://www.sec.gov/files/litigation/admin/2025/33-11352.pdf"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    {
       "id": "primus-solicitors-fake-citations",
       "url": "https://www.ai-first.company/evidence/cases/primus-solicitors-fake-citations/",
       "title": "Primus Solicitors: 18 court citations that did not exist, taken from a client’s AI research",
@@ -1125,7 +1348,7 @@
           "url": "https://find-and-update.company-information.service.gov.uk/company/10999760/filing-history"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "procter-and-gamble-product-teams",
@@ -1203,7 +1426,7 @@
           "url": "https://arxiv.org/abs/2607.28222"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "rite-aid-facial-recognition",
@@ -1517,9 +1740,13 @@
         {
           "label": "UK Government Digital Service (2 June 2025). Microsoft 365 Copilot experiment: cross-government findings report. The wider trial this pilot was part of.",
           "url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html"
+        },
+        {
+          "label": "HM Revenue & Customs (9 July 2026). Evaluating the impact of Microsoft Copilot in HMRC. Phase III trial evaluation report.",
+          "url": "https://www.gov.uk/government/publications/evaluation-report-phase-3-trial-of-microsoft-copilot/evaluating-the-impact-of-microsoft-copilot-in-hmrc"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "walmart-product-catalogue",

@@ -1,11 +1,11 @@
 {
   "name": "Practices for running an AI-first business, rated by strength of evidence",
-  "description": "Management practices for building and running a business with AI, one row per practice. Each row gives a summary, the theme, the stage, the company sizes it fits, when to do it, the effort, the evidence level and flags, the studies for and against, and the company cases linked to it.",
+  "description": "Management practices for building and running a business with AI, one row per practice. Each row gives a summary, the theme, the stage, the company sizes and industries it fits, when to do it, the effort, the evidence level and flags, the studies for and against, and the company cases linked to it.",
   "url": "https://www.ai-first.company/practices/",
-  "version": "2026-10-13",
+  "version": "2026-10-17",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 28,
+  "count": 30,
   "rows": [
     {
       "id": "map-tasks-before-automating",
@@ -20,10 +20,15 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "low (days, one person)",
       "evidence_level": "Moderate",
-      "flags": [],
+      "flags": [
+        "Contested"
+      ],
       "studies": [
         {
           "id": "suitability-for-machine-learning",
@@ -56,8 +61,21 @@
           "doi": "10.2139/ssrn.7528420"
         }
       ],
-      "counter_studies": [],
+      "counter_studies": [
+        {
+          "id": "young-workers-in-ai-exposed-jobs",
+          "url": "https://www.ai-first.company/evidence/studies/young-workers-in-ai-exposed-jobs/",
+          "citation": "Brynjolfsson, Chandar and Chen (2025). Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence. Stanford Digital Economy Lab working paper (revised 12 August 2026).",
+          "doi": ""
+        }
+      ],
       "cases": [
+        {
+          "id": "commonwealth-bank-voice-bot-job-cuts",
+          "company": "Commonwealth Bank of Australia",
+          "url": "https://www.ai-first.company/evidence/cases/commonwealth-bank-voice-bot-job-cuts/",
+          "relation": "missing"
+        },
         {
           "id": "klarna-ai-marketing",
           "company": "Klarna",
@@ -71,7 +89,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "protect-psychological-safety-during-rollout",
@@ -85,10 +103,15 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Moderate",
-      "flags": [],
+      "flags": [
+        "Contested"
+      ],
       "studies": [
         {
           "id": "ai-adoption-and-psychological-safety",
@@ -107,6 +130,12 @@
           "url": "https://www.ai-first.company/evidence/studies/oecd-ai-surveys-employers-workers/",
           "citation": "Lane, Williams and Broecke (2023). The impact of AI on the workplace: Main findings from the OECD AI surveys of employers and workers. OECD Social, Employment and Migration Working Papers, No. 288.",
           "doi": "10.1787/ea0a0fe1-en"
+        },
+        {
+          "id": "social-penalty-for-using-ai",
+          "url": "https://www.ai-first.company/evidence/studies/social-penalty-for-using-ai/",
+          "citation": "Reif, Larrick and Soll (2025). Evidence of a social evaluation penalty for using AI. Proceedings of the National Academy of Sciences, 122(19), e2426766122.",
+          "doi": "10.1073/pnas.2426766122"
         }
       ],
       "counter_studies": [],
@@ -130,7 +159,69 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "ask-ai-vendors-for-proof",
+      "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
+      "title": "Ask AI vendors for proof before you buy, and test on your own material",
+      "summary": "Do not take an AI vendor’s accuracy figure or “fully compliant” promise on trust. Ask how it was tested and on what, run a small test on your own material, and check the terms on your data and on leaving.",
+      "theme": "Data and tools",
+      "stage": "Explore",
+      "sizes": [
+        "Micro and small (1–49 employees)",
+        "Medium (50–249 employees)",
+        "Mid-market (250–999 employees)",
+        "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
+      ],
+      "priority": "Do first",
+      "effort": "medium (weeks, a few people)",
+      "evidence_level": "Emerging",
+      "flags": [],
+      "studies": [],
+      "counter_studies": [],
+      "cases": [
+        {
+          "id": "accessibe-ai-accessibility-claims",
+          "company": "accessiBe",
+          "url": "https://www.ai-first.company/evidence/cases/accessibe-ai-accessibility-claims/",
+          "relation": "missing"
+        },
+        {
+          "id": "air-ai-ftc-ai-business-opportunity",
+          "company": "Air AI Technologies",
+          "url": "https://www.ai-first.company/evidence/cases/air-ai-ftc-ai-business-opportunity/",
+          "relation": "missing"
+        },
+        {
+          "id": "donotpay-robot-lawyer",
+          "company": "DoNotPay",
+          "url": "https://www.ai-first.company/evidence/cases/donotpay-robot-lawyer/",
+          "relation": "missing"
+        },
+        {
+          "id": "milkforbubs-whatsapp-chatbot",
+          "company": "Milkforbubs",
+          "url": "https://www.ai-first.company/evidence/cases/milkforbubs-whatsapp-chatbot/",
+          "relation": "applied"
+        },
+        {
+          "id": "rite-aid-facial-recognition",
+          "company": "Rite Aid",
+          "url": "https://www.ai-first.company/evidence/cases/rite-aid-facial-recognition/",
+          "relation": "missing"
+        },
+        {
+          "id": "workado-ai-detector-accuracy",
+          "company": "Workado (formerly Content at Scale AI)",
+          "url": "https://www.ai-first.company/evidence/cases/workado-ai-detector-accuracy/",
+          "relation": "missing"
+        }
+      ],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "budget-for-people-and-process",
@@ -143,6 +234,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "low (days, one person)",
@@ -192,6 +286,9 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Emerging",
@@ -204,6 +301,12 @@
           "url": "https://www.ai-first.company/evidence/studies/jagged-frontier/",
           "citation": "Dell’Acqua, McFowland, Mollick, Lifshitz-Assaf, Kellogg, Rajendran, Krayer, Candelon and Lakhani (2026). Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality. Organization Science, 37(2), 403–423.",
           "doi": "10.1287/orsc.2025.21838"
+        },
+        {
+          "id": "ai-triage-in-breast-screening",
+          "url": "https://www.ai-first.company/evidence/studies/ai-triage-in-breast-screening/",
+          "citation": "Hernström, Josefsson, Sartor, Schmidt, Larsson, Hofvind, Andersson, Rosso, Hagberg and Lång (2025). Screening performance and characteristics of breast cancer detected in the Mammography Screening with Artificial Intelligence trial (MASAI): a randomised, controlled, parallel-group, non-inferiority, single-blinded, screening accuracy study. The Lancet Digital Health, 7(3), e175–e183.",
+          "doi": "10.1016/S2589-7500(24)00267-X"
         }
       ],
       "counter_studies": [
@@ -212,6 +315,18 @@
           "url": "https://www.ai-first.company/evidence/studies/human-ai-combinations-meta-analysis/",
           "citation": "Vaccaro, Almaatouq and Malone (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. Nature Human Behaviour, 8(12), 2293–2303.",
           "doi": "10.1038/s41562-024-02024-1"
+        },
+        {
+          "id": "critical-thinking-and-trust-in-ai",
+          "url": "https://www.ai-first.company/evidence/studies/critical-thinking-and-trust-in-ai/",
+          "citation": "Lee, Sarkar, Tankelevitch, Drosos, Rintel, Banks and Wilson (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, Article 1121.",
+          "doi": "10.1145/3706598.3713778"
+        },
+        {
+          "id": "endoscopist-skill-after-ai",
+          "url": "https://www.ai-first.company/evidence/studies/endoscopist-skill-after-ai/",
+          "citation": "Budzyń, Romańczyk, Kitala and colleagues (2025). Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study. The Lancet Gastroenterology & Hepatology, 10(10), 896–903.",
+          "doi": "10.1016/S2468-1253(25)00133-5"
         }
       ],
       "cases": [
@@ -255,6 +370,12 @@
           "id": "eist-ai-quoting",
           "company": "EIST",
           "url": "https://www.ai-first.company/evidence/cases/eist-ai-quoting/",
+          "relation": "applied"
+        },
+        {
+          "id": "garfield-law-ai-law-firm",
+          "company": "Garfield.Law",
+          "url": "https://www.ai-first.company/evidence/cases/garfield-law-ai-law-firm/",
           "relation": "applied"
         },
         {
@@ -330,7 +451,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "train-staff-on-the-tools-you-chose",
@@ -345,6 +466,9 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Emerging",
@@ -355,6 +479,12 @@
           "url": "https://www.ai-first.company/evidence/studies/ai-knowledge-and-delegation/",
           "citation": "Pinski, Adam and Benlian (2023). AI Knowledge: Improving AI Delegation through Human Enablement. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.",
           "doi": "10.1145/3544548.3580794"
+        },
+        {
+          "id": "ai-tutor-without-guardrails",
+          "url": "https://www.ai-first.company/evidence/studies/ai-tutor-without-guardrails/",
+          "citation": "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+          "doi": "10.1073/pnas.2422633122"
         }
       ],
       "counter_studies": [],
@@ -414,60 +544,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
-    },
-    {
-      "id": "ask-ai-vendors-for-proof",
-      "url": "https://www.ai-first.company/practices/ask-ai-vendors-for-proof/",
-      "title": "Ask AI vendors for proof before you buy, and test on your own material",
-      "summary": "Do not take an AI vendor’s accuracy figure or “fully compliant” promise on trust. Ask how it was tested and on what, run a small test on your own material, and check the terms on your data and on leaving.",
-      "theme": "Data and tools",
-      "stage": "Explore",
-      "sizes": [
-        "Micro and small (1–49 employees)",
-        "Medium (50–249 employees)",
-        "Mid-market (250–999 employees)",
-        "Enterprise (1,000+ employees)"
-      ],
-      "priority": "Do first",
-      "effort": "medium (weeks, a few people)",
-      "evidence_level": "Common practice",
-      "flags": [],
-      "studies": [],
-      "counter_studies": [],
-      "cases": [
-        {
-          "id": "accessibe-ai-accessibility-claims",
-          "company": "accessiBe",
-          "url": "https://www.ai-first.company/evidence/cases/accessibe-ai-accessibility-claims/",
-          "relation": "missing"
-        },
-        {
-          "id": "donotpay-robot-lawyer",
-          "company": "DoNotPay",
-          "url": "https://www.ai-first.company/evidence/cases/donotpay-robot-lawyer/",
-          "relation": "missing"
-        },
-        {
-          "id": "milkforbubs-whatsapp-chatbot",
-          "company": "Milkforbubs",
-          "url": "https://www.ai-first.company/evidence/cases/milkforbubs-whatsapp-chatbot/",
-          "relation": "applied"
-        },
-        {
-          "id": "rite-aid-facial-recognition",
-          "company": "Rite Aid",
-          "url": "https://www.ai-first.company/evidence/cases/rite-aid-facial-recognition/",
-          "relation": "missing"
-        },
-        {
-          "id": "workado-ai-detector-accuracy",
-          "company": "Workado (formerly Content at Scale AI)",
-          "url": "https://www.ai-first.company/evidence/cases/workado-ai-detector-accuracy/",
-          "relation": "missing"
-        }
-      ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "budget-for-the-work-ai-creates",
@@ -482,11 +559,21 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "low (days, one person)",
       "evidence_level": "Common practice",
       "flags": [],
-      "studies": [],
+      "studies": [
+        {
+          "id": "critical-thinking-and-trust-in-ai",
+          "url": "https://www.ai-first.company/evidence/studies/critical-thinking-and-trust-in-ai/",
+          "citation": "Lee, Sarkar, Tankelevitch, Drosos, Rintel, Banks and Wilson (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, Article 1121.",
+          "doi": "10.1145/3706598.3713778"
+        }
+      ],
       "counter_studies": [],
       "cases": [
         {
@@ -514,7 +601,7 @@
           "relation": "missing"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "decide-what-data-goes-into-which-ai-tools",
@@ -528,6 +615,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "low (days, one person)",
@@ -555,13 +645,19 @@
           "relation": "applied"
         },
         {
+          "id": "hmrc-copilot-randomised-licences",
+          "company": "HM Revenue & Customs (HMRC)",
+          "url": "https://www.ai-first.company/evidence/cases/hmrc-copilot-randomised-licences/",
+          "relation": "applied"
+        },
+        {
           "id": "nsw-reconstruction-authority-chatgpt-upload",
           "company": "NSW Reconstruction Authority",
           "url": "https://www.ai-first.company/evidence/cases/nsw-reconstruction-authority-chatgpt-upload/",
           "relation": "later"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "know-the-rules-that-apply-to-your-ai-use",
@@ -575,6 +671,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "low (days, one person)",
@@ -614,7 +713,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "measure-time-saved-against-a-baseline",
@@ -628,6 +727,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "low (days, one person)",
@@ -651,6 +753,42 @@
           "url": "https://www.ai-first.company/evidence/studies/chatgpt-writing-experiment/",
           "citation": "Noy and Zhang (2023). Experimental evidence on the productivity effects of generative artificial intelligence. Science, 381(6654), 187–192.",
           "doi": "10.1126/science.adh2586"
+        },
+        {
+          "id": "developers-slower-with-ai",
+          "url": "https://www.ai-first.company/evidence/studies/developers-slower-with-ai/",
+          "citation": "Becker, Rush, Barnes and Rein (METR) (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. METR, published 10 July 2025 (arXiv 2507.09089); follow-up published 24 February 2026.",
+          "doi": ""
+        },
+        {
+          "id": "copilot-field-experiment-66-firms",
+          "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
+          "citation": "Dillon, Jaffe, Immorlica and Stanton (2025). Shifting Work Patterns with Generative AI. NBER Working Paper 33795; arXiv 2504.11436, version 4 (November 2025).",
+          "doi": "10.3386/w33795"
+        },
+        {
+          "id": "endoscopist-skill-after-ai",
+          "url": "https://www.ai-first.company/evidence/studies/endoscopist-skill-after-ai/",
+          "citation": "Budzyń, Romańczyk, Kitala and colleagues (2025). Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study. The Lancet Gastroenterology & Hepatology, 10(10), 896–903.",
+          "doi": "10.1016/S2468-1253(25)00133-5"
+        },
+        {
+          "id": "us-small-employer-firms-ai-survey",
+          "url": "https://www.ai-first.company/evidence/studies/us-small-employer-firms-ai-survey/",
+          "citation": "Federal Reserve Banks (2026). Small Business Credit Survey: 2026 Report on Employer Firms. Federal Reserve Banks, Small Business Credit Survey (published March 2026).",
+          "doi": "10.55350/sbcs-20260303"
+        },
+        {
+          "id": "genai-sales-experiments-online-retail",
+          "url": "https://www.ai-first.company/evidence/studies/genai-sales-experiments-online-retail/",
+          "citation": "Fang, Yuan, Zhang, Donati and Sarvary (2025). Generative AI and Sales Productivity: Field Experiments in Online Retail. arXiv 2510.12049, version 6 (29 June 2026).",
+          "doi": ""
+        },
+        {
+          "id": "firm-data-on-ai-four-countries",
+          "url": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
+          "citation": "Yotzov, Barrero, Bloom, Bunn, Davis, Foster, Jalca, Meyer, Mizen, Navarrete, Smietanka, Thwaites and Wang (2026). Firm Data on AI. NBER Working Paper 34836 (February 2026, revised March 2026).",
+          "doi": "10.3386/w34836"
         }
       ],
       "counter_studies": [],
@@ -660,6 +798,12 @@
           "company": "Ashurst",
           "url": "https://www.ai-first.company/evidence/cases/ashurst-generative-ai-trials/",
           "relation": "applied"
+        },
+        {
+          "id": "commonwealth-bank-voice-bot-job-cuts",
+          "company": "Commonwealth Bank of Australia",
+          "url": "https://www.ai-first.company/evidence/cases/commonwealth-bank-voice-bot-job-cuts/",
+          "relation": "missing"
         },
         {
           "id": "ebay-machine-translation",
@@ -677,6 +821,12 @@
           "id": "hitachi-energy-chip-yield",
           "company": "Hitachi Energy",
           "url": "https://www.ai-first.company/evidence/cases/hitachi-energy-chip-yield/",
+          "relation": "applied"
+        },
+        {
+          "id": "hmrc-copilot-randomised-licences",
+          "company": "HM Revenue & Customs (HMRC)",
+          "url": "https://www.ai-first.company/evidence/cases/hmrc-copilot-randomised-licences/",
           "relation": "applied"
         },
         {
@@ -728,7 +878,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "name-one-accountable-ai-owner",
@@ -741,6 +891,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "low (days, one person)",
@@ -769,7 +922,7 @@
           "relation": "missing"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "start-with-one-costly-process",
@@ -782,6 +935,9 @@
         "Micro and small (1–49 employees)",
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do first",
       "effort": "medium (weeks, a few people)",
@@ -799,6 +955,18 @@
           "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
           "citation": "Humlum and Vestergaard (2025). Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI. NBER Working Paper 33777 (revised March 2026).",
           "doi": "10.3386/w33777"
+        },
+        {
+          "id": "copilot-field-experiment-66-firms",
+          "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
+          "citation": "Dillon, Jaffe, Immorlica and Stanton (2025). Shifting Work Patterns with Generative AI. NBER Working Paper 33795; arXiv 2504.11436, version 4 (November 2025).",
+          "doi": "10.3386/w33795"
+        },
+        {
+          "id": "genai-sales-experiments-online-retail",
+          "url": "https://www.ai-first.company/evidence/studies/genai-sales-experiments-online-retail/",
+          "citation": "Fang, Yuan, Zhang, Donati and Sarvary (2025). Generative AI and Sales Productivity: Field Experiments in Online Retail. arXiv 2510.12049, version 6 (29 June 2026).",
+          "doi": ""
         }
       ],
       "counter_studies": [],
@@ -870,7 +1038,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "start-with-ai-in-software-you-already-pay-for",
@@ -884,17 +1052,45 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "low (days, one person)",
       "evidence_level": "Common practice",
       "flags": [],
-      "studies": [],
+      "studies": [
+        {
+          "id": "copilot-field-experiment-66-firms",
+          "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
+          "citation": "Dillon, Jaffe, Immorlica and Stanton (2025). Shifting Work Patterns with Generative AI. NBER Working Paper 33795; arXiv 2504.11436, version 4 (November 2025).",
+          "doi": "10.3386/w33795"
+        },
+        {
+          "id": "small-business-ai-payments-bank-data",
+          "url": "https://www.ai-first.company/evidence/studies/small-business-ai-payments-bank-data/",
+          "citation": "Wheat, Mac and Passalacqua (JPMorganChase Institute) (2026). Understanding the use of AI among small businesses. JPMorganChase Institute, published 14 April 2026.",
+          "doi": ""
+        },
+        {
+          "id": "genai-sales-experiments-online-retail",
+          "url": "https://www.ai-first.company/evidence/studies/genai-sales-experiments-online-retail/",
+          "citation": "Fang, Yuan, Zhang, Donati and Sarvary (2025). Generative AI and Sales Productivity: Field Experiments in Online Retail. arXiv 2510.12049, version 6 (29 June 2026).",
+          "doi": ""
+        }
+      ],
       "counter_studies": [],
       "cases": [
         {
           "id": "gilberts-chartered-accountants-ai-first-steps",
           "company": "Gilberts Chartered Accountants",
           "url": "https://www.ai-first.company/evidence/cases/gilberts-chartered-accountants-ai-first-steps/",
+          "relation": "applied"
+        },
+        {
+          "id": "hmrc-copilot-randomised-licences",
+          "company": "HM Revenue & Customs (HMRC)",
+          "url": "https://www.ai-first.company/evidence/cases/hmrc-copilot-randomised-licences/",
           "relation": "applied"
         },
         {
@@ -916,7 +1112,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "write-a-short-ai-use-policy",
@@ -931,11 +1127,21 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do first",
       "effort": "low (days, one person)",
       "evidence_level": "Common practice",
       "flags": [],
-      "studies": [],
+      "studies": [
+        {
+          "id": "social-penalty-for-using-ai",
+          "url": "https://www.ai-first.company/evidence/studies/social-penalty-for-using-ai/",
+          "citation": "Reif, Larrick and Soll (2025). Evidence of a social evaluation penalty for using AI. Proceedings of the National Academy of Sciences, 122(19), e2426766122.",
+          "doi": "10.1073/pnas.2426766122"
+        }
+      ],
       "counter_studies": [],
       "cases": [
         {
@@ -969,7 +1175,7 @@
           "relation": "later"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "check-human-plus-ai-by-task-type",
@@ -983,6 +1189,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
@@ -1008,6 +1217,24 @@
           "url": "https://www.ai-first.company/evidence/studies/ai-knowledge-and-delegation/",
           "citation": "Pinski, Adam and Benlian (2023). AI Knowledge: Improving AI Delegation through Human Enablement. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.",
           "doi": "10.1145/3544548.3580794"
+        },
+        {
+          "id": "ai-business-mentor-kenya",
+          "url": "https://www.ai-first.company/evidence/studies/ai-business-mentor-kenya/",
+          "citation": "Otis, Clarke, Delecourt, Holtz and Koning (2026). The Uneven Impact of Generative AI on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya. Management Science (published 10 July 2026).",
+          "doi": "10.1287/mnsc.2024.06909"
+        },
+        {
+          "id": "genai-sales-experiments-online-retail",
+          "url": "https://www.ai-first.company/evidence/studies/genai-sales-experiments-online-retail/",
+          "citation": "Fang, Yuan, Zhang, Donati and Sarvary (2025). Generative AI and Sales Productivity: Field Experiments in Online Retail. arXiv 2510.12049, version 6 (29 June 2026).",
+          "doi": ""
+        },
+        {
+          "id": "ai-scribe-randomised-trial",
+          "url": "https://www.ai-first.company/evidence/studies/ai-scribe-randomised-trial/",
+          "citation": "Lukac, Turner, Vangala, Chin, Khalili, Shih, Sarkisian, Cheng and Mafi (2025). Ambient AI Scribes in Clinical Practice: A Randomized Trial. NEJM AI, 2(12).",
+          "doi": "10.1056/AIoa2501000"
         }
       ],
       "counter_studies": [],
@@ -1049,7 +1276,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "do-not-treat-a-maturity-score-as-a-forecast",
@@ -1062,6 +1289,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "low (days, one person)",
@@ -1098,58 +1328,7 @@
         }
       ],
       "cases": [],
-      "reviewed": "2026-10-13"
-    },
-    {
-      "id": "give-ai-assistance-to-newer-staff-first",
-      "url": "https://www.ai-first.company/practices/give-ai-assistance-to-newer-staff-first/",
-      "title": "Give AI assistance to newer staff first",
-      "summary": "When you roll out an AI assistant for a well-defined task, start with your less experienced people. Studies find they gain the most.",
-      "theme": "People and skills",
-      "stage": "Adopt",
-      "sizes": [
-        "Micro and small (1–49 employees)",
-        "Medium (50–249 employees)",
-        "Mid-market (250–999 employees)",
-        "Enterprise (1,000+ employees)"
-      ],
-      "priority": "Do next",
-      "effort": "low (days, one person)",
-      "evidence_level": "Moderate",
-      "flags": [
-        "Context-dependent"
-      ],
-      "studies": [
-        {
-          "id": "generative-ai-at-work",
-          "url": "https://www.ai-first.company/evidence/studies/generative-ai-at-work/",
-          "citation": "Brynjolfsson, Li and Raymond (2025). Generative AI at Work. The Quarterly Journal of Economics, 140(2), 889–942.",
-          "doi": "10.1093/qje/qjae044"
-        },
-        {
-          "id": "chatgpt-writing-experiment",
-          "url": "https://www.ai-first.company/evidence/studies/chatgpt-writing-experiment/",
-          "citation": "Noy and Zhang (2023). Experimental evidence on the productivity effects of generative artificial intelligence. Science, 381(6654), 187–192.",
-          "doi": "10.1126/science.adh2586"
-        }
-      ],
-      "counter_studies": [
-        {
-          "id": "shadow-learning",
-          "url": "https://www.ai-first.company/evidence/studies/shadow-learning/",
-          "citation": "Beane (2018). Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail. Administrative Science Quarterly, 64(1), 87–123.",
-          "doi": "10.1177/0001839217751692"
-        }
-      ],
-      "cases": [
-        {
-          "id": "ministry-of-clean-ai-crm",
-          "company": "Ministry of Clean",
-          "url": "https://www.ai-first.company/evidence/cases/ministry-of-clean-ai-crm/",
-          "relation": "applied"
-        }
-      ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "make-the-ai-show-what-its-answer-is-based-on",
@@ -1163,6 +1342,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
@@ -1206,7 +1388,88 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "redesign-the-workflow",
+      "url": "https://www.ai-first.company/practices/redesign-the-workflow/",
+      "title": "Redesign the workflow instead of adding a tool to it",
+      "summary": "Giving people an AI tool inside an unchanged process changes little. Decide again who does each step, in what order, and where a person checks.",
+      "theme": "Process redesign",
+      "stage": "Redesign",
+      "sizes": [
+        "Micro and small (1–49 employees)",
+        "Medium (50–249 employees)",
+        "Mid-market (250–999 employees)",
+        "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
+      ],
+      "priority": "Do next",
+      "effort": "high (months, several teams)",
+      "evidence_level": "Moderate",
+      "flags": [],
+      "studies": [
+        {
+          "id": "state-of-ai-2025-survey",
+          "url": "https://www.ai-first.company/evidence/studies/state-of-ai-2025-survey/",
+          "citation": "McKinsey & Company (2025). The State of AI: Global Survey 2025. McKinsey Global Survey, published 5 November 2025.",
+          "doi": ""
+        },
+        {
+          "id": "suitability-for-machine-learning",
+          "url": "https://www.ai-first.company/evidence/studies/suitability-for-machine-learning/",
+          "citation": "Brynjolfsson, Mitchell and Rock (2018). What Can Machines Learn and What Does It Mean for Occupations and the Economy?. AEA Papers and Proceedings, 108, 43–47.",
+          "doi": "10.1257/pandp.20181019"
+        },
+        {
+          "id": "chatbots-and-the-labour-market-denmark",
+          "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
+          "citation": "Humlum and Vestergaard (2025). Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI. NBER Working Paper 33777 (revised March 2026).",
+          "doi": "10.3386/w33777"
+        },
+        {
+          "id": "copilot-field-experiment-66-firms",
+          "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
+          "citation": "Dillon, Jaffe, Immorlica and Stanton (2025). Shifting Work Patterns with Generative AI. NBER Working Paper 33795; arXiv 2504.11436, version 4 (November 2025).",
+          "doi": "10.3386/w33795"
+        },
+        {
+          "id": "ai-triage-in-breast-screening",
+          "url": "https://www.ai-first.company/evidence/studies/ai-triage-in-breast-screening/",
+          "citation": "Hernström, Josefsson, Sartor, Schmidt, Larsson, Hofvind, Andersson, Rosso, Hagberg and Lång (2025). Screening performance and characteristics of breast cancer detected in the Mammography Screening with Artificial Intelligence trial (MASAI): a randomised, controlled, parallel-group, non-inferiority, single-blinded, screening accuracy study. The Lancet Digital Health, 7(3), e175–e183.",
+          "doi": "10.1016/S2589-7500(24)00267-X"
+        },
+        {
+          "id": "small-business-ai-adoption-and-hiring",
+          "url": "https://www.ai-first.company/evidence/studies/small-business-ai-adoption-and-hiring/",
+          "citation": "Tremper and Bowen (Gusto) (2026). Small Businesses that Adopted AI Are Hiring Faster. Gusto Insights, September 2026.",
+          "doi": ""
+        }
+      ],
+      "counter_studies": [],
+      "cases": [
+        {
+          "id": "duolingo-ai-course-content",
+          "company": "Duolingo",
+          "url": "https://www.ai-first.company/evidence/cases/duolingo-ai-course-content/",
+          "relation": "applied"
+        },
+        {
+          "id": "sam-retirement-advisory-ai-agents",
+          "company": "SAM",
+          "url": "https://www.ai-first.company/evidence/cases/sam-retirement-advisory-ai-agents/",
+          "relation": "applied"
+        },
+        {
+          "id": "temple-and-webster-ai-customer-care",
+          "company": "Temple & Webster",
+          "url": "https://www.ai-first.company/evidence/cases/temple-and-webster-ai-customer-care/",
+          "relation": "applied"
+        }
+      ],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "test-ai-knowledge-not-self-ratings",
@@ -1219,6 +1482,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
@@ -1273,6 +1539,9 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Emerging",
@@ -1301,11 +1570,23 @@
           "url": "https://www.ai-first.company/evidence/studies/individual-adoption-vs-organisational-maturity/",
           "citation": "Wojewodzic (2026). AI Transformation in Polish Organisations: The Gap Between Individual Adoption and Organisational Maturity. e-mentor, 2(114), 75–83.",
           "doi": "10.15219/em114.1752"
+        },
+        {
+          "id": "ai-in-the-mittelstand-kfw",
+          "url": "https://www.ai-first.company/evidence/studies/ai-in-the-mittelstand-kfw/",
+          "citation": "Zimmermann (KfW Research) (2026). Einsatz von Künstlicher Intelligenz vor allem in Unternehmen mit hohen Innovations- und Digitalisierungsaktivitäten. KfW Research, Fokus Volkswirtschaft No. 533 (11 February 2026), with No. 554 (29 July 2026).",
+          "doi": ""
+        },
+        {
+          "id": "euro-area-firms-ai-use-by-size",
+          "url": "https://www.ai-first.company/evidence/studies/euro-area-firms-ai-use-by-size/",
+          "citation": "Ferrando, Lamboglia, Rariga and Schmidt (2026). Adoption and investment in AI across the euro area: Insights from harmonised firm-level data. European Central Bank, Occasional Paper Series No 395.",
+          "doi": "10.2866/6856108"
         }
       ],
       "counter_studies": [],
       "cases": [],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "claim-only-what-your-ai-has-been-tested-to-do",
@@ -1319,6 +1600,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "low (days, one person)",
@@ -1334,6 +1618,12 @@
           "relation": "missing"
         },
         {
+          "id": "air-ai-ftc-ai-business-opportunity",
+          "company": "Air AI Technologies",
+          "url": "https://www.ai-first.company/evidence/cases/air-ai-ftc-ai-business-opportunity/",
+          "relation": "missing"
+        },
+        {
           "id": "delphia-global-predictions-ai-claims",
           "company": "Delphia (USA) and Global Predictions",
           "url": "https://www.ai-first.company/evidence/cases/delphia-global-predictions-ai-claims/",
@@ -1346,13 +1636,92 @@
           "relation": "missing"
         },
         {
+          "id": "presto-automation-sec-ai-ordering",
+          "company": "Presto Automation",
+          "url": "https://www.ai-first.company/evidence/cases/presto-automation-sec-ai-ordering/",
+          "relation": "missing"
+        },
+        {
           "id": "workado-ai-detector-accuracy",
           "company": "Workado (formerly Content at Scale AI)",
           "url": "https://www.ai-first.company/evidence/cases/workado-ai-detector-accuracy/",
           "relation": "missing"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "give-ai-assistance-to-newer-staff-first",
+      "url": "https://www.ai-first.company/practices/give-ai-assistance-to-newer-staff-first/",
+      "title": "Give AI assistance to newer staff first",
+      "summary": "When you roll out an AI assistant for a well-defined task, start with your less experienced people. Studies find they gain the most.",
+      "theme": "People and skills",
+      "stage": "Adopt",
+      "sizes": [
+        "Micro and small (1–49 employees)",
+        "Medium (50–249 employees)",
+        "Mid-market (250–999 employees)",
+        "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
+      ],
+      "priority": "Do next",
+      "effort": "low (days, one person)",
+      "evidence_level": "Emerging",
+      "flags": [
+        "Contested",
+        "Context-dependent"
+      ],
+      "studies": [
+        {
+          "id": "generative-ai-at-work",
+          "url": "https://www.ai-first.company/evidence/studies/generative-ai-at-work/",
+          "citation": "Brynjolfsson, Li and Raymond (2025). Generative AI at Work. The Quarterly Journal of Economics, 140(2), 889–942.",
+          "doi": "10.1093/qje/qjae044"
+        },
+        {
+          "id": "chatgpt-writing-experiment",
+          "url": "https://www.ai-first.company/evidence/studies/chatgpt-writing-experiment/",
+          "citation": "Noy and Zhang (2023). Experimental evidence on the productivity effects of generative artificial intelligence. Science, 381(6654), 187–192.",
+          "doi": "10.1126/science.adh2586"
+        }
+      ],
+      "counter_studies": [
+        {
+          "id": "shadow-learning",
+          "url": "https://www.ai-first.company/evidence/studies/shadow-learning/",
+          "citation": "Beane (2018). Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail. Administrative Science Quarterly, 64(1), 87–123.",
+          "doi": "10.1177/0001839217751692"
+        },
+        {
+          "id": "who-captures-ai-coding-gains",
+          "url": "https://www.ai-first.company/evidence/studies/who-captures-ai-coding-gains/",
+          "citation": "Daniotti, Wachs, Feng and Neffke (2026). Who is using AI to code? Global diffusion and impact of generative AI. Science, 391(6787), 831–835.",
+          "doi": "10.1126/science.adz9311"
+        },
+        {
+          "id": "ai-business-mentor-kenya",
+          "url": "https://www.ai-first.company/evidence/studies/ai-business-mentor-kenya/",
+          "citation": "Otis, Clarke, Delecourt, Holtz and Koning (2026). The Uneven Impact of Generative AI on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya. Management Science (published 10 July 2026).",
+          "doi": "10.1287/mnsc.2024.06909"
+        },
+        {
+          "id": "ai-tutor-without-guardrails",
+          "url": "https://www.ai-first.company/evidence/studies/ai-tutor-without-guardrails/",
+          "citation": "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+          "doi": "10.1073/pnas.2422633122"
+        }
+      ],
+      "cases": [
+        {
+          "id": "ministry-of-clean-ai-crm",
+          "company": "Ministry of Clean",
+          "url": "https://www.ai-first.company/evidence/cases/ministry-of-clean-ai-crm/",
+          "relation": "applied"
+        }
+      ],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "measure-readiness-and-resistance-separately",
@@ -1365,6 +1734,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
@@ -1407,6 +1779,9 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Emerging",
@@ -1445,67 +1820,7 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
-    },
-    {
-      "id": "redesign-the-workflow",
-      "url": "https://www.ai-first.company/practices/redesign-the-workflow/",
-      "title": "Redesign the workflow instead of adding a tool to it",
-      "summary": "Giving people an AI tool inside an unchanged process changes little. Decide again who does each step, in what order, and where a person checks.",
-      "theme": "Process redesign",
-      "stage": "Redesign",
-      "sizes": [
-        "Micro and small (1–49 employees)",
-        "Medium (50–249 employees)",
-        "Mid-market (250–999 employees)",
-        "Enterprise (1,000+ employees)"
-      ],
-      "priority": "Do next",
-      "effort": "high (months, several teams)",
-      "evidence_level": "Emerging",
-      "flags": [],
-      "studies": [
-        {
-          "id": "state-of-ai-2025-survey",
-          "url": "https://www.ai-first.company/evidence/studies/state-of-ai-2025-survey/",
-          "citation": "McKinsey & Company (2025). The State of AI: Global Survey 2025. McKinsey Global Survey, published 5 November 2025.",
-          "doi": ""
-        },
-        {
-          "id": "suitability-for-machine-learning",
-          "url": "https://www.ai-first.company/evidence/studies/suitability-for-machine-learning/",
-          "citation": "Brynjolfsson, Mitchell and Rock (2018). What Can Machines Learn and What Does It Mean for Occupations and the Economy?. AEA Papers and Proceedings, 108, 43–47.",
-          "doi": "10.1257/pandp.20181019"
-        },
-        {
-          "id": "chatbots-and-the-labour-market-denmark",
-          "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
-          "citation": "Humlum and Vestergaard (2025). Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI. NBER Working Paper 33777 (revised March 2026).",
-          "doi": "10.3386/w33777"
-        }
-      ],
-      "counter_studies": [],
-      "cases": [
-        {
-          "id": "duolingo-ai-course-content",
-          "company": "Duolingo",
-          "url": "https://www.ai-first.company/evidence/cases/duolingo-ai-course-content/",
-          "relation": "applied"
-        },
-        {
-          "id": "sam-retirement-advisory-ai-agents",
-          "company": "SAM",
-          "url": "https://www.ai-first.company/evidence/cases/sam-retirement-advisory-ai-agents/",
-          "relation": "applied"
-        },
-        {
-          "id": "temple-and-webster-ai-customer-care",
-          "company": "Temple & Webster",
-          "url": "https://www.ai-first.company/evidence/cases/temple-and-webster-ai-customer-care/",
-          "relation": "applied"
-        }
-      ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "correct-ai-mistakes-fast-and-in-the-open",
@@ -1519,6 +1834,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do next",
       "effort": "low (days, one person)",
@@ -1540,6 +1858,12 @@
           "relation": "applied"
         },
         {
+          "id": "commonwealth-bank-voice-bot-job-cuts",
+          "company": "Commonwealth Bank of Australia",
+          "url": "https://www.ai-first.company/evidence/cases/commonwealth-bank-voice-bot-job-cuts/",
+          "relation": "later"
+        },
+        {
           "id": "deloitte-australia-report-corrections",
           "company": "Deloitte (Australia)",
           "url": "https://www.ai-first.company/evidence/cases/deloitte-australia-report-corrections/",
@@ -1558,13 +1882,49 @@
           "relation": "applied"
         },
         {
+          "id": "presto-automation-sec-ai-ordering",
+          "company": "Presto Automation",
+          "url": "https://www.ai-first.company/evidence/cases/presto-automation-sec-ai-ordering/",
+          "relation": "missing"
+        },
+        {
           "id": "primus-solicitors-fake-citations",
           "company": "Primus Solicitors",
           "url": "https://www.ai-first.company/evidence/cases/primus-solicitors-fake-citations/",
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "check-ai-advice-before-you-act-on-it",
+      "url": "https://www.ai-first.company/practices/check-ai-advice-before-you-act-on-it/",
+      "title": "Check AI advice on money, tax and law before you act on it",
+      "summary": "When you use an AI tool as an adviser, check its advice on money, tax and law against a reliable source or a professional before you act. In a small firm, nobody else will catch a wrong answer.",
+      "theme": "Governance and risk",
+      "stage": "Adopt",
+      "sizes": [
+        "Micro and small (1–49 employees)",
+        "Medium (50–249 employees)"
+      ],
+      "industries": [
+        "All industries"
+      ],
+      "priority": "Do next",
+      "effort": "low (days, one person)",
+      "evidence_level": "Common practice",
+      "flags": [],
+      "studies": [
+        {
+          "id": "ai-business-mentor-kenya",
+          "url": "https://www.ai-first.company/evidence/studies/ai-business-mentor-kenya/",
+          "citation": "Otis, Clarke, Delecourt, Holtz and Koning (2026). The Uneven Impact of Generative AI on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya. Management Science (published 10 July 2026).",
+          "doi": "10.1287/mnsc.2024.06909"
+        }
+      ],
+      "counter_studies": [],
+      "cases": [],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "run-two-tracks-automate-and-augment",
@@ -1578,14 +1938,24 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do next",
       "effort": "medium (weeks, a few people)",
       "evidence_level": "Common practice",
       "flags": [],
-      "studies": [],
+      "studies": [
+        {
+          "id": "us-census-ai-use-by-firms",
+          "url": "https://www.ai-first.company/evidence/studies/us-census-ai-use-by-firms/",
+          "citation": "Bonney, Breaux, Dinlersoz, Foster, Haltiwanger and Pande (2026). The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks. US Census Bureau, Center for Economic Studies Working Paper CES-WP-26-25 (April 2026).",
+          "doi": ""
+        }
+      ],
       "counter_studies": [],
       "cases": [],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     },
     {
       "id": "set-the-limits-before-the-tool-acts",
@@ -1600,6 +1970,9 @@
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
       ],
+      "industries": [
+        "All industries"
+      ],
       "priority": "Do next",
       "effort": "low (days, one person)",
       "evidence_level": "Common practice",
@@ -1607,6 +1980,12 @@
       "studies": [],
       "counter_studies": [],
       "cases": [
+        {
+          "id": "garfield-law-ai-law-firm",
+          "company": "Garfield.Law",
+          "url": "https://www.ai-first.company/evidence/cases/garfield-law-ai-law-firm/",
+          "relation": "applied"
+        },
         {
           "id": "psg-global-solutions-ai-interviews",
           "company": "PSG Global Solutions",
@@ -1626,7 +2005,57 @@
           "relation": "applied"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
+    },
+    {
+      "id": "check-what-staff-can-still-do-without-the-tool",
+      "url": "https://www.ai-first.company/practices/check-what-staff-can-still-do-without-the-tool/",
+      "title": "Check now and then what staff can do without the AI",
+      "summary": "On a sample of cases, have people do the work without the AI and compare the result with their usual work. Start with the people who check AI output and the people still learning the job, and set the tools that learners use to give hints, not answers.",
+      "theme": "People and skills",
+      "stage": "Run",
+      "sizes": [
+        "Micro and small (1–49 employees)",
+        "Medium (50–249 employees)",
+        "Mid-market (250–999 employees)",
+        "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
+      ],
+      "priority": "Do later",
+      "effort": "medium (weeks, a few people)",
+      "evidence_level": "Emerging",
+      "flags": [],
+      "studies": [
+        {
+          "id": "endoscopist-skill-after-ai",
+          "url": "https://www.ai-first.company/evidence/studies/endoscopist-skill-after-ai/",
+          "citation": "Budzyń, Romańczyk, Kitala and colleagues (2025). Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study. The Lancet Gastroenterology & Hepatology, 10(10), 896–903.",
+          "doi": "10.1016/S2468-1253(25)00133-5"
+        },
+        {
+          "id": "ai-tutor-without-guardrails",
+          "url": "https://www.ai-first.company/evidence/studies/ai-tutor-without-guardrails/",
+          "citation": "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+          "doi": "10.1073/pnas.2422633122"
+        },
+        {
+          "id": "vicious-circles-of-skill-erosion",
+          "url": "https://www.ai-first.company/evidence/studies/vicious-circles-of-skill-erosion/",
+          "citation": "Rinta-Kahila, Penttinen, Salovaara, Soliman and Ruissalo (2023). The Vicious Circles of Skill Erosion: A Case Study of Cognitive Automation. Journal of the Association for Information Systems, 24(5), 1378–1412.",
+          "doi": "10.17705/1jais.00829"
+        },
+        {
+          "id": "shadow-learning",
+          "url": "https://www.ai-first.company/evidence/studies/shadow-learning/",
+          "citation": "Beane (2018). Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail. Administrative Science Quarterly, 64(1), 87–123.",
+          "doi": "10.1177/0001839217751692"
+        }
+      ],
+      "counter_studies": [],
+      "cases": [],
+      "reviewed": "2026-10-17"
     },
     {
       "id": "keep-entry-level-learning-tasks",
@@ -1640,6 +2069,9 @@
         "Medium (50–249 employees)",
         "Mid-market (250–999 employees)",
         "Enterprise (1,000+ employees)"
+      ],
+      "industries": [
+        "All industries"
       ],
       "priority": "Do later",
       "effort": "medium (weeks, a few people)",
@@ -1661,10 +2093,52 @@
           "doi": "10.17705/1jais.00829"
         },
         {
+          "id": "endoscopist-skill-after-ai",
+          "url": "https://www.ai-first.company/evidence/studies/endoscopist-skill-after-ai/",
+          "citation": "Budzyń, Romańczyk, Kitala and colleagues (2025). Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study. The Lancet Gastroenterology & Hepatology, 10(10), 896–903.",
+          "doi": "10.1016/S2468-1253(25)00133-5"
+        },
+        {
+          "id": "ai-tutor-without-guardrails",
+          "url": "https://www.ai-first.company/evidence/studies/ai-tutor-without-guardrails/",
+          "citation": "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+          "doi": "10.1073/pnas.2422633122"
+        },
+        {
           "id": "ai-exposure-and-occupational-mobility",
           "url": "https://www.ai-first.company/evidence/studies/ai-exposure-and-occupational-mobility/",
           "citation": "Cazzaniga, Pizzinelli, Rockall and Tavares (2025). Exposure to Artificial Intelligence and Occupational Mobility: A Cross-Country Analysis. Economía, 24(1), 314–339.",
           "doi": "10.31389/eco.451"
+        },
+        {
+          "id": "young-workers-in-ai-exposed-jobs",
+          "url": "https://www.ai-first.company/evidence/studies/young-workers-in-ai-exposed-jobs/",
+          "citation": "Brynjolfsson, Chandar and Chen (2025). Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence. Stanford Digital Economy Lab working paper (revised 12 August 2026).",
+          "doi": ""
+        },
+        {
+          "id": "genai-adopters-and-junior-hiring",
+          "url": "https://www.ai-first.company/evidence/studies/genai-adopters-and-junior-hiring/",
+          "citation": "Hosseini and Lichtinger (2025). Generative AI as Seniority-Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data. SSRN working paper 5425555 (version of 6 May 2026).",
+          "doi": "10.2139/ssrn.5425555"
+        },
+        {
+          "id": "genai-and-startup-employment",
+          "url": "https://www.ai-first.company/evidence/studies/genai-and-startup-employment/",
+          "citation": "Gupta, Qian, Simintzi and Sun (2026). Generative AI and Entrepreneurship. NBER conference paper, version of 14 April 2026.",
+          "doi": ""
+        },
+        {
+          "id": "freelance-demand-after-chatgpt",
+          "url": "https://www.ai-first.company/evidence/studies/freelance-demand-after-chatgpt/",
+          "citation": "Teutloff, Einsiedler, Kässi, Braesemann, Mishkin and del Rio-Chanona (2025). Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand. Journal of Economic Behavior & Organization, 235, 106845.",
+          "doi": "10.1016/j.jebo.2024.106845"
+        },
+        {
+          "id": "freelance-postings-after-chatgpt",
+          "url": "https://www.ai-first.company/evidence/studies/freelance-postings-after-chatgpt/",
+          "citation": "Demirci, Hannane and Zhu (2025). Who Is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms. Management Science, 71(10), 8097–8108.",
+          "doi": "10.1287/mnsc.2024.05420"
         }
       ],
       "counter_studies": [
@@ -1676,7 +2150,7 @@
         }
       ],
       "cases": [],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-10-17"
     }
   ]
 }
