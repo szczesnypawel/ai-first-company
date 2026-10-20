@@ -205,7 +205,7 @@
       "business": "Law firm",
       "country": "United States (federal court in Alabama)",
       "period": "May – July 2025",
-      "size": "",
+      "size": "Mid-market (250–999 employees)",
       "industries": [
         "Professional services"
       ],
@@ -352,7 +352,7 @@
       "business": "Investment advisers",
       "country": "United States (the firms are based in Toronto and San Francisco)",
       "period": "Statements made 2019–2023, settled March 2024",
-      "size": "",
+      "size": "Micro and small (1–49 employees)",
       "industries": [],
       "outcome": "Went wrong",
       "figures_from": "Official record",
@@ -630,7 +630,7 @@
       "business": "Law firm that uses AI to help businesses recover unpaid debts through the small-claims court",
       "country": "United Kingdom (England and Wales)",
       "period": "Authorised May 2025; first trial reported June 2026",
-      "size": "",
+      "size": "Micro and small (1–49 employees)",
       "industries": [
         "Professional services"
       ],
@@ -671,7 +671,7 @@
       "business": "Audit and accountancy firm",
       "country": "United Kingdom",
       "period": "Published July 2025",
-      "size": "",
+      "size": "Micro and small (1–49 employees)",
       "industries": [
         "Professional services"
       ],
@@ -726,7 +726,7 @@
       "business": "Family-owned maker of welded steel and sheet-metal constructions, mostly one-off",
       "country": "Germany",
       "period": "Published March 2026",
-      "size": "",
+      "size": "Medium (50–249 employees)",
       "industries": [
         "Manufacturing"
       ],
@@ -1236,7 +1236,7 @@
       "business": "State government agency for disaster recovery",
       "country": "Australia (New South Wales)",
       "period": "March 2025 – March 2026",
-      "size": "",
+      "size": "Mid-market (250–999 employees)",
       "industries": [],
       "outcome": "Went wrong",
       "figures_from": "Official record",
@@ -1277,7 +1277,7 @@
       "business": "Restaurant technology company",
       "country": "United States",
       "period": "Statements made November 2021 – May 2023, order January 2025",
-      "size": "",
+      "size": "Medium (50–249 employees)",
       "industries": [
         "E-commerce and retail"
       ],
@@ -1390,7 +1390,7 @@
       "business": "Recruitment outsourcing firm, part of Teleperformance",
       "country": "Philippines",
       "period": "Study completed June 2025",
-      "size": "",
+      "size": "Enterprise (1,000+ employees)",
       "industries": [],
       "outcome": "Measured result",
       "figures_from": "Measured by researchers",
@@ -1492,7 +1492,7 @@
       "business": "Online retailer selling designer clothing and accessories in short sales events",
       "country": "United States",
       "period": "January – May 2014, published 2016",
-      "size": "",
+      "size": "Mid-market (250–999 employees)",
       "industries": [
         "E-commerce and retail"
       ],
@@ -1641,7 +1641,7 @@
       "sources": [
         {
           "label": "Senoner, Schallmoser, Kratzwald, Feuerriegel and Netland (2024). Explainable AI improves task performance in human–AI collaboration. Scientific Reports, 14, 31150.",
-          "url": "https://www.nature.com/articles/s41598-024-82501-9"
+          "url": "https://doi.org/10.1038/s41598-024-82501-9"
         }
       ],
       "reviewed": "2026-10-13"

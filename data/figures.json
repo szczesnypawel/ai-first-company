@@ -9,7 +9,7 @@
   "rows": [
     {
       "id": "acemoglu-share-exposed",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-share-exposed",
       "claim": "About 20% of US work tasks, weighted by wages, are exposed to AI in Acemoglu's calculation.",
       "value": 20,
       "low": null,
@@ -28,7 +28,7 @@
     },
     {
       "id": "acemoglu-share-worth-automating",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-share-worth-automating",
       "claim": "Acemoglu assumes that 23% of exposed tasks are worth automating within ten years, a figure he borrows from a study of computer-vision tasks.",
       "value": 23,
       "low": null,
@@ -47,7 +47,7 @@
     },
     {
       "id": "svanberg-23-percent-cost-effective",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-svanberg-23-percent-cost-effective",
       "claim": "A cost model of computer-vision tasks found that only 23% of the exposed wages were worth automating at the firm level, because of large up-front costs.",
       "value": 23,
       "low": null,
@@ -66,7 +66,7 @@
     },
     {
       "id": "acemoglu-share-impacted",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-share-impacted",
       "claim": "Multiplying the two shares, Acemoglu puts the part of the economy that AI will actually change within ten years at 4.6%.",
       "value": 4.6,
       "low": null,
@@ -85,7 +85,7 @@
     },
     {
       "id": "acemoglu-labour-cost-saving",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-labour-cost-saving",
       "claim": "On tasks where AI is used, Acemoglu takes the labour-cost saving to be 27%, the average of two experiments.",
       "value": 27,
       "low": null,
@@ -104,7 +104,7 @@
     },
     {
       "id": "acemoglu-overall-cost-saving",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-overall-cost-saving",
       "claim": "Because labour is only part of the cost of a task, Acemoglu converts the 27% labour saving into a 14.4% saving on total cost.",
       "value": 14.4,
       "low": null,
@@ -123,7 +123,7 @@
     },
     {
       "id": "acemoglu-tfp-10-years",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-tfp-10-years",
       "claim": "Acemoglu's headline result: AI raises US productivity by no more than about 0.66% in total over ten years.",
       "value": 0.66,
       "low": null,
@@ -142,7 +142,7 @@
     },
     {
       "id": "acemoglu-hard-tasks-adjustment",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-hard-tasks-adjustment",
       "claim": "For 'hard-to-learn' tasks, where there is no clear right answer to learn from, Acemoglu assumes a 7% labour saving in place of 27%, which lowers his ten-year productivity estimate to about 0.53%.",
       "value": 0.53,
       "low": null,
@@ -180,7 +180,7 @@
     },
     {
       "id": "acemoglu-gdp-10-years",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-gdp-10-years",
       "claim": "In GDP terms Acemoglu's estimate is roughly 0.9% to 1.2% in total over ten years.",
       "value": null,
       "low": 0.93,
@@ -199,7 +199,7 @@
     },
     {
       "id": "acemoglu-caveat-adjustment-costs",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-acemoglu-caveat-adjustment-costs",
       "claim": "Acemoglu notes that his figures ignore the cost and delay of reorganizing work, so even his small estimate may be too high for the first ten years.",
       "value": null,
       "low": null,
@@ -218,7 +218,7 @@
     },
     {
       "id": "goldman-sachs-7-percent",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-goldman-sachs-7-percent",
       "claim": "Goldman Sachs Research forecast that generative AI could raise global GDP by 7% and productivity growth by 1.5 percentage points a year over ten years.",
       "value": 7,
       "low": null,
@@ -237,7 +237,7 @@
     },
     {
       "id": "mckinsey-genai-productivity",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-mckinsey-genai-productivity",
       "claim": "McKinsey Global Institute estimated that generative AI could add 0.1 to 0.6 percentage points a year to labour productivity growth through 2040.",
       "value": null,
       "low": 0.1,
@@ -256,7 +256,7 @@
     },
     {
       "id": "mckinsey-genai-value",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-mckinsey-genai-value",
       "claim": "The same McKinsey report put the value of 63 generative-AI use cases at $2.6 trillion to $4.4 trillion a year.",
       "value": null,
       "low": 2.6,
@@ -275,7 +275,7 @@
     },
     {
       "id": "aghion-bunel-068",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-aghion-bunel-068",
       "claim": "Aghion and Bunel reran Acemoglu's formula with their own reading of the evidence and got 0.68 percentage points of extra productivity growth a year, about ten times his figure.",
       "value": 0.68,
       "low": 0.07,
@@ -294,7 +294,7 @@
     },
     {
       "id": "oecd-miracle-or-myth",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-oecd-miracle-or-myth",
       "claim": "An OECD paper estimates that AI adds 0.25 to 0.6 percentage points a year to productivity growth over ten years.",
       "value": null,
       "low": 0.25,
@@ -313,7 +313,7 @@
     },
     {
       "id": "imf-40-percent-exposed",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-imf-40-percent-exposed",
       "claim": "The IMF's headline figure is about exposure, not growth: almost 40% of jobs worldwide, and about 60% in advanced economies, are exposed to AI.",
       "value": 40,
       "low": null,
@@ -332,7 +332,7 @@
     },
     {
       "id": "noy-zhang-writing-40",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/chatgpt-writing-experiment/",
       "claim": "In an experiment on short professional writing tasks, ChatGPT cut the time taken by 40% and raised quality by 18%.",
       "value": 40,
       "low": null,
@@ -351,7 +351,7 @@
     },
     {
       "id": "brynjolfsson-support-15",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/generative-ai-at-work/",
       "claim": "In a large customer-support operation, agents given an AI assistant resolved 15% more issues per hour on average.",
       "value": 15,
       "low": null,
@@ -370,7 +370,7 @@
     },
     {
       "id": "jagged-frontier-inside-outside",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/jagged-frontier/",
       "claim": "Consultants using GPT-4 did 12.2% more tasks 25.1% faster on work the AI does well, and were 19 percentage points less likely to be right on a task the AI could not do well.",
       "value": 12.2,
       "low": null,
@@ -389,7 +389,7 @@
     },
     {
       "id": "cui-developers-26",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-cui-developers-26",
       "claim": "Across three company-run randomised trials, developers given an AI coding assistant completed about 26% more tasks.",
       "value": 26.08,
       "low": null,
@@ -408,7 +408,7 @@
     },
     {
       "id": "metr-slowdown-19",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-metr-slowdown-19",
       "claim": "In a randomised trial, experienced open-source developers took 19% longer on their own real tasks when allowed to use AI tools.",
       "value": -19,
       "low": null,
@@ -427,7 +427,7 @@
     },
     {
       "id": "metr-2026-update",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-metr-2026-update",
       "claim": "METR's follow-up found smaller slowdowns and says its own new data are unreliable, because developers no longer want to do tasks without AI.",
       "value": null,
       "low": -18,
@@ -446,7 +446,7 @@
     },
     {
       "id": "humlum-time-saved-2-8",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
       "claim": "Across a whole labour market, chatbot users reported saving 2.8% of their working hours on average.",
       "value": 2.8,
       "low": null,
@@ -465,7 +465,7 @@
     },
     {
       "id": "stlouisfed-time-saved",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-stlouisfed-time-saved",
       "claim": "In a US national survey, generative-AI users said it saved them 5.4% of their work hours; across all workers that is 1.4%.",
       "value": 1.4,
       "low": null,
@@ -484,7 +484,7 @@
     },
     {
       "id": "uk-government-copilot-26-minutes",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/uk-copilot-26-minutes-a-day/",
       "claim": "In the UK government's Copilot trial, users reported saving 26 minutes a day on average.",
       "value": 26,
       "low": null,
@@ -498,12 +498,12 @@
       "source_url": "https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report/microsoft-365-copilot-experiment-cross-government-findings-report-html",
       "quote": "Users reported an average of 26 minutes saved per day. However, due to experimental constraints it was not possible to identify how time saved was spent.",
       "caveat": "Self-reported, and the report itself says it could not find out what happened to the time.",
-      "study": "https://www.ai-first.company/evidence/studies/uk-department-for-business-and-trade-copilot-pilot/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "dillon-copilot-email-2-hours",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
       "claim": "In a randomised trial across 66 firms, workers who used an AI assistant in their office software spent two fewer hours a week on email.",
       "value": 2,
       "low": null,
@@ -517,12 +517,12 @@
       "source_url": "https://www.nber.org/system/files/working_papers/w33795/w33795.pdf",
       "quote": "the 80% of treated workers who used this tool spent two fewer hours on email each week and reduced their time working outside of regular hours.",
       "caveat": "Measured, not self-reported, and in a broad rollout: evidence that broad deployment can free real time. The tool is Microsoft's and so are three of the authors.",
-      "study": "",
+      "study": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
       "reviewed": "2026-10-13"
     },
     {
       "id": "dillon-no-task-shift",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
       "claim": "The same trial found no change in how much work people did or what kind: the time saved did not show up as more output.",
       "value": null,
       "low": null,
@@ -536,12 +536,12 @@
       "source_url": "https://www.nber.org/system/files/working_papers/w33795/w33795.pdf",
       "quote": "Apart from these individual time savings, we do not detect shifts in the quantity or composition of workers’ tasks resulting from individual-level AI provision.",
       "caveat": "The tool was given to individuals; the authors' point is that task changes need coordination across people, which the experiment did not provide.",
-      "study": "",
+      "study": "https://www.ai-first.company/evidence/studies/copilot-field-experiment-66-firms/",
       "reviewed": "2026-10-13"
     },
     {
       "id": "humlum-earnings-hours-null",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
       "claim": "Two years after ChatGPT appeared, a Danish study linking surveys to pay records found no effect on earnings or recorded hours, and rules out effects above 2%.",
       "value": 2,
       "low": null,
@@ -560,7 +560,7 @@
     },
     {
       "id": "humlum-pass-through-3-7",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
       "claim": "In the Danish study, only 3% to 7% of workers' reported time savings showed up as higher earnings.",
       "value": null,
       "low": 3,
@@ -579,7 +579,7 @@
     },
     {
       "id": "humlum-what-freed-time-went-to",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-humlum-what-freed-time-went-to",
       "claim": "Asked what they did with time saved by chatbots, 80% of Danish users said other job tasks, fewer than 10% said breaks or leisure, and 25% said more of the same task.",
       "value": 80,
       "low": null,
@@ -598,7 +598,7 @@
     },
     {
       "id": "humlum-encouragement-doubles-adoption",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-humlum-encouragement-doubles-adoption",
       "claim": "Where Danish employers encouraged chatbot use, the share of workers using chatbots nearly doubled, from 47% to 83%, and reported time savings were larger.",
       "value": null,
       "low": 47,
@@ -617,7 +617,7 @@
     },
     {
       "id": "firm-data-on-ai-no-impact",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "claim": "In a survey of nearly 6,000 executives in four countries, 89% said AI had had no effect on their firm's labour productivity over the past three years.",
       "value": 89,
       "low": null,
@@ -631,12 +631,12 @@
       "source_url": "https://www.nber.org/system/files/working_papers/w34836/w34836.pdf",
       "quote": "More than 90% report no impact of AI on own-firm employment over the past three years, and 89% report no impact on labor productivity (sales per employee).",
       "caveat": "Executives' own judgement, not measured productivity; 69% of the same firms use AI.",
-      "study": "",
+      "study": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "reviewed": "2026-10-13"
     },
     {
       "id": "firm-data-on-ai-expected-1-4",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "claim": "The same executives expect AI to raise productivity at their firms by 1.4% on average over the next three years.",
       "value": 1.4,
       "low": null,
@@ -650,12 +650,12 @@
       "source_url": "https://www.nber.org/system/files/working_papers/w34836/w34836.pdf",
       "quote": "predicting that AI will boost productivity at their firms by an average of 1.4%, raise output 0.8%, and cut employment 0.7%.",
       "caveat": "A forecast by the people responsible for the spending.",
-      "study": "",
+      "study": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "reviewed": "2026-10-13"
     },
     {
       "id": "dbt-no-evidence-of-productivity",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/uk-department-for-business-and-trade-copilot-pilot/",
       "claim": "A UK government department that measured its Copilot pilot found time savings on some tasks and no evidence that they led to higher productivity.",
       "value": null,
       "low": null,
@@ -669,12 +669,12 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
       "quote": "The evaluation did not find evidence that time savings have led to improved productivity, and control group participants had not observed productivity improvements from colleagues taking part in the M365 Copilot pilot.",
       "caveat": "The report adds that measuring productivity 'was not a key aim of the evaluation'.",
-      "study": "https://www.ai-first.company/evidence/studies/uk-department-for-business-and-trade-copilot-pilot/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "dta-40-percent-reallocated",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-dta-40-percent-reallocated",
       "claim": "In the Australian government's Copilot trial, about 40% of participants said they were able to move saved time to higher-value work.",
       "value": 40,
       "low": null,
@@ -693,7 +693,7 @@
     },
     {
       "id": "dta-hour-a-day-on-few-tasks",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-dta-hour-a-day-on-few-tasks",
       "claim": "The same trial found the perceived saving, about an hour a day, was limited to three tasks: summarising, first drafts and searching for information.",
       "value": 1,
       "low": null,
@@ -712,7 +712,7 @@
     },
     {
       "id": "treasury-expectation-gap",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-treasury-expectation-gap",
       "claim": "In the Australian Treasury's Copilot trial, 85% expected the tool to speed up their work beforehand and 49% said afterwards that it had.",
       "value": null,
       "low": 49,
@@ -731,7 +731,7 @@
     },
     {
       "id": "mcelheran-j-curve",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-mcelheran-j-curve",
       "claim": "In US manufacturing, plants that adopted industrial AI first became less productive before gains appeared; the losses fell mainly on older businesses.",
       "value": -1.33,
       "low": null,
@@ -750,7 +750,7 @@
     },
     {
       "id": "productivity-j-curve",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-productivity-j-curve",
       "claim": "A new general-purpose technology needs unmeasured investment in processes and skills first, so measured productivity dips before it rises: the 'productivity J-curve'.",
       "value": null,
       "low": null,
@@ -769,7 +769,7 @@
     },
     {
       "id": "babina-ai-firm-growth",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-babina-ai-firm-growth",
       "claim": "US firms that invested more in AI grew faster in sales, employment and market value, mainly by launching new products.",
       "value": null,
       "low": null,
@@ -788,7 +788,7 @@
     },
     {
       "id": "czarnitzki-ai-productivity-germany",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-czarnitzki-ai-productivity-germany",
       "claim": "German firms that used AI were more productive, and the link held when the authors corrected for which firms choose to adopt.",
       "value": null,
       "low": null,
@@ -807,7 +807,7 @@
     },
     {
       "id": "aghion-france-employment-sales",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-aghion-france-employment-sales",
       "claim": "French firms that adopted AI saw employment and sales rise afterwards, with different results for different uses.",
       "value": null,
       "low": null,
@@ -826,7 +826,7 @@
     },
     {
       "id": "ai-extended-workday",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-ai-extended-workday",
       "claim": "A US time-diary study found that people in jobs more exposed to AI worked longer hours and had less leisure, not more.",
       "value": null,
       "low": null,
@@ -845,7 +845,7 @@
     },
     {
       "id": "nanda-95-percent",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail/",
       "claim": "The MIT NANDA report's '95%' is the share of organizations in its sample getting no measurable profit-and-loss return from generative AI; it also says only 5% of custom enterprise AI tools reached production.",
       "value": 95,
       "low": null,
@@ -855,8 +855,8 @@
       "kind": "Reported, not measured",
       "design": "report",
       "line": "Time put to use",
-      "source": "Challapally, A., Pease, C., Raskar, R. and Chari, P. (July 2025). The GenAI Divide: State of AI in Business 2025. MIT NANDA (project report, not peer-reviewed; copy hosted by Webber Wentzel).",
-      "source_url": "https://webberwentzel.com/News/Documents/2025/MIT1757411281972.pdf",
+      "source": "Challapally, A., Pease, C., Raskar, R. and Chari, P. (July 2025). The GenAI Divide: State of AI in Business 2025. MIT NANDA (project report, not peer-reviewed; copy hosted by MLQ.ai).",
+      "source_url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
       "quote": "Just 5% of integrated AI pilots are extracting millions in value, while the vast majority remain stuck with no measurable P&L impact.",
       "caveat": "The report calls its figures 'directionally accurate based on individual interviews rather than official company reporting' and says 'success definitions may differ across organizations'; success was judged six months after a pilot. Do not present 95% as a measured failure rate.",
       "study": "",
@@ -864,7 +864,7 @@
     },
     {
       "id": "nanda-success-definition",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail/",
       "claim": "The same report defines success as a tool that users or executives 'remarked' had a marked and lasting effect, which is a judgement and not a measurement.",
       "value": null,
       "low": null,
@@ -875,7 +875,7 @@
       "design": "report",
       "line": "Background",
       "source": "Challapally, A. et al. (July 2025). The GenAI Divide: State of AI in Business 2025. MIT NANDA.",
-      "source_url": "https://webberwentzel.com/News/Documents/2025/MIT1757411281972.pdf",
+      "source_url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
       "quote": "We define successfully implemented for task-specific GenAI tools as ones users or executives have remarked as causing a marked and sustained productivity and/or P&L impact",
       "caveat": "",
       "study": "",
@@ -883,7 +883,7 @@
     },
     {
       "id": "sp-global-42-percent",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-sp-global-42-percent",
       "claim": "In S&P Global's 2025 survey, 42% of companies said they had abandoned most of their AI initiatives before production, up from 17% a year earlier.",
       "value": 42,
       "low": null,
@@ -902,7 +902,7 @@
     },
     {
       "id": "gartner-30-percent-prediction",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-gartner-30-percent-prediction",
       "claim": "Gartner predicted in 2024 that at least 30% of generative-AI projects would be abandoned after proof of concept by the end of 2025.",
       "value": 30,
       "low": null,
@@ -921,7 +921,7 @@
     },
     {
       "id": "rand-why-ai-projects-fail",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-rand-why-ai-projects-fail",
       "claim": "RAND interviewed 65 data scientists and engineers about failed AI projects; the first cause they named was misunderstanding the problem, including models 'optimized for the wrong metrics'.",
       "value": null,
       "low": null,
@@ -940,7 +940,7 @@
     },
     {
       "id": "mckinsey-2025-high-performers",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/state-of-ai-2025-survey/",
       "claim": "In McKinsey's 2025 survey about 6% of organizations credited AI with 5% or more of operating profit, and they were nearly three times as likely to have redesigned workflows.",
       "value": 6,
       "low": null,
@@ -959,7 +959,7 @@
     },
     {
       "id": "workday-40-percent-rework",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-workday-40-percent-rework",
       "claim": "In a vendor survey, employees said nearly 40% of the time AI saved them was lost to fixing and checking its output.",
       "value": 40,
       "low": null,
@@ -978,7 +978,7 @@
     },
     {
       "id": "workslop-40-percent",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-workslop-40-percent",
       "claim": "In a BetterUp and Stanford survey, 40% of US desk workers said they had received 'workslop', polished-looking AI output that leaves the real work to the receiver, in the past month.",
       "value": 40,
       "low": null,
@@ -1016,7 +1016,7 @@
     },
     {
       "id": "dbt-hallucinations-22",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/uk-department-for-business-and-trade-copilot-pilot/",
       "claim": "In the UK department's Copilot pilot, 22% of diary respondents had spotted made-up content; checking was inconsistent.",
       "value": 22,
       "low": null,
@@ -1030,12 +1030,12 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
       "quote": "When asked to recall hallucinations, 43% of respondents reported they did not identify a hallucination at any point throughout the pilot. However, 22% of respondents did identify hallucinations",
       "caveat": "People who did not notice an error cannot report it, so this is a floor.",
-      "study": "https://www.ai-first.company/evidence/studies/uk-department-for-business-and-trade-copilot-pilot/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "dbt-tasks-that-took-longer",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/uk-department-for-business-and-trade-copilot-pilot/",
       "claim": "Some tasks took longer with Copilot: scheduling cost 0.6 hours more per task and generating images 0.5 hours more, by users' diaries.",
       "value": null,
       "low": -0.6,
@@ -1049,12 +1049,12 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
       "quote": "“scheduling” resulted in mean time savings of -0.6 hours per task, and “generating images” resulted in mean time savings of -0.5 hours per task, meaning they both took longer when M365 Copilot were used.",
       "caveat": "",
-      "study": "https://www.ai-first.company/evidence/studies/uk-department-for-business-and-trade-copilot-pilot/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "humlum-new-tasks-8-4",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/chatbots-and-the-labour-market-denmark/",
       "claim": "Chatbots created new job tasks for 8.4% of workers in the Danish study, including people who do not use the tools themselves.",
       "value": 8.4,
       "low": null,
@@ -1073,7 +1073,7 @@
     },
     {
       "id": "treasury-13-minutes-break-even",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-treasury-13-minutes-break-even",
       "claim": "The Australian Treasury worked out that a mid-level official needs to move about 13 minutes a week to higher-value work to cover the Copilot licence.",
       "value": 13,
       "low": null,
@@ -1092,7 +1092,7 @@
     },
     {
       "id": "price-microsoft-365-copilot-business",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-price-microsoft-365-copilot-business",
       "claim": "Microsoft lists its Copilot add-on for small and mid-sized businesses at $18 per user a month paid yearly (shown as reduced from $21), on top of a Microsoft 365 plan.",
       "value": 18,
       "low": null,
@@ -1111,7 +1111,7 @@
     },
     {
       "id": "price-claude-team",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-price-claude-team",
       "claim": "Anthropic lists its Claude Team plan at $20 per seat a month billed annually, or $25 billed monthly, with a premium seat at $100.",
       "value": 20,
       "low": null,
@@ -1206,7 +1206,7 @@
     },
     {
       "id": "sam-set-up-and-running-cost",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/sam-retirement-advisory-ai-agents/",
       "claim": "A two-person French advisory firm reports what its AI set-up cost: about €3,000 for a server, nearly €650 a month in licences, and about 60 hours of set-up work.",
       "value": 650,
       "low": null,
@@ -1220,12 +1220,12 @@
       "source_url": "https://www.francenum.gouv.fr/guides-et-conseils/intelligence-artificielle/automatisation-et-optimisation-des-processus/dans-les",
       "quote": "Le coût de mise en place du serveur dédié est d'environ 3 000 euros et l'entreprise dépense près de 650 euros par mois pour les licences des solutions IA. A ces coûts, il faut ajouter, un investissement d’intégration initial d’environ 60 heures",
       "caveat": "One firm's own account; the only small-company case on the site with all three cost lines stated.",
-      "study": "https://www.ai-first.company/evidence/studies/sam-retirement-advisory-ai-agents/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "meta-token-leaderboard-cost",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-meta-token-leaderboard-cost",
       "claim": "An employee-built leaderboard at Meta ranked staff by AI tokens used; Fortune calculated that the top user's 30-day total could have cost more than $1.4 million at list prices.",
       "value": 1.4,
       "low": null,
@@ -1244,7 +1244,7 @@
     },
     {
       "id": "amazon-kirorank",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-amazon-kirorank",
       "claim": "Amazon dropped an internal AI-usage ranking after employees ran AI agents on needless tasks to climb it, according to a Financial Times report.",
       "value": null,
       "low": null,
@@ -1263,7 +1263,7 @@
     },
     {
       "id": "metr-forecast-vs-measured",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-metr-forecast-vs-measured",
       "claim": "The developers in the METR trial expected AI to make them 24% faster, and afterwards believed it had made them 20% faster, while the measured result was 19% slower.",
       "value": null,
       "low": -19,
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "efficiency-gain-illusion",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-efficiency-gain-illusion",
       "claim": "In three pre-registered experiments on simple tasks, people expected AI to save 55.7 seconds and it saved 7.5.",
       "value": null,
       "low": 7.5,
@@ -1301,7 +1301,7 @@
     },
     {
       "id": "dbt-diary-vs-timed-task",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/uk-department-for-business-and-trade-copilot-pilot/",
       "claim": "In the UK department's pilot, users' diaries reported time saved on data analysis, while a timed test found Copilot users did Excel analysis more slowly and worse.",
       "value": null,
       "low": null,
@@ -1315,12 +1315,12 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
       "quote": "M365 Copilot users completed Excel data analysis more slowly and to a worse quality and accuracy than non-users, conflicting time savings reported in the diary study for data analysis.",
       "caveat": "The same report says that for most tasks the timed sessions showed 'similar trends' to the diaries, 'suggesting bias had small impacts on time saving findings'. Self-reports were wrong on one task, not on all.",
-      "study": "https://www.ai-first.company/evidence/studies/uk-department-for-business-and-trade-copilot-pilot/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "coinbase-ai-mandate",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-coinbase-ai-mandate",
       "claim": "Coinbase's chief executive said he gave engineers a week to start using AI coding tools and fired some who did not.",
       "value": null,
       "low": null,
@@ -1339,7 +1339,7 @@
     },
     {
       "id": "shopify-ai-in-performance-reviews",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-shopify-ai-in-performance-reviews",
       "claim": "Shopify's chief executive told staff that AI use would be part of performance reviews and that teams must show AI cannot do a job before asking for more people.",
       "value": null,
       "low": null,
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "duolingo-memo-walk-back",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/duolingo-ai-course-content/",
       "claim": "Duolingo's chief executive said months later that his 'AI-first' memo 'did not give enough context'.",
       "value": null,
       "low": null,
@@ -1372,12 +1372,12 @@
       "source_url": "https://fortune.com/2025/08/18/duolingo-ceo-admits-controversial-ai-memo-did-not-give-enough-context-insists-company-never-laid-off-full-time-employees",
       "quote": "“This was on me. I did not give enough context,” von Ahn told the New York Times in a recent interview when asked about the controversial memo.",
       "caveat": "A statement about communication; the company kept the policy.",
-      "study": "https://www.ai-first.company/evidence/studies/duolingo-ai-course-content/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "klarna-cost-as-the-objective",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/klarna-ai-customer-service/",
       "claim": "Klarna's chief executive said the company had weighed cost too heavily in customer service and got lower quality; it began hiring human agents again.",
       "value": null,
       "low": null,
@@ -1391,12 +1391,12 @@
       "source_url": "https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/",
       "quote": "As cost unfortunately seems to have been a too predominant evaluation factor when organizing this ... what you end up having is lower quality.",
       "caveat": "No cost of the reversal was published, and Klarna kept the assistant and went on reporting savings from it.",
-      "study": "https://www.ai-first.company/evidence/studies/klarna-ai-customer-service/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "holmstrom-milgrom-multitask",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/payback/#source-holmstrom-milgrom-multitask",
       "claim": "The standard economic result on measuring the wrong thing: when only part of a job is measured and rewarded, effort moves to the measured part.",
       "value": null,
       "low": null,
@@ -1453,7 +1453,7 @@
     },
     {
       "id": "vaccaro-human-plus-ai",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/studies/human-ai-combinations-meta-analysis/",
       "claim": "Across 106 experiments, a human working with AI did worse on average than the better of the two alone.",
       "value": null,
       "low": null,
@@ -1472,7 +1472,7 @@
     },
     {
       "id": "exposure-air-canada",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/air-canada-chatbot-ruling/",
       "claim": "A Canadian tribunal ordered Air Canada to pay a customer C$812.02 after its website chatbot gave wrong information about fares.",
       "value": 812.02,
       "low": null,
@@ -1486,12 +1486,12 @@
       "source_url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/item/525448/index.do",
       "quote": "they paid $1,630.36, I find they are entitled to damages of $650.88.",
       "caveat": "Small sum; the cost that matters is the precedent that the company answers for its chatbot. Total ordered was $812.02 with interest and fees.",
-      "study": "https://www.ai-first.company/evidence/studies/air-canada-chatbot-ruling/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-mata-avianca",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/mata-v-avianca-fake-citations/",
       "claim": "A New York court fined a law firm and two lawyers $5,000 for filing six court decisions that ChatGPT had made up.",
       "value": 5000,
       "low": null,
@@ -1505,12 +1505,12 @@
       "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0_3.pdf",
       "quote": "A penalty of $5,000 is jointly and severally imposed",
       "caveat": "",
-      "study": "https://www.ai-first.company/evidence/studies/mata-v-avianca-fake-citations/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-morgan-and-morgan",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/morgan-and-morgan-in-house-ai-fake-cases/",
       "claim": "A Wyoming court fined three lawyers $5,000 in total ($3,000 and two fines of $1,000) over eight made-up cases from their firm's own AI tool.",
       "value": 5000,
       "low": null,
@@ -1524,12 +1524,12 @@
       "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.wyd.64014/gov.uscourts.wyd.64014.181.0.pdf",
       "quote": "the Court will order Mr. Ayala to pay a three-thousand-dollar ($3,000) fine.",
       "caveat": "The lawyers also paid the other side's fees (amount not stated on the site); openness reduced the penalty.",
-      "study": "https://www.ai-first.company/evidence/studies/morgan-and-morgan-in-house-ai-fake-cases/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-butler-snow-rework",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/butler-snow-ai-policy-ignored/",
       "claim": "After five made-up citations, a US law firm paid another firm's 28 lawyers to check more than 2,400 citations in 330 filings.",
       "value": 2400,
       "low": null,
@@ -1543,12 +1543,12 @@
       "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.alnd.179677/gov.uscourts.alnd.179677.204.0.pdf",
       "quote": "“In all, Morgan Lewis reviewed more than 2,400 separate legal citations across 330 filings.”",
       "caveat": "The cost in money is not public; the measure is rework. Three lawyers were removed from the case.",
-      "study": "https://www.ai-first.company/evidence/studies/butler-snow-ai-policy-ignored/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-ayinde-wasted-costs",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/primus-solicitors-fake-citations/",
       "claim": "In an English case heard with Primus Solicitors', a law centre and a barrister were each ordered to pay £2,000 in wasted costs over five non-existent cases; the Primus filing had 18.",
       "value": 2000,
       "low": null,
@@ -1562,12 +1562,12 @@
       "source_url": "https://www.judiciary.uk/wp-content/uploads/2025/06/Ayinde-v-London-Borough-of-Haringey-and-Al-Haroun-v-Qatar-National-Bank.pdf",
       "quote": "In eighteen instances, the case cited does not exist.",
       "caveat": "The £2,000 orders were in the second case, where the court did not decide whether AI was the source. The Primus solicitor was referred to his regulator; no sum.",
-      "study": "https://www.ai-first.company/evidence/studies/primus-solicitors-fake-citations/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-accessibe",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/accessibe-ai-accessibility-claims/",
       "claim": "The US consumer regulator ordered accessiBe to pay $1 million over claims that its AI plug-in made any website accessible.",
       "value": 1000000,
       "low": null,
@@ -1581,12 +1581,12 @@
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million",
       "quote": "The order prohibits accessiBe from making misleading claims and requires the company to pay $1 million.",
       "caveat": "",
-      "study": "https://www.ai-first.company/evidence/studies/accessibe-ai-accessibility-claims/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-donotpay",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/donotpay-robot-lawyer/",
       "claim": "The US consumer regulator ordered DoNotPay to pay $193,000 for selling an untested 'robot lawyer'.",
       "value": 193000,
       "low": null,
@@ -1600,12 +1600,12 @@
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires",
       "quote": "The final order requires DoNotPay to pay $193,000 in monetary relief",
       "caveat": "",
-      "study": "https://www.ai-first.company/evidence/studies/donotpay-robot-lawyer/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-delphia-global-predictions",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/delphia-global-predictions-ai-claims/",
       "claim": "The US securities regulator fined two investment advisers $225,000 and $175,000 for advertising AI they did not have.",
       "value": 400000,
       "low": null,
@@ -1619,12 +1619,12 @@
       "source_url": "https://www.sec.gov/newsroom/press-releases/2024-36",
       "quote": "Delphia agreed to pay a civil penalty of $225,000, and Global Predictions agreed to pay a civil penalty of $175,000.",
       "caveat": "",
-      "study": "https://www.ai-first.company/evidence/studies/delphia-global-predictions-ai-claims/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-rite-aid",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/rite-aid-facial-recognition/",
       "claim": "Rite Aid was banned from using facial recognition for surveillance for five years after deploying it without testing its accuracy.",
       "value": 5,
       "low": null,
@@ -1638,12 +1638,12 @@
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without",
       "quote": "Rite Aid will be prohibited from using facial recognition technology for surveillance purposes for five years",
       "caveat": "A ban, not a sum: no money figure exists for this case.",
-      "study": "https://www.ai-first.company/evidence/studies/rite-aid-facial-recognition/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-victoria-child-protection",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/victoria-child-protection-chatgpt/",
       "claim": "After a child-protection worker used ChatGPT for a court report, the regulator found nearly 900 staff had opened the site and ordered the department to block such tools.",
       "value": 900,
       "low": null,
@@ -1657,12 +1657,12 @@
       "source_url": "https://ovic.vic.gov.au/regulatory-action/investigation-into-the-use-of-chatgpt-by-a-child-protection-worker/",
       "quote": "Within the period of July to December 2023, nearly 900 employees across DFFH had accessed",
       "caveat": "No fine; the cost was a two-year block on the tools and compulsory reporting.",
-      "study": "https://www.ai-first.company/evidence/studies/victoria-child-protection-chatgpt/",
+      "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "exposure-wpp-investment-without-return",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/cases/wpp-open-ai-platform/",
       "claim": "WPP raised spending on its AI platform to £300 million a year; its 2025 income still fell and it cut its forecast to a fall of 5.5% to 6.0%.",
       "value": 300,
       "low": null,
@@ -1676,7 +1676,7 @@
       "source_url": "https://www.wpp.com/en/news/2025/10/third-quarter-trading-update-2025",
       "quote": "FY organic growth guidance revised to -5.5% to -6.0%",
       "caveat": "The £300 million figure is from the site's case page, which cites the 20-F; it was not re-located in the filing text in this session. WPP did not blame the decline on AI and has not published a return on the platform.",
-      "study": "https://www.ai-first.company/evidence/studies/wpp-open-ai-platform/",
+      "study": "",
       "reviewed": "2026-10-13"
     }
   ]
