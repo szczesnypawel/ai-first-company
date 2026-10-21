@@ -2,7 +2,7 @@
   "name": "Studies of AI at work, with how each was done",
   "description": "The studies the practices and assessments rest on, one row per study. Each row gives the main result, the authors, year and publication, how the study was done, whether it was peer-reviewed, who took part and where, and the practices it supports or limits.",
   "url": "https://www.ai-first.company/evidence/studies/",
-  "version": "2026-10-17",
+  "version": "2026-10-21",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
   "count": 53,
@@ -124,7 +124,7 @@
       "practices_limited": [
         "map-tasks-before-automating"
       ],
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-21"
     },
     {
       "id": "generative-ai-at-work",
@@ -1181,24 +1181,24 @@
     {
       "id": "firm-data-on-ai-four-countries",
       "url": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
-      "title": "6,000 executives in four countries: 69% of firms use AI, nine in ten see no effect yet",
-      "headline": "69% of firms actively used AI. Nine in ten executives reported no effect of AI on their firm's employment or productivity over the past three years. For the next three years they expect productivity to rise 1.4%, output 0.8% and employment to fall 0.7%.",
-      "authors": "Yotzov, Barrero, Bloom, Bunn, Davis, Foster, Jalca, Meyer, Mizen, Navarrete, Smietanka, Thwaites and Wang",
+      "title": "Executives in seven countries: 78% of firms use AI, most see no effect yet",
+      "headline": "By mid-2026, 78% of firms used AI, up from 69% at the start of the year. 83% of executives reported no effect of AI on their firm's productivity over the past three years, down from 89%. For the next three years they expect productivity to rise 1.7% and employment to fall 0.4%.",
+      "authors": "Yotzov, Barrero, Bloom, Bunn, Chawla, Davis, Foster, Jalca, Meyer, Mizen, Navarrete, Oh, Garcia Loredo, Reid, Smietanka, Thwaites and Wang",
       "year": 2026,
       "paper": "Firm Data on AI",
-      "source": "NBER Working Paper 34836 (February 2026, revised March 2026)",
+      "source": "NBER Working Paper 34836 (February 2026, revised October 2026)",
       "doi": "10.3386/w34836",
       "source_url": "https://www.nber.org/papers/w34836",
       "design": "Survey",
-      "design_note": "The authors put the same questions to senior executives in four standing business surveys run with central banks and a university, between November 2025 and January 2026.",
+      "design_note": "The authors put the same questions to senior executives through standing business surveys run by central banks and a university, in two rounds: November 2025 to January 2026 and May to July 2026.",
       "peer_reviewed": false,
-      "sample": "Nearly 6,000 senior executives, such as chief executives and finance directors, in the United States, United Kingdom, Germany and Australia.",
-      "setting": "Four countries. The surveys were run with the Federal Reserve Bank of Atlanta, the Bank of England, the Deutsche Bundesbank and Macquarie University.",
+      "sample": "Nearly 9,000 senior executives, such as chief executives and finance directors, in seven countries in the second round. The first round asked executives in the United States, United Kingdom, Germany and Australia.",
+      "setting": "Seven countries. The surveys were run by the Federal Reserve Bank of Atlanta, the Bank of England, the Deutsche Bundesbank, Macquarie University, the Bank of Canada, the Bank of Mexico and the South African Reserve Bank.",
       "practices_supported": [
         "measure-time-saved-against-a-baseline"
       ],
       "practices_limited": [],
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-21"
     },
     {
       "id": "ai-in-the-mittelstand-kfw",

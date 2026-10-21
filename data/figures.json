@@ -231,13 +231,13 @@
       "source": "Goldman Sachs (5 April 2023). Generative AI could raise global GDP by 7%. Goldman Sachs Research article summarising Briggs and Kodnani (investment-bank research, not peer-reviewed).",
       "source_url": "https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent",
       "quote": "they could drive a 7% (or almost $7 trillion) increase in global GDP and lift productivity growth by 1.5 percentage points over a 10-year period.",
-      "caveat": "The underlying report is not public; this is the bank's own summary page.",
+      "caveat": "This is the bank's own summary page. The full report (Hatzius, Briggs, Kodnani and Pierdomenico, 26 March 2023) is free to download from Goldman Sachs; it gives just under 1.5 percentage points for the United States and 1.4 for all the countries it covers, and the authors left these estimates out of the bank's own forecasts.",
       "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "mckinsey-genai-productivity",
-      "url": "https://www.ai-first.company/payback/#source-mckinsey-genai-productivity",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mckinsey-4-4-trillion-generative-ai/",
       "claim": "McKinsey Global Institute estimated that generative AI could add 0.1 to 0.6 percentage points a year to labour productivity growth through 2040.",
       "value": null,
       "low": 0.1,
@@ -256,7 +256,7 @@
     },
     {
       "id": "mckinsey-genai-value",
-      "url": "https://www.ai-first.company/payback/#source-mckinsey-genai-value",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mckinsey-4-4-trillion-generative-ai/",
       "claim": "The same McKinsey report put the value of 63 generative-AI use cases at $2.6 trillion to $4.4 trillion a year.",
       "value": null,
       "low": 2.6,
@@ -465,7 +465,7 @@
     },
     {
       "id": "stlouisfed-time-saved",
-      "url": "https://www.ai-first.company/payback/#source-stlouisfed-time-saved",
+      "url": "https://www.ai-first.company/evidence/claim-checks/genai-saves-5-4-percent-of-hours/",
       "claim": "In a US national survey, generative-AI users said it saved them 5.4% of their work hours; across all workers that is 1.4%.",
       "value": 1.4,
       "low": null,
@@ -478,7 +478,7 @@
       "source": "Bick, A., Blandin, A. and Deming, D. (27 February 2025). The Impact of Generative AI on Work Productivity. Federal Reserve Bank of St. Louis, On the Economy blog.",
       "source_url": "https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity",
       "quote": "When we factor in all workers, including nonusers, workers saved 1.4% of total hours because of generative AI.",
-      "caveat": "Self-reported; the authors write that how these gains translate into measured productivity 'remains uncertain'.",
+      "caveat": "Self-reported; the authors write that how these gains translate into measured productivity 'remains uncertain'. Their revised paper of October 2025 puts the users' figure at 5.2%. In their later quarterly survey, the share of all work hours saved reached 2.2% by the second quarter of 2026 (FRED Blog, August 2026).",
       "study": "",
       "reviewed": "2026-10-13"
     },
@@ -627,10 +627,10 @@
       "kind": "Self-reported",
       "design": "survey",
       "line": "Time put to use",
-      "source": "Yotzov, I., Barrero, J. M., Bloom, N., Bunn, P., Davis, S. J. et al. (2026). Firm Data on AI. NBER Working Paper 34836, February 2026, revised March 2026 (working paper).",
+      "source": "Yotzov, I., Barrero, J. M., Bloom, N., Bunn, P., Davis, S. J. et al. (2026). Firm Data on AI. NBER Working Paper 34836, February 2026, revised March and October 2026 (working paper). Figure and quote from the March 2026 revision; the address now serves the October revision.",
       "source_url": "https://www.nber.org/system/files/working_papers/w34836/w34836.pdf",
       "quote": "More than 90% report no impact of AI on own-firm employment over the past three years, and 89% report no impact on labor productivity (sales per employee).",
-      "caveat": "Executives' own judgement, not measured productivity; 69% of the same firms use AI.",
+      "caveat": "Executives' own judgement, not measured productivity; 69% of the same firms use AI. In a second round, run between May and July 2026 in seven countries, the share fell to 83%.",
       "study": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "reviewed": "2026-10-13"
     },
@@ -646,10 +646,10 @@
       "kind": "Self-reported",
       "design": "survey",
       "line": "Time put to use",
-      "source": "Yotzov, I., Barrero, J. M., Bloom, N. et al. (2026). Firm Data on AI. NBER Working Paper 34836.",
+      "source": "Yotzov, I., Barrero, J. M., Bloom, N. et al. (2026). Firm Data on AI. NBER Working Paper 34836. Figure and quote from the March 2026 revision; the address now serves the October 2026 revision.",
       "source_url": "https://www.nber.org/system/files/working_papers/w34836/w34836.pdf",
       "quote": "predicting that AI will boost productivity at their firms by an average of 1.4%, raise output 0.8%, and cut employment 0.7%.",
-      "caveat": "A forecast by the people responsible for the spending.",
+      "caveat": "A forecast by the people responsible for the spending. In a second round, run between May and July 2026 in seven countries, executives expected productivity to rise 1.7% and employment to fall 0.4% over three years.",
       "study": "https://www.ai-first.company/evidence/studies/firm-data-on-ai-four-countries/",
       "reviewed": "2026-10-13"
     },
@@ -902,7 +902,7 @@
     },
     {
       "id": "gartner-30-percent-prediction",
-      "url": "https://www.ai-first.company/payback/#source-gartner-30-percent-prediction",
+      "url": "https://www.ai-first.company/evidence/claim-checks/gartner-30-percent-genai-abandoned-after-poc/",
       "claim": "Gartner predicted in 2024 that at least 30% of generative-AI projects would be abandoned after proof of concept by the end of 2025.",
       "value": 30,
       "low": null,
@@ -915,13 +915,13 @@
       "source": "Gartner (29 July 2024). Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025. Press release.",
       "source_url": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025",
       "quote": "At least 30% of generative AI (GenAI) projects will be abandoned after proof of concept by the end of 2025, due to poor data quality, inadequate risk controls, escalating costs or unclear business value",
-      "caveat": "A forecast with no published method, not a count. Read from an archived copy.",
+      "caveat": "A forecast with no published method, not a count. In January 2026 Gartner said that at least 50% had been abandoned by the end of 2025, again without publishing a method. Read from archived copies.",
       "study": "",
       "reviewed": "2026-10-13"
     },
     {
       "id": "rand-why-ai-projects-fail",
-      "url": "https://www.ai-first.company/payback/#source-rand-why-ai-projects-fail",
+      "url": "https://www.ai-first.company/evidence/claim-checks/rand-80-percent-ai-projects-fail/",
       "claim": "RAND interviewed 65 data scientists and engineers about failed AI projects; the first cause they named was misunderstanding the problem, including models 'optimized for the wrong metrics'.",
       "value": null,
       "low": null,
@@ -1168,7 +1168,7 @@
     },
     {
       "id": "gartner-5-20-million",
-      "url": "https://www.ai-first.company/payback/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/gartner-30-percent-genai-abandoned-after-poc/",
       "claim": "Gartner put the up-front cost of the generative-AI deployment approaches it examined at $5 million to $20 million.",
       "value": null,
       "low": 5,
