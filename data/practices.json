@@ -59,6 +59,12 @@
           "url": "https://www.ai-first.company/evidence/studies/exposure-is-not-adoption/",
           "citation": "Sedai (2026). Exposure Is Not Adoption: Measuring Generative AI and Labor Demand. SSRN working paper.",
           "doi": "10.2139/ssrn.7528420"
+        },
+        {
+          "id": "working-with-ai-microsoft-occupations",
+          "url": "https://www.ai-first.company/evidence/studies/working-with-ai-microsoft-occupations/",
+          "citation": "Tomlinson, Jaffe, Wang, Counts and Suri (2025). Working with AI: Measuring the Applicability of Generative AI to Occupations. arXiv preprint 2507.07935, Microsoft Research (version 6, 22 December 2025).",
+          "doi": "10.48550/arXiv.2507.07935"
         }
       ],
       "counter_studies": [
@@ -449,6 +455,12 @@
           "company": "Siemens",
           "url": "https://www.ai-first.company/evidence/cases/siemens-ai-visual-inspection/",
           "relation": "applied"
+        },
+        {
+          "id": "zillow-offers-home-price-forecasts",
+          "company": "Zillow Group",
+          "url": "https://www.ai-first.company/evidence/cases/zillow-offers-home-price-forecasts/",
+          "relation": "applied"
         }
       ],
       "reviewed": "2026-10-17"
@@ -689,6 +701,12 @@
           "relation": "missing"
         },
         {
+          "id": "bunnings-facial-recognition-privacy",
+          "company": "Bunnings",
+          "url": "https://www.ai-first.company/evidence/cases/bunnings-facial-recognition-privacy/",
+          "relation": "missing"
+        },
+        {
           "id": "delphia-global-predictions-ai-claims",
           "company": "Delphia (USA) and Global Predictions",
           "url": "https://www.ai-first.company/evidence/cases/delphia-global-predictions-ai-claims/",
@@ -810,6 +828,12 @@
           "company": "eBay",
           "url": "https://www.ai-first.company/evidence/cases/ebay-machine-translation/",
           "relation": "applied"
+        },
+        {
+          "id": "fiverr-ai-first-restructuring",
+          "company": "Fiverr",
+          "url": "https://www.ai-first.company/evidence/cases/fiverr-ai-first-restructuring/",
+          "relation": "missing"
         },
         {
           "id": "herges-ai-production-time-estimates",
@@ -2051,6 +2075,12 @@
           "url": "https://www.ai-first.company/evidence/studies/shadow-learning/",
           "citation": "Beane (2018). Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail. Administrative Science Quarterly, 64(1), 87–123.",
           "doi": "10.1177/0001839217751692"
+        },
+        {
+          "id": "your-brain-on-chatgpt",
+          "url": "https://www.ai-first.company/evidence/studies/your-brain-on-chatgpt/",
+          "citation": "Kosmyna, Hauptmann, Yuan, Situ, Liao, Beresnitzky, Braunstein and Maes (MIT Media Lab) (2025). Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. arXiv 2506.08872, preprint (version 1, 10 June 2025; version 2, 31 December 2025).",
+          "doi": ""
         }
       ],
       "counter_studies": [],

@@ -2,10 +2,10 @@
   "name": "Studies of AI at work, with how each was done",
   "description": "The studies the practices and assessments rest on, one row per study. Each row gives the main result, the authors, year and publication, how the study was done, whether it was peer-reviewed, who took part and where, and the practices it supports or limits.",
   "url": "https://www.ai-first.company/evidence/studies/",
-  "version": "2026-10-21",
+  "version": "2026-10-25",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 53,
+  "count": 55,
   "rows": [
     {
       "id": "ai-tutor-without-guardrails",
@@ -631,6 +631,28 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "your-brain-on-chatgpt",
+      "url": "https://www.ai-first.company/evidence/studies/your-brain-on-chatgpt/",
+      "title": "Students writing with ChatGPT showed weaker brain connectivity and quoted their essays worst",
+      "headline": "The no-tool group showed the strongest brain connectivity and the ChatGPT group the weakest. After the first session, 15 of the 18 ChatGPT users could not quote from the essay they had just written, against 2 of 18 in each of the other groups. None of the 18 gave a correct quote.",
+      "authors": "Kosmyna, Hauptmann, Yuan, Situ, Liao, Beresnitzky, Braunstein and Maes (MIT Media Lab)",
+      "year": 2025,
+      "paper": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+      "source": "arXiv 2506.08872, preprint (version 1, 10 June 2025; version 2, 31 December 2025)",
+      "doi": "",
+      "source_url": "https://arxiv.org/abs/2506.08872",
+      "design": "Randomised experiment",
+      "design_note": "Students were assigned by chance to write with ChatGPT, with a search engine or with no tool, in three sessions. EEG headsets recorded their brain activity while they wrote, and each student was interviewed after each session. In a fourth session, 18 of them swapped: the ChatGPT group wrote without tools and the no-tool group used ChatGPT.",
+      "peer_reviewed": false,
+      "sample": "54 adults aged 18 to 39 from five universities in the Boston area, 18 in each group; 18 of the 54 came back for the fourth session.",
+      "setting": "Timed essay writing (20 minutes per essay, on SAT essay prompts) in sessions run by MIT Media Lab researchers in the United States over four months, with OpenAI’s ChatGPT.",
+      "practices_supported": [
+        "check-what-staff-can-still-do-without-the-tool"
+      ],
+      "practices_limited": [],
+      "reviewed": "2026-10-25"
+    },
+    {
       "id": "oecd-ai-surveys-employers-workers",
       "url": "https://www.ai-first.company/evidence/studies/oecd-ai-surveys-employers-workers/",
       "title": "OECD surveys of employers and workers on AI at work",
@@ -1062,6 +1084,28 @@
       ],
       "practices_limited": [],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "working-with-ai-microsoft-occupations",
+      "url": "https://www.ai-first.company/evidence/studies/working-with-ai-microsoft-occupations/",
+      "title": "Which jobs overlap with what people ask AI: 200,000 Copilot conversations",
+      "headline": "Interpreters and translators (0.492), historians (0.462) and writers and authors (0.454) had the highest scores; jobs with physical work had the lowest. The score shows where Copilot conversations overlap with a job’s work activities. The authors write that reading it as job loss “would be a mistake”.",
+      "authors": "Tomlinson, Jaffe, Wang, Counts and Suri",
+      "year": 2025,
+      "paper": "Working with AI: Measuring the Applicability of Generative AI to Occupations",
+      "source": "arXiv preprint 2507.07935, Microsoft Research (version 6, 22 December 2025)",
+      "doi": "10.48550/arXiv.2507.07935",
+      "source_url": "https://arxiv.org/abs/2507.07935",
+      "design": "Data analysis",
+      "design_note": "A language model labelled each conversation with the work activities the user wanted help with and the work activities the AI itself performed. The researchers added how often the AI completed the task and how much of each activity it covered, and turned this into an “AI applicability score” for each occupation.",
+      "peer_reviewed": false,
+      "sample": "About 200,000 anonymized conversations with Bing Copilot from January to September 2024: 100,000 sampled at random, and 100,000 that users had rated with a thumbs up or down.",
+      "setting": "United States. Conversations with Bing Copilot, Microsoft’s free AI chat assistant, matched to the work activities of US occupations in the O*NET database.",
+      "practices_supported": [
+        "map-tasks-before-automating"
+      ],
+      "practices_limited": [],
+      "reviewed": "2026-10-25"
     },
     {
       "id": "small-business-ai-adoption-and-hiring",

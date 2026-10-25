@@ -2,10 +2,10 @@
   "name": "Checks of widely repeated AI figures against their primary sources",
   "description": "Figures about AI that are often quoted, each checked against the source it is credited to, one row per claim. Each row gives the claim as it is usually repeated, the verdict, why, the sentence to cite instead, the sources and, where traced, how the claim travelled from its origin.",
   "url": "https://www.ai-first.company/evidence/claim-checks/",
-  "version": "2026-10-20",
+  "version": "2026-10-25",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 27,
+  "count": 29,
   "rows": [
     {
       "id": "gartner-30-percent-genai-abandoned-after-poc",
@@ -1197,6 +1197,127 @@
       "reviewed": "2026-10-13"
     },
     {
+      "id": "chatgpt-brain-connectivity-47-percent",
+      "url": "https://www.ai-first.company/evidence/claim-checks/chatgpt-brain-connectivity-47-percent/",
+      "title": "“ChatGPT cuts brain connectivity by 47% (MIT)”",
+      "claim": "ChatGPT cuts brain connectivity by 47%, and 83% of ChatGPT users couldn’t quote their own essay, according to an MIT study.",
+      "verdict": "Needs correcting",
+      "summary": "The MIT Media Lab paper is a small experiment posted as a preprint, not a journal paper. It gives 79 and 42, but they count pairs of EEG electrodes where one group’s link was clearly stronger than the other’s: 79 favoured the people writing without tools, 42 favoured the ChatGPT group. The 47% was worked out by commentators from those counts; nobody’s connectivity fell by 47%. The 83.3% is 15 of 18 people, after the first of three sessions.",
+      "correct": "In a preprint from the MIT Media Lab (Kosmyna and others, 2025), 54 students in the Boston area wrote 20-minute essays with ChatGPT, a search engine or no tool while EEG headsets recorded their brain activity. The no-tool group showed the strongest brain connectivity and the ChatGPT group the weakest. After the first session, 15 of the 18 ChatGPT users could not quote from the essay they had just written, against 2 of 18 in each other group. None of the 18 gave a correct quote. The paper is not peer-reviewed, and its authors say the findings “may not generalize across tasks”.",
+      "figure_kind": "Measured",
+      "scope": "Students and staff from universities in the Boston area, 18 per group, writing 20-minute essays with or without ChatGPT. The 83.3% holds for the first session only; by the third, 6 of the 18 ChatGPT users gave no correct quote.",
+      "studies": [
+        "your-brain-on-chatgpt"
+      ],
+      "sources": [
+        {
+          "label": "Kosmyna, Hauptmann, Yuan, Situ, Liao, Beresnitzky, Braunstein and Maes (10 June 2025; version 2, 31 December 2025). Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. arXiv:2506.08872. Preprint, not peer-reviewed.",
+          "url": "https://arxiv.org/abs/2506.08872"
+        },
+        {
+          "label": "Kosmyna and others. FAQ for “Your Brain on ChatGPT”. The authors’ project site.",
+          "url": "https://www.brainonllm.com/faq"
+        },
+        {
+          "label": "Vacca (18 June 2025). Thread on X.",
+          "url": "https://x.com/itsalexvacca/status/1935343874421178762"
+        },
+        {
+          "label": "Ramani (19 June 2025). MIT’s ChatGPT study says AI is making you dumber: Here’s how. Digit.",
+          "url": "https://www.digit.in/features/general/mits-chatgpt-study-says-ai-is-making-you-dumber-heres-how.html"
+        },
+        {
+          "label": "Wright (27 August 2025). The 47% Brain Collapse: MIT Just Proved ChatGPT is Rewiring Your Mind. The AI Agent Economy (Substack).",
+          "url": "https://aiagenteconomy.substack.com/p/the-47-brain-collapse-mit-just-proved"
+        },
+        {
+          "label": "Stankovic, Hirche, Kollatzsch and Doetsch (29 December 2025). Comment on: Your Brain on ChatGPT. arXiv:2601.00856.",
+          "url": "https://arxiv.org/abs/2601.00856"
+        },
+        {
+          "label": "Slamecka and Graf (1978). The generation effect: Delineation of a phenomenon. Journal of Experimental Psychology: Human Learning and Memory, 4(6), 592–604.",
+          "url": "https://doi.org/10.1037/0278-7393.4.6.592"
+        },
+        {
+          "label": "Bertsch, Pesta, Wiscott and McDaniel (2007). The generation effect: A meta-analytic review. Memory & Cognition, 35(2), 201–210. 445 effect sizes from 86 studies.",
+          "url": "https://doi.org/10.3758/BF03193441"
+        },
+        {
+          "label": "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences.",
+          "url": "https://doi.org/10.1073/pnas.2422633122"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "kosmyna-2025",
+          "date": "2025-06-10",
+          "who": "MIT Media Lab (Kosmyna, Hauptmann, Yuan, Situ, Liao, Beresnitzky, Braunstein and Maes)",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://arxiv.org/abs/2506.08872v1",
+          "archive": "https://web.archive.org/web/20250616044321/https://arxiv.org/abs/2506.08872v1",
+          "wording": "The total significant connectivity for the Brain-only group was equal to 79 connections compared to only 42 connections for the LLM group. … In the LLM‑assisted group, 83.3 % of participants (15/18) failed to provide a correct quotation, whereas only 11.1 % (2/18) in both the Search‑Engine and Brain‑Only groups encountered the same difficulty.",
+          "change": "Origin. EEG headsets recorded 54 students writing essays. In one frequency band, 79 pairs of electrodes had a clearly stronger link in the no-tool group and 42 in the ChatGPT group (appendix F). The paper gives no percentage. The 83.3% is 15 of 18 people, after the first session."
+        },
+        {
+          "id": "vacca-2025",
+          "date": "2025-06-18",
+          "who": "Alex Vacca (X)",
+          "kind": "blog",
+          "kind_label": "Blog",
+          "url": "https://x.com/itsalexvacca/status/1935343874421178762",
+          "archive": "https://web.archive.org/web/20250619012011/https://threadreaderapp.com/thread/1935343874421178762.html",
+          "wording": "83.3% of ChatGPT users couldn't quote from essays they wrote minutes earlier. … Brain scans revealed the damage: neural connections collapsed from 79 to just 42. That's a 47% reduction in brain connectivity.",
+          "change": "The 47% appears, worked out from 79 and 42. Two counts that compare groups become connections that “collapsed”, as if people lost them. EEG becomes “brain scans” that show “damage”. The 83.3% loses “in the first session” and covers all “ChatGPT users”."
+        },
+        {
+          "id": "digit-2025",
+          "date": "2025-06-19",
+          "who": "Digit (Vyom Ramani)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://www.digit.in/features/general/mits-chatgpt-study-says-ai-is-making-you-dumber-heres-how.html",
+          "archive": "https://web.archive.org/web/20261025074656/https://www.digit.in/features/general/mits-chatgpt-study-says-ai-is-making-you-dumber-heres-how.html",
+          "wording": "The findings, published in the Journal of Cognitive Neuroscience, paint a striking picture of how AI might be reshaping human cognition. … One of the most jaw-dropping revelations: participants using ChatGPT experienced a 47% drop in neural connectivity. That’s a steep decline from 79 functional brain connections to just 42.",
+          "change": "A journal is added: the paper was a preprint, not published in the Journal of Cognitive Neuroscience. The counts become “functional brain connections” that people lost. The 83.3% becomes “Over 83%” who could not “recall key details”, which is not the question the researchers asked."
+        },
+        {
+          "id": "brainonllm-2025",
+          "date": "2025-06-24",
+          "who": "MIT Media Lab (Kosmyna and others), brainonllm.com",
+          "kind": "press-release",
+          "kind_label": "Press release",
+          "url": "https://www.brainonllm.com/faq",
+          "archive": "https://web.archive.org/web/20250624174050/https://www.brainonllm.com/faq",
+          "wording": "No! Please do not use the words like “stupid”, “dumb”, “brain rot”, \"harm\", \"damage\", \"passivity\", \"trimming\" and so on. It does a huge disservice to this work, as we did not use this vocabulary in the paper, especially if you are a journalist reporting on it.",
+          "change": "Follow-up. The authors’ own site asks reporters not to write “harm” or “damage”, and to avoid “brain scans” and “terrifying findings”. It says peer review has only begun. It gives no 47%. The date is the first archived copy."
+        },
+        {
+          "id": "wright-2025",
+          "date": "2025-08-27",
+          "who": "Travis Wright (The AI Agent Economy)",
+          "kind": "blog",
+          "kind_label": "Blog",
+          "url": "https://aiagenteconomy.substack.com/p/the-47-brain-collapse-mit-just-proved",
+          "archive": "https://web.archive.org/web/20261025075100/https://aiagenteconomy.substack.com/p/the-47-brain-collapse-mit-just-proved",
+          "wording": "The ChatGPT group showed a 47% collapse in brain activity compared to the brain-only group. … 83% of ChatGPT users couldn't remember what they'd just written.",
+          "change": "“Connectivity” becomes “brain activity”, which the 79 and 42 do not measure. The headline says MIT “Just Proved” it. The 83.3% becomes 83% of users who “couldn't remember what they'd just written”."
+        },
+        {
+          "id": "kosmyna-2025-v2",
+          "date": "2025-12-31",
+          "who": "MIT Media Lab (Kosmyna, Hauptmann, Yuan, Situ, Liao, Beresnitzky, Braunstein and Maes)",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://arxiv.org/abs/2506.08872v2",
+          "archive": "https://web.archive.org/web/20260110132343/https://arxiv.org/abs/2506.08872v2",
+          "wording": "The total significant connectivity for the Brain-only group was equal to 79 connections compared to only 42 connections for the LLM group.",
+          "change": "Follow-up. The second version keeps the 79, the 42 and the 83.3%, and still gives no percentage drop. Every page is still headed “Preprint, under review”. Two days earlier, other researchers posted a comment questioning the sample size and the EEG analysis."
+        }
+      ],
+      "reviewed": "2026-10-25"
+    },
+    {
       "id": "bcg-consultants-jagged-frontier",
       "url": "https://www.ai-first.company/evidence/claim-checks/bcg-consultants-jagged-frontier/",
       "title": "“Consultants using AI did 12.2% more tasks, 25% faster, with 40% higher quality (BCG and Harvard)”",
@@ -1972,6 +2093,131 @@
       ],
       "lineage": [],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "microsoft-40-jobs-most-at-risk-from-ai",
+      "url": "https://www.ai-first.company/evidence/claim-checks/microsoft-40-jobs-most-at-risk-from-ai/",
+      "title": "“Microsoft study reveals the 40 jobs most at risk from AI”",
+      "claim": "A Microsoft study reveals the 40 jobs most at risk from AI. Interpreters, historians, writers and customer service staff top the list of jobs AI will replace.",
+      "verdict": "Needs correcting",
+      "summary": "The list exists: a July 2025 paper by five Microsoft researchers ranked 40 US occupations highest on an “AI applicability score”. The score measures how far an occupation’s work activities overlap with what people asked Bing Copilot to do, and how well Copilot did it. It is neither a count nor a forecast of jobs lost. The paper says reading it that way “would be a mistake”, and the authors wrote in August 2025 that their data “do not indicate” that jobs will be replaced. The list itself changed in the December 2025 version.",
+      "correct": "Microsoft researchers (Tomlinson and others, version of December 2025, a preprint not peer-reviewed) matched 200,000 anonymized Bing Copilot conversations from 2024 to the work activities of US occupations. Interpreters and translators, historians, and writers and authors scored highest on their “AI applicability score”, a relative measure of overlap with what Copilot users asked for. The authors write that AI’s effects on employment and wages “will depend on hard-to-predict business decisions”.",
+      "figure_kind": "Model or scenario",
+      "scope": "A ranking of US occupations by how far their O*NET work activities overlap with Bing Copilot conversations from January to September 2024, as calculated by Microsoft researchers. It compares occupations with each other. It does not say how many jobs will go, or when.",
+      "studies": [
+        "working-with-ai-microsoft-occupations",
+        "exposure-is-not-adoption",
+        "ai-exposure-and-employment-oecd",
+        "chatbots-and-the-labour-market-denmark",
+        "young-workers-in-ai-exposed-jobs"
+      ],
+      "sources": [
+        {
+          "label": "Tomlinson, Jaffe, Wang, Counts and Suri (10 July 2025, version 6 of 22 December 2025). Working with AI: Measuring the Applicability of Generative AI to Occupations (first titled Working with AI: Measuring the Occupational Implications of Generative AI). arXiv 2507.07935. Microsoft Research preprint, not peer-reviewed.",
+          "url": "https://arxiv.org/abs/2507.07935"
+        },
+        {
+          "label": "Gibbs (31 July 2025). Top 40 Jobs Most Likely to Be Impacted by AI. Newsweek.",
+          "url": "https://www.newsweek.com/top-40-jobs-most-likely-impacted-ai-2103956"
+        },
+        {
+          "label": "Morris (31 July 2025). 20 jobs and careers AI is unlikely to ever touch, according to Microsoft. Fortune.",
+          "url": "https://fortune.com/2025/07/31/jobs-careers-unlikely-to-be-impacted-by-ai-microsoft/"
+        },
+        {
+          "label": "FOX Television Stations (31 July 2025). Study reveals jobs most, least likely to be taken by AI: See the list.",
+          "url": "https://www.fox5ny.com/news/ai-job-replacement-risk-study"
+        },
+        {
+          "label": "Kumar (1 August 2025). Microsoft says AI will take away these 40 jobs: Check if your role is safe. Business Today.",
+          "url": "https://www.businesstoday.in/technology/news/story/microsoft-says-ai-will-take-away-these-40-jobs-check-if-your-role-is-safe-487376-2025-08-01"
+        },
+        {
+          "label": "Tomlinson, Jaffe, Wang, Counts and Suri (21 August 2025). Applicability vs. job displacement: further notes on our recent research on AI and occupations. Microsoft Research Blog.",
+          "url": "https://www.microsoft.com/en-us/research/blog/applicability-vs-job-displacement-further-notes-on-our-recent-research-on-ai-and-occupations/"
+        },
+        {
+          "label": "Ghosh (6 January 2026). Microsoft Predicts 40 Jobs That Will Vanish In 2026 Due To AI. Trak.in.",
+          "url": "https://trak.in/stories/microsoft-predicts-40-jobs-that-will-vanish-in-2026-due-to-ai/"
+        },
+        {
+          "label": "Fore (28 April 2026, first published 31 July 2025). Microsoft researchers have revealed the 40 jobs most exposed to AI—and even teachers make the list. Fortune.",
+          "url": "https://fortune.com/article/what-are-the-jobs-most-exposed-to-ai-microsoft-researchers-list/"
+        },
+        {
+          "label": "Humlum and Vestergaard (2025, revised March 2026). Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI. NBER Working Paper 33777.",
+          "url": "https://www.nber.org/papers/w33777"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "arxiv-2025",
+          "date": "2025-07-10",
+          "who": "Microsoft Research (Tomlinson, Jaffe, Wang, Counts and Suri), arXiv",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://arxiv.org/pdf/2507.07935v1",
+          "archive": "https://web.archive.org/web/20250712041501/https://arxiv.org/pdf/2507.07935v1",
+          "wording": "It is tempting to conclude that occupations that have high overlap with activities AI performs will be automated and thus experience job or wage loss, and that occupations with activities AI assists with will be augmented and raise wages. This would be a mistake, as our data do not include the downstream business impacts of new technology, which are very hard to predict and often counterintuitive.",
+          "change": "Origin. A language model matched 200,000 Bing Copilot conversations to US work activities. The authors scored each occupation by how much of its work those activities cover and how well Copilot did them. Table 3 lists the 40 highest scores. The paper calls the job-loss reading “a mistake”."
+        },
+        {
+          "id": "newsweek-2025",
+          "date": "2025-07-31",
+          "who": "Newsweek (Alice Gibbs)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://www.newsweek.com/top-40-jobs-most-likely-impacted-ai-2103956",
+          "archive": "https://web.archive.org/web/20250731133554/https://www.newsweek.com/top-40-jobs-most-likely-impacted-ai-2103956",
+          "wording": "Researchers at Microsoft have identified the 40 professions most and least susceptible to disruption from generative AI.",
+          "change": "A high score becomes being “susceptible to disruption”. The headline reads “Top 40 Jobs Most Likely to Be Impacted by AI”. The article still quotes the lead author: the score shows “where AI might change how work is done—not necessarily replace jobs”."
+        },
+        {
+          "id": "businesstoday-2025",
+          "date": "2025-08-01",
+          "who": "Business Today (Lakshay Kumar)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://www.businesstoday.in/technology/news/story/microsoft-says-ai-will-take-away-these-40-jobs-check-if-your-role-is-safe-487376-2025-08-01",
+          "archive": "https://web.archive.org/web/20261025074745/https://www.businesstoday.in/technology/news/story/microsoft-says-ai-will-take-away-these-40-jobs-check-if-your-role-is-safe-487376-2025-08-01",
+          "wording": "Microsoft says AI will take away these 40 jobs: Check if your role is safe",
+          "change": "The researchers’ ranking becomes a statement by Microsoft that AI “will take away” the jobs. The subheading adds “These 40 jobs may not exist in 5 years”, a time frame found nowhere in the paper. The same article quotes the lead author: “not take away or replace jobs”."
+        },
+        {
+          "id": "msr-blog-2025",
+          "date": "2025-08-21",
+          "who": "Microsoft Research Blog (Tomlinson, Jaffe, Wang, Counts and Suri)",
+          "kind": "sponsor-summary",
+          "kind_label": "Sponsor’s summary",
+          "url": "https://www.microsoft.com/en-us/research/blog/applicability-vs-job-displacement-further-notes-on-our-recent-research-on-ai-and-occupations/",
+          "archive": "https://web.archive.org/web/20261025074804/https://www.microsoft.com/en-us/research/blog/applicability-vs-job-displacement-further-notes-on-our-recent-research-on-ai-and-occupations/",
+          "wording": "Our data do not indicate, nor did we suggest, that certain jobs will be replaced by AI.",
+          "change": "Follow-up. The five authors answer the coverage on Microsoft’s research blog. They write that “not all the discussion was accurate” and that the study “does not draw any conclusions about jobs being eliminated”."
+        },
+        {
+          "id": "arxiv-v6-2025",
+          "date": "2025-12-22",
+          "who": "Microsoft Research (Tomlinson, Jaffe, Wang, Counts and Suri), arXiv version 6",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://arxiv.org/pdf/2507.07935v6",
+          "archive": "https://web.archive.org/web/20260131210637/https://arxiv.org/pdf/2507.07935v6",
+          "wording": "Our measures of AI applicability indicate where AI is likely to change work, which is a part of the automation vs. augmentation question, but AI’s effects on employment and wages will depend on hard-to-predict business decisions.",
+          "change": "Follow-up. The sixth version gives less weight to physical tasks. Eight occupations leave the top 40, among them ticket agents, hosts and archivists. Passenger attendants fall from 3rd to 12th. The warning against reading the score as job loss stays."
+        },
+        {
+          "id": "fortune-2026",
+          "date": "2026-04-28",
+          "who": "Fortune (Preston Fore)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://fortune.com/article/what-are-the-jobs-most-exposed-to-ai-microsoft-researchers-list/",
+          "archive": "https://web.archive.org/web/20260428104435/https://fortune.com/article/what-are-the-jobs-most-exposed-to-ai-microsoft-researchers-list/",
+          "wording": "Microsoft’s released its list of 40 jobs that have high crossover with AI—and professionals warned it highlights the careers “most at risk,” with historians, translators, and sales reps high on the list.",
+          "change": "Fortune republishes its July 2025 story nine months later. “Most at risk” is credited to “professionals”. The article reports the authors’ caveat. It still names farm and home management educators, who are not in the top 40 of the December 2025 version."
+        }
+      ],
+      "reviewed": "2026-10-25"
     },
     {
       "id": "mit-sloan-path-to-digital-transformation",

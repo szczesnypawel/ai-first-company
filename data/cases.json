@@ -2,10 +2,10 @@
   "name": "Company cases of AI use, with outcomes and sources",
   "description": "Named companies that used AI at work, one row per case. Each row gives the company, what it does, the country, the period, the size band, the kind of work AI was used for, how the case turned out, who produced the figures, the practices the case bears on, and the public sources.",
   "url": "https://www.ai-first.company/evidence/cases/",
-  "version": "2026-10-17",
+  "version": "2026-10-25",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 39,
+  "count": 42,
   "rows": [
     {
       "id": "accessibe-ai-accessibility-claims",
@@ -207,6 +207,60 @@
         }
       ],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "bunnings-facial-recognition-privacy",
+      "url": "https://www.ai-first.company/evidence/cases/bunnings-facial-recognition-privacy/",
+      "title": "Bunnings: facial recognition on every shopper in 63 stores, and what the regulator and the tribunal decided",
+      "summary": "Bunnings scanned the face of every person who entered 63 of its stores to spot people it had flagged for crime or violence. The privacy regulator found that it broke the law. A tribunal later held that the chain could use the technology to fight serious retail crime, but agreed that it had not told shoppers properly and should have done a formal, documented risk assessment first.",
+      "company": "Bunnings",
+      "business": "Hardware and home improvement retailer",
+      "country": "Australia",
+      "period": "November 2018 – November 2021; regulator’s decision 2024, tribunal’s decision February 2026",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "tasks": [
+        "Security, fraud and monitoring"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "Official record",
+      "practices": [
+        {
+          "id": "know-the-rules-that-apply-to-your-ai-use",
+          "title": "Know the rules that already apply to your AI use",
+          "url": "https://www.ai-first.company/practices/know-the-rules-that-apply-to-your-ai-use/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Office of the Australian Information Commissioner (19 November 2024). Bunnings breached Australians’ privacy with facial recognition tool. Media release on Commissioner initiated investigation into Bunnings Group Limited (Privacy) [2024] AICmr 230.",
+          "url": "https://www.oaic.gov.au/news/media-centre/bunnings-breached-australians-privacy-with-facial-recognition-tool"
+        },
+        {
+          "label": "Office of the Australian Information Commissioner (2024). Bunnings determination. Fact sheet (PDF).",
+          "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0027/243936/Bunnings-determination-factsheet.pdf"
+        },
+        {
+          "label": "Office of the Australian Information Commissioner (4 February 2026). OAIC statement on Administrative Review Tribunal’s Bunnings decision. On Bunnings Group Limited and Privacy Commissioner [2026] ARTA 130.",
+          "url": "https://www.oaic.gov.au/news/media-centre/oaic-statement-on-administrative-review-tribunals-bunnings-decision"
+        },
+        {
+          "label": "Office of the Australian Information Commissioner (5 March 2026). Privacy Commissioner statement on Administrative Review Tribunal’s Bunnings decision.",
+          "url": "https://www.oaic.gov.au/news/media-centre/privacy-commissioner-statement-on-administrative-review-tribunals-bunnings-decision"
+        },
+        {
+          "label": "Bunnings (4 February 2026). Bunnings statement: Response to Administrative Review Tribunal of Australia’s decision. Company statement (PDF).",
+          "url": "https://media.bunnings.com.au/api/public/content/51f48a5bef0748109f7b52607bdfbd06"
+        },
+        {
+          "label": "Office of the Australian Information Commissioner (18 September 2025). Kmart’s use of facial recognition to tackle refund fraud unlawful, Privacy Commissioner finds. Media release.",
+          "url": "https://www.oaic.gov.au/news/media-centre/18-kmarts-use-of-facial-recognition-to-tackle-refund-fraud-unlawful,-privacy-commissioner-finds"
+        }
+      ],
+      "reviewed": "2026-10-25"
     },
     {
       "id": "butler-snow-ai-policy-ignored",
@@ -660,6 +714,63 @@
         }
       ],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "fiverr-ai-first-restructuring",
+      "url": "https://www.ai-first.company/evidence/cases/fiverr-ai-first-restructuring/",
+      "title": "Fiverr cut about 250 jobs to become “an AI-first company” and promised investors a higher margin",
+      "summary": "Fiverr let go about 30% of its staff and told investors it would reach a 25% adjusted EBITDA margin in 2026, a year early. The cut is on record in its annual report. The margin promise is not: by mid-2026 its revenue was falling and its own forecasts pointed lower.",
+      "company": "Fiverr",
+      "business": "Online marketplace for freelance services",
+      "country": "Israel (shares listed in New York)",
+      "period": "September 2025 – July 2026",
+      "size": "Mid-market (250–999 employees)",
+      "industries": [],
+      "tasks": [
+        "Customer service and support",
+        "Security, fraud and monitoring"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fiverr International (15 September 2025). Form 6-K: reduction in force of approximately 250 team members, with the letter to shareholders and the chief executive’s letter to staff (Exhibit 99.1). Filed with the US Securities and Exchange Commission.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891325003327/exhibit_99-1.htm"
+        },
+        {
+          "label": "Fiverr International (19 February 2025). Annual report for 2024 (Form 20-F). Source of the 2024 employee count.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891325000559/zk2532679.htm"
+        },
+        {
+          "label": "Fiverr International (12 March 2026). Annual report for 2025 (Form 20-F). Source of the 2025 employee count, the restructuring cost and the contractor spending.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326000858/zk2634486.htm"
+        },
+        {
+          "label": "Fiverr International (5 November 2025). Third-quarter 2025 results. Press release, Form 6-K.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891325003660/exhibit_99-1.htm"
+        },
+        {
+          "label": "Fiverr International (18 February 2026). Fourth-quarter and full-year 2025 results. Press release, Form 6-K.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326000544/exhibit_99-1.htm"
+        },
+        {
+          "label": "Fiverr International (29 April 2026). First-quarter 2026 results. Press release, Form 6-K.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326002276/exhibit_99-1.htm"
+        },
+        {
+          "label": "Fiverr International (29 July 2026). Second-quarter 2026 results. Press release, Form 6-K.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1762301/000117891326003624/exhibit_99-1.htm"
+        }
+      ],
+      "reviewed": "2026-10-25"
     },
     {
       "id": "garfield-law-ai-law-firm",
@@ -1967,6 +2078,50 @@
         }
       ],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "zillow-offers-home-price-forecasts",
+      "url": "https://www.ai-first.company/evidence/cases/zillow-offers-home-price-forecasts/",
+      "title": "Zillow Offers: home-price forecasts missed, and Zillow shut its home-buying business",
+      "summary": "Zillow bought homes to resell, at prices set with its own algorithms and in-person checks. In 2021 its forecasts of resale prices missed by far more than it had planned for. It wrote down $407.9 million of homes, shut the business and cut about a quarter of its staff. Zillow named labour and supply problems as well as the forecasts.",
+      "company": "Zillow Group",
+      "business": "Online real estate marketplace; Zillow Offers bought and resold homes",
+      "country": "United States",
+      "period": "Started 2018, wind-down announced 2 November 2021",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [],
+      "tasks": [
+        "Pricing, quoting and forecasting"
+      ],
+      "outcome": "Went wrong",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "keep-a-person-checking-what-goes-out",
+          "title": "Keep a person checking anything that goes to a customer or carries legal weight",
+          "url": "https://www.ai-first.company/practices/keep-a-person-checking-what-goes-out/",
+          "relation": "applied"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Zillow Group (2 November 2021). Q3 2021 shareholder letter. Form 8-K, Exhibit 99.3, US Securities and Exchange Commission.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764021000085/exhibit993.htm"
+        },
+        {
+          "label": "Zillow Group (2 November 2021). Zillow Group Reports Third-Quarter 2021 Financial Results & Shares Plan to Wind Down Zillow Offers Operations. Form 8-K, Exhibit 99.1.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764021000085/q32021991.htm"
+        },
+        {
+          "label": "Zillow Group (10 February 2022). Q4 2021 shareholder letter. Form 8-K, Exhibit 99.3.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764022000011/exhibit993.htm"
+        },
+        {
+          "label": "Zillow Group (10 February 2022). Annual report on Form 10-K for the year ended 31 December 2021.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764022000013/z-20211231.htm"
+        }
+      ],
+      "reviewed": "2026-10-25"
     }
   ]
 }
