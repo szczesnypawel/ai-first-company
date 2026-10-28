@@ -544,6 +544,12 @@
           "relation": "missing"
         },
         {
+          "id": "shopify-reflexive-ai-memo",
+          "company": "Shopify",
+          "url": "https://www.ai-first.company/evidence/cases/shopify-reflexive-ai-memo/",
+          "relation": "applied"
+        },
+        {
           "id": "temple-and-webster-ai-customer-care",
           "company": "Temple & Webster",
           "url": "https://www.ai-first.company/evidence/cases/temple-and-webster-ai-customer-care/",
@@ -610,6 +616,12 @@
           "id": "mata-v-avianca-fake-citations",
           "company": "Levidow, Levidow & Oberman P.C.",
           "url": "https://www.ai-first.company/evidence/cases/mata-v-avianca-fake-citations/",
+          "relation": "missing"
+        },
+        {
+          "id": "shopify-reflexive-ai-memo",
+          "company": "Shopify",
+          "url": "https://www.ai-first.company/evidence/cases/shopify-reflexive-ai-memo/",
           "relation": "missing"
         }
       ],
@@ -882,6 +894,12 @@
           "company": "SAM",
           "url": "https://www.ai-first.company/evidence/cases/sam-retirement-advisory-ai-agents/",
           "relation": "applied"
+        },
+        {
+          "id": "shopify-reflexive-ai-memo",
+          "company": "Shopify",
+          "url": "https://www.ai-first.company/evidence/cases/shopify-reflexive-ai-memo/",
+          "relation": "missing"
         },
         {
           "id": "siemens-ai-visual-inspection",
@@ -2179,7 +2197,14 @@
           "doi": "10.1093/qje/qjae044"
         }
       ],
-      "cases": [],
+      "cases": [
+        {
+          "id": "shopify-reflexive-ai-memo",
+          "company": "Shopify",
+          "url": "https://www.ai-first.company/evidence/cases/shopify-reflexive-ai-memo/",
+          "relation": "applied"
+        }
+      ],
       "reviewed": "2026-10-17"
     }
   ]

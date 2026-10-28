@@ -2,10 +2,10 @@
   "name": "Company cases of AI use, with outcomes and sources",
   "description": "Named companies that used AI at work, one row per case. Each row gives the company, what it does, the country, the period, the size band, the kind of work AI was used for, how the case turned out, who produced the figures, the practices the case bears on, and the public sources.",
   "url": "https://www.ai-first.company/evidence/cases/",
-  "version": "2026-10-25",
+  "version": "2026-10-28",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 42,
+  "count": 43,
   "rows": [
     {
       "id": "accessibe-ai-accessibility-claims",
@@ -1808,6 +1808,115 @@
         }
       ],
       "reviewed": "2026-10-13"
+    },
+    {
+      "id": "shopify-reflexive-ai-memo",
+      "url": "https://www.ai-first.company/evidence/cases/shopify-reflexive-ai-memo/",
+      "title": "Shopify: an AI-first memo, over half the code from AI by its leaders’ count, and unread AI work passed to colleagues",
+      "summary": "In April 2025 Shopify’s chief executive made AI use a baseline expectation for every employee, and told teams to show why AI could not do the work before asking for more staff. Since then Shopify’s headcount has fallen slightly while revenue rose 30%, and its leaders say AI writes over half its code. They also name what went wrong: a leaderboard of AI use that rewarded the wrong thing, more code than reviewers can keep up with, and AI work passed to colleagues unread. Every figure is the company’s own.",
+      "company": "Shopify",
+      "business": "Commerce software for online and in-store sellers",
+      "country": "Canada, with staff working remotely in many countries",
+      "period": "2025–2026",
+      "size": "Enterprise (1,000+ employees)",
+      "industries": [
+        "E-commerce and retail"
+      ],
+      "tasks": [
+        "Software and IT",
+        "Product development"
+      ],
+      "outcome": "Company-reported result",
+      "figures_from": "The company itself",
+      "practices": [
+        {
+          "id": "keep-entry-level-learning-tasks",
+          "title": "Keep the entry-level tasks that newcomers learn on",
+          "url": "https://www.ai-first.company/practices/keep-entry-level-learning-tasks/",
+          "relation": "applied"
+        },
+        {
+          "id": "train-staff-on-the-tools-you-chose",
+          "title": "Train staff on the tools you actually chose",
+          "url": "https://www.ai-first.company/practices/train-staff-on-the-tools-you-chose/",
+          "relation": "applied"
+        },
+        {
+          "id": "budget-for-the-work-ai-creates",
+          "title": "Budget for the work AI creates",
+          "url": "https://www.ai-first.company/practices/budget-for-the-work-ai-creates/",
+          "relation": "missing"
+        },
+        {
+          "id": "measure-time-saved-against-a-baseline",
+          "title": "Measure time saved per task against a baseline",
+          "url": "https://www.ai-first.company/practices/measure-time-saved-against-a-baseline/",
+          "relation": "missing"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Tobi Lütke (7 April 2025). “Reflexive AI usage is now a baseline expectation at Shopify.” Internal memo, posted by Shopify’s chief executive on X.",
+          "url": "https://x.com/tobi/status/1909251946235437514"
+        },
+        {
+          "label": "Shopify Inc. (11 February 2026). Annual report for 2025 (Form 10-K), filed with the US Securities and Exchange Commission. Source of the 2025 employee count, revenue and research and development costs.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm"
+        },
+        {
+          "label": "Shopify Inc. (11 February 2025). Annual report for 2024 (Form 10-K), filed with the US Securities and Exchange Commission. Source of the 2024 employee count.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm"
+        },
+        {
+          "label": "Shopify (5 May 2026). First-quarter 2026 earnings call. Transcript by The Motley Fool.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/shopify-shop-q1-2026-earnings-transcript/"
+        },
+        {
+          "label": "Shopify Engineering (28 May 2026). Under the River. Shopify’s engineering blog.",
+          "url": "https://shopify.engineering/under-the-river"
+        },
+        {
+          "label": "Uncapped with Jack Altman, episode 50 (20 May 2026). Tobi Lütke – Building Shopify and the Future of AI. Transcript on the show’s site.",
+          "url": "https://uncappedpod.com/p/tobi-lutke-building-shopify-and-the"
+        },
+        {
+          "label": "Latent Space (22 April 2026). Shopify’s AI Phase Transition, with Mikhail Parakhin, Shopify CTO. Transcript on the show’s site.",
+          "url": "https://www.latent.space/p/shopify"
+        },
+        {
+          "label": "The Knowledge Project with Shane Parrish (15 September 2026). Tobi Lütke: AI Agents, Better Decisions, and the Future of Work. Transcript on the show’s site.",
+          "url": "https://fs.blog/knowledge-project-podcast/tobi-lutke-3/"
+        },
+        {
+          "label": "20VC with Harry Stebbings (4 May 2026). Shopify’s Tobi Lütke on How AI is a Scapegoat for Mass Layoffs & What Will Labour Markets Be in the Future. Episode page.",
+          "url": "https://podcasts.apple.com/hk/podcast/20vc-shopifys-tobi-l%C3%BCtke-on-how-ai-is-a-scapegoat/id958230465?i=1000765998566"
+        },
+        {
+          "label": "Bessemer Venture Partners (2 April 2026). Inside Shopify’s AI-first engineering playbook. A venture capital firm’s write-up of an interview with Shopify’s head of engineering, Farhan Thawar.",
+          "url": "https://www.bvp.com/atlas/inside-shopifys-ai-first-engineering-playbook"
+        },
+        {
+          "label": "VentureBeat, Beyond the Pilot, season 1 episode 16 (24 June 2026). Small Models, Massive Wins: The New Shopify AI Formula. Interview with Farhan Thawar, with transcript.",
+          "url": "https://venturebeat.com/video/small-models-massive-wins-shopifys-new-ai-formula"
+        },
+        {
+          "label": "First Round Review (15 July 2025). From Memo to Movement: Shopify’s Cultural Adoption of AI. A venture capital firm’s publication, interviewing Shopify executives.",
+          "url": "https://review.firstround.com/shopify-ai"
+        },
+        {
+          "label": "Shopify Internships. Zero experience, infinite leverage. Shopify’s internship site.",
+          "url": "https://internships.shopify.com/pages/zero-experience-infinite-leverage"
+        },
+        {
+          "label": "BetaKit (22 January 2026). Shopify makes more job cuts, this time targeting partnerships division.",
+          "url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+        },
+        {
+          "label": "The Logic (4 May 2026). Shopify makes cuts to its operations team in latest round of layoffs.",
+          "url": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+        }
+      ],
+      "reviewed": "2026-10-28"
     },
     {
       "id": "siemens-ai-visual-inspection",
