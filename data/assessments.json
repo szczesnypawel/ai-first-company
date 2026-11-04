@@ -2,7 +2,7 @@
   "name": "AI readiness assessments: questionnaires, tests, task maps and interview guides",
   "description": "Published instruments for assessing where a company stands with AI, one row per assessment. Each row gives the question it answers, its type, how well it has been tested, who answers it, its length, licence, cost and languages, and links to the provider and the source publications.",
   "url": "https://www.ai-first.company/assessments/",
-  "version": "2026-10-13",
+  "version": "2026-11-04",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
   "count": 21,
@@ -262,9 +262,9 @@
       "who_answers": "The people who use that system",
       "length": "3 questions; long form 12 questions",
       "takes": "3 questions, or 12 in the long form",
-      "use": "Free to use and adapt",
-      "licence": "CC BY 4.0",
-      "cost": "Free",
+      "use": "Ask the authors",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Not established",
       "languages": "English",
       "levels": [
         "Person"
@@ -276,11 +276,15 @@
           "url": "https://doi.org/10.3389/frai.2025.1582880"
         },
         {
+          "label": "Jian, Bisantz and Drury (2000). Foundations for an empirically determined scale of trust in automated systems. International Journal of Cognitive Ergonomics.",
+          "url": "https://doi.org/10.1207/S15327566IJCE0401_04"
+        },
+        {
           "label": "Lockey, Gillespie, Morrill and Pool (2024). Trust in Artificial Intelligence: A Critical Systematic Review. Academy of Management Proceedings.",
           "url": "https://doi.org/10.5465/amproc.2024.14990abstract"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-04"
     },
     {
       "id": "dloq",
@@ -422,7 +426,7 @@
       "length": "34 questions; short version 10 questions",
       "takes": "34 questions, or 10 in the short version",
       "use": "Free to use, ask before changing",
-      "licence": "Full version: CC BY-NC-ND 4.0. Short version: CC BY 4.0.",
+      "licence": "Full version: CC BY-NC-ND 4.0 (journal), CC BY 4.0 (preprint). Short version: CC BY 4.0 (article); no licence on the questionnaire file.",
       "cost": "Free",
       "languages": "Published in English; tested in Germany. A Greek version exists.",
       "levels": [
@@ -435,6 +439,14 @@
           "url": "https://doi.org/10.1016/j.chbah.2023.100014"
         },
         {
+          "label": "Carolus, Koch, Straka, Latoschik and Wienrich (2023). Preprint of the same article, with the questions. arXiv.",
+          "url": "https://arxiv.org/abs/2302.09319"
+        },
+        {
+          "label": "University of Würzburg. MAILS short version: questionnaire.",
+          "url": "https://downloads.hci.informatik.uni-wuerzburg.de/MAILS-short-questionnaire-english.pdf"
+        },
+        {
           "label": "Koch, Carolus, Wienrich and Latoschik (2024). Meta AI literacy scale: Further validation and development of a short version. Heliyon.",
           "url": "https://doi.org/10.1016/j.heliyon.2024.e39686"
         },
@@ -443,7 +455,7 @@
           "url": "https://doi.org/10.3390/educsci16071117"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-04"
     },
     {
       "id": "aicos",
@@ -456,12 +468,12 @@
       "type": "AI knowledge tests and self-ratings",
       "testing_level": "Moderate",
       "who_answers": "Staff, each taking a test",
-      "length": "A full version and a short version. The number of questions is not established.",
-      "takes": "A full and a short version. The number of questions is not established",
-      "use": "Free to use and adapt",
-      "licence": "CC BY 4.0",
-      "cost": "Free",
-      "languages": "Not established. The test was developed in Germany and published in an English-language journal.",
+      "length": "51 questions; preliminary short version 18 questions",
+      "takes": "51 questions, or 18 in a preliminary short version",
+      "use": "Ask the authors",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Not established",
+      "languages": "German only, according to the 2025 article.",
       "levels": [
         "Person"
       ],
@@ -470,9 +482,13 @@
         {
           "label": "Markus, Carolus and Wienrich (2025). Objective measurement of AI literacy: Development and validation of the AI competency objective scale (AICOS). Computers and Education: Artificial Intelligence.",
           "url": "https://doi.org/10.1016/j.caeai.2025.100485"
+        },
+        {
+          "label": "Markus, Carolus and Wienrich (2025). Preprint of the same article, with the source of each question. arXiv.",
+          "url": "https://arxiv.org/abs/2503.12921"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-04"
     },
     {
       "id": "sail4all",
