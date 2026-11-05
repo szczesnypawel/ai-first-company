@@ -2,7 +2,7 @@
   "name": "AI readiness assessments: questionnaires, tests, task maps and interview guides",
   "description": "Published instruments for assessing where a company stands with AI, one row per assessment. Each row gives the question it answers, its type, how well it has been tested, who answers it, its length, licence, cost and languages, and links to the provider and the source publications.",
   "url": "https://www.ai-first.company/assessments/",
-  "version": "2026-11-04",
+  "version": "2026-11-05",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
   "count": 21,
@@ -20,9 +20,9 @@
       "who_answers": "The staff who use the new practice",
       "length": "23 questions",
       "takes": "23 questions",
-      "use": "Free to use and adapt",
-      "licence": "CC BY",
-      "cost": "Free",
+      "use": "Ask the authors",
+      "licence": "CC BY (articles); core questions © Newcastle University 2015",
+      "cost": "Not established",
       "languages": "English, Swedish, Dutch (the Dutch version has 20 questions)",
       "levels": [
         "Person",
@@ -45,9 +45,17 @@
         {
           "label": "Vis, Ruwaard, Finch, Rapley, de Beurs and colleagues (2019). Psychometric Evaluation of the Normalization Measure Development (NoMAD) Questionnaire Among Mental Health Care Professionals. Journal of Medical Internet Research.",
           "url": "https://doi.org/10.2196/12376"
+        },
+        {
+          "label": "Finch and colleagues (2015). NoMAD survey file, with the copyright notice. Additional file 2 of the 2018 validation article.",
+          "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12874-018-0591-x/MediaObjects/12874_2018_591_MOESM2_ESM.docx"
+        },
+        {
+          "label": "Normalization Process Theory website. Legal page.",
+          "url": "https://normalization-process-theory.northumbria.ac.uk/legal/"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "ai-capability-scale",
@@ -62,9 +70,9 @@
       "who_answers": "Managers, about their own company",
       "length": "46 questions in 8 groups",
       "takes": "46 questions",
-      "use": "Free to use and adapt",
-      "licence": "CC BY 4.0",
-      "cost": "Free",
+      "use": "Ask the authors",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Not established",
       "languages": "English",
       "levels": [
         "Organization"
@@ -84,7 +92,7 @@
           "url": "https://doi.org/10.1016/j.giq.2022.101797"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "oric",
@@ -127,8 +135,8 @@
       "type": "Readiness surveys",
       "testing_level": "Not yet tested",
       "who_answers": "Managers and staff, in a discussion",
-      "length": "4 categories of criteria. The number of questions is not established.",
-      "takes": "4 groups of criteria. The number of questions is not established",
+      "length": "4 categories of criteria with 61 statements, worded for municipalities.",
+      "takes": "4 groups of criteria with 61 statements",
       "use": "Free to use and adapt",
       "licence": "CC BY",
       "cost": "Free",
@@ -144,7 +152,7 @@
           "url": "https://doi.org/10.3390/systems13080705"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "aias-4",
@@ -392,9 +400,9 @@
       "who_answers": "A trained observer and the team’s members",
       "length": "Observation of one team meeting (31 behaviours in 7 groups), plus a 19-question survey and 3 questions on whether the meeting was typical",
       "takes": "One observed team meeting, plus a 19-question survey",
-      "use": "Free to use and adapt",
-      "licence": "CC BY 4.0",
-      "cost": "Free. Needs a trained observer.",
+      "use": "Ask the authors",
+      "licence": "CC BY 4.0 (article)",
+      "cost": "Not established. Needs a trained observer.",
       "languages": "English. The survey part has a Japanese version.",
       "levels": [
         "Team"
@@ -410,7 +418,7 @@
           "url": "https://doi.org/10.3390/ijerph19169879"
         }
       ],
-      "reviewed": "2026-10-13"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "mails",
