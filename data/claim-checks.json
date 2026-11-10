@@ -17,6 +17,10 @@
       "correct": "In July 2024, Gartner, which sells research and advice to IT leaders, predicted that “at least 30%” of generative AI projects would be abandoned after proof of concept by the end of 2025. In January 2026, Gartner said that at least 50% had been abandoned, from its analysis of “hundreds of GenAI implementations”. Gartner published no method for either figure.",
       "figure_kind": "Forecast",
       "scope": "Generative AI projects stopped after a proof of concept, up to the end of 2025, as a lower limit. It is what Gartner expected in July 2024, not a count.",
+      "published_by": [
+        "Gartner"
+      ],
+      "source_year": "2024",
       "studies": [],
       "sources": [
         {
@@ -112,6 +116,11 @@
       "correct": "In a 2026 online survey of US firms with fewer than 250 employees, run by Teneo Research for the US Chamber of Commerce, which campaigns against state AI laws, 66% said they used AI. Other US counts are lower: 46% of employer firms in the Federal Reserve Banks’ 2025 survey, 17.7% of firms that had paid an AI provider by the end of 2025 in Chase bank records, and under 20% of firms with four or fewer employees in the US Census Bureau’s survey.",
       "figure_kind": "Self-reported",
       "scope": "",
+      "published_by": [
+        "US Chamber of Commerce",
+        "Teneo Research"
+      ],
+      "source_year": "2026",
       "studies": [
         "us-small-employer-firms-ai-survey",
         "small-business-ai-payments-bank-data",
@@ -148,6 +157,10 @@
       "correct": "In a 2020 article, Boston Consulting Group, which sells transformation consulting, drew on its work with 70 client companies and a survey of 825 senior executives, who rated their companies’ digital transformations. By BCG’s measure, 30% met or exceeded their target value and produced lasting change, 44% created some value but missed their targets, and 26% created less than half of their target value. No source has measured how often AI transformations fail.",
       "figure_kind": "Self-reported",
       "scope": "Digital transformations, as rated by 825 senior executives and seen in BCG’s work with 70 client companies, reported in October 2020. It does not hold for AI transformations or for change programmes in general.",
+      "published_by": [
+        "Boston Consulting Group"
+      ],
+      "source_year": "2020",
       "studies": [
         "state-of-ai-2025-survey"
       ],
@@ -261,6 +274,11 @@
       "correct": "In an online survey of 31,000 desk workers in 31 countries, run in February and March 2024 for Microsoft, which sells AI tools for work, and LinkedIn, 75% said they used generative AI at work (71% in the United States). Of those users, 78% said they used AI tools their employer did not provide. A survey weighted to the whole US workforce found that 26.5% of US workers used generative AI at work in late 2024.",
       "figure_kind": "Self-reported",
       "scope": "Desk workers in 31 countries who answered an online survey in February and March 2024, with each country counted equally. The 78% is a share of those who said they use generative AI, and counts tools the employer did not provide, not tools it banned.",
+      "published_by": [
+        "Microsoft",
+        "LinkedIn"
+      ],
+      "source_year": "2024",
       "studies": [
         "chatbots-and-the-labour-market-denmark"
       ],
@@ -375,6 +393,10 @@
       "correct": "In a survey for Upwork, which runs a marketplace for hiring freelancers, workers in the US, UK, Australia and Canada were asked in April and May 2024 about AI at work. 77% of those who used AI named at least one way it had added to their workload or cut their productivity; the most common was more time reviewing AI-generated content (39%). The report does not say how many people answered this question, or whether AI also saved them time.",
       "figure_kind": "Self-reported",
       "scope": "Workers who use AI, in a survey in the US, UK, Australia and Canada in April and May 2024, who picked at least one item from a list of ways AI added to their work. It does not show that AI made work heavier overall, or that 77% of all employees feel this.",
+      "published_by": [
+        "Upwork Research Institute"
+      ],
+      "source_year": "2024",
       "studies": [
         "chatbots-and-the-labour-market-denmark",
         "copilot-field-experiment-66-firms"
@@ -467,6 +489,10 @@
       "correct": "In February 2018, Gartner predicted that “through 2022, 85 percent of AI projects will deliver erroneous outcomes due to bias in data, algorithms or the teams responsible for managing them”. Gartner gave no method for this forecast, and it is not a count of failed projects. In Gartner’s own later surveys, respondents said that on average 54% (late 2021) and 48% (late 2023) of their AI projects made it into production, that is, into everyday use.",
       "figure_kind": "Forecast",
       "scope": "AI projects giving wrong results because of bias in data, algorithms or teams, up to 2022. It is what Gartner expected in February 2018, not a count.",
+      "published_by": [
+        "Gartner"
+      ],
+      "source_year": "2018",
       "studies": [],
       "sources": [
         {
@@ -575,6 +601,10 @@
       "correct": "A preliminary 2025 report from MIT’s Project NANDA, based on interviews at 52 organizations, 153 survey answers from senior leaders at industry conferences and a review of over 300 public AI initiatives, estimated that 5% of organizations had task-specific generative AI tools in production. The authors describe their figures as “directionally accurate based on individual interviews rather than official company reporting”.",
       "figure_kind": "Self-reported",
       "scope": "",
+      "published_by": [
+        "MIT NANDA"
+      ],
+      "source_year": "2025",
       "studies": [],
       "sources": [
         {
@@ -599,6 +629,10 @@
       "correct": "In March 2023, economists at the investment bank Goldman Sachs calculated from US and European data on job tasks that generative AI “could expose the equivalent of 300mn full-time jobs to automation” across large economies. That is an estimate of work AI could technically do, with no timeline. In the same note’s main case, 7% of current US jobs would be replaced by AI, 63% would be helped by it and 30% would be unaffected.",
       "figure_kind": "Model or scenario",
       "scope": "Work that generative AI could technically do across large economies, equal to 300 million full-time jobs, extrapolated from US and European task data in March 2023. It is a calculation with no timeline, not a count or a forecast of jobs lost.",
+      "published_by": [
+        "Goldman Sachs"
+      ],
+      "source_year": "2023",
       "studies": [
         "us-census-ai-use-by-firms",
         "chatbots-and-the-labour-market-denmark",
@@ -722,6 +756,10 @@
       "correct": "In a study of 5,172 customer-support agents at one Fortune 500 software company, most of them working from the Philippines, agents given an AI assistant resolved 15% more customer issues per hour on average (Brynjolfsson, Li and Raymond, The Quarterly Journal of Economics, 2025). Less experienced and lower-skilled agents gained the most. The most experienced and highest-skilled agents got slightly faster, and the quality of their work fell slightly.",
       "figure_kind": "Measured",
       "scope": "Chat technical support at one Fortune 500 software company, mostly staffed from the Philippines, with one AI assistant given to agents in 2020–21. The average gain is 15% in the peer-reviewed version; the most skilled agents resolved no more issues per hour and lost a little quality.",
+      "published_by": [
+        "NBER"
+      ],
+      "source_year": "2023",
       "studies": [
         "generative-ai-at-work",
         "genai-sales-experiments-online-retail",
@@ -841,6 +879,10 @@
       "correct": "In a 2017 report, the consultancy PwC, which sells AI services, calculated with an economic model that world GDP could be up to 14% higher in 2030 because of AI: the equivalent of $15.7 trillion in that year, at 2016 prices. PwC said this was the potential “size of the economic prize”, not a forecast of growth. Of the total, $9.1 trillion came from consumers buying more and better products, and $6.6 trillion from productivity.",
       "figure_kind": "Model or scenario",
       "scope": "The most AI could add to world GDP in the single year 2030, compared with a world without AI, at 2016 prices, as calculated by PwC’s model in 2017, before generative AI. It is a potential, not a forecast, and not a total over the years to 2030.",
+      "published_by": [
+        "PwC"
+      ],
+      "source_year": "2017",
       "studies": [
         "chatbots-and-the-labour-market-denmark"
       ],
@@ -966,6 +1008,10 @@
       "correct": "An IMF staff paper from January 2024 (Cazzaniga and others) found that almost 40% of jobs worldwide, and about 60% in advanced economies, are in occupations with high “exposure” to AI: their tasks overlap more than the median with what AI can do. The authors say the measure is relative and static, and about half of the exposed jobs in advanced economies could benefit from AI. In October 2026 the IMF’s Managing Director wrote that it was “still too early to predict the toll on employment”.",
       "figure_kind": "Model or scenario",
       "scope": "The share of employment in occupations that score above the median on a relative AI exposure index, across 142 countries, with employment data from the ILO. It says which jobs AI’s abilities overlap with most, not how many jobs will change, or when.",
+      "published_by": [
+        "IMF"
+      ],
+      "source_year": "2024",
       "studies": [
         "ai-occupational-exposure",
         "ai-exposure-and-employment-oecd",
@@ -1073,6 +1119,10 @@
       "correct": "The World Economic Forum’s Future of Jobs Report 2025 asked over 1,000 large employers in mid-2024 how roles in their own organizations would change by 2030. Scaled up to about 1.2 billion formal jobs, their answers point to 170 million jobs created and 92 million displaced, from all the trends they named together. For AI and information processing alone, the report expects 11 million jobs created and 9 million displaced.",
       "figure_kind": "Forecast",
       "scope": "Job changes from all the trends employers named together, across about 1.2 billion formal jobs worldwide, from 2025 to 2030. It is what large employers expected in 2024, scaled up, not a count.",
+      "published_by": [
+        "World Economic Forum"
+      ],
+      "source_year": "2025",
       "studies": [
         "firm-data-on-ai-four-countries",
         "chatbots-and-the-labour-market-denmark"
@@ -1179,6 +1229,10 @@
       "correct": "BCG’s AI Maturity Matrix (November 2024) assesses 73 economies, not companies. Separately, BCG’s 2024 survey of 1,000 executives in 59 countries found that 26% of companies had the capabilities to move beyond proofs of concept and generate tangible value from AI.",
       "figure_kind": "Framework or commentary",
       "scope": "",
+      "published_by": [
+        "Boston Consulting Group"
+      ],
+      "source_year": "2024",
       "studies": [
         "decade-of-digital-maturity-models",
         "digital-readiness-model-for-smes"
@@ -1206,6 +1260,10 @@
       "correct": "In a preprint from the MIT Media Lab (Kosmyna and others, 2025), 54 students in the Boston area wrote 20-minute essays with ChatGPT, a search engine or no tool while EEG headsets recorded their brain activity. The no-tool group showed the strongest brain connectivity and the ChatGPT group the weakest. After the first session, 15 of the 18 ChatGPT users could not quote from the essay they had just written, against 2 of 18 in each other group. None of the 18 gave a correct quote. The paper is not peer-reviewed, and its authors say the findings “may not generalize across tasks”.",
       "figure_kind": "Measured",
       "scope": "Students and staff from universities in the Boston area, 18 per group, writing 20-minute essays with or without ChatGPT. The 83.3% holds for the first session only; by the third, 6 of the 18 ChatGPT users gave no correct quote.",
+      "published_by": [
+        "MIT Media Lab"
+      ],
+      "source_year": "2025",
       "studies": [
         "your-brain-on-chatgpt"
       ],
@@ -1327,6 +1385,10 @@
       "correct": "In a 2023 experiment, 758 Boston Consulting Group consultants were assigned by chance to work with or without GPT-4 (Dell’Acqua and colleagues, Organization Science, 2026). On 18 questions of one product-development exercise, chosen because GPT-4 handles them well, consultants using AI completed 12.2% more of the questions, reached the last question 25.1% faster and received grades on average 32% higher. On a business case chosen because GPT-4 gets it wrong, consultants using AI were 19 percentage points less likely to find the right answer.",
       "figure_kind": "Measured",
       "scope": "18 questions in one 90-minute product-development exercise, chosen because GPT-4 (as of April 2023) handled them well, done by about 385 BCG consultants. It does not hold for tasks AI does badly: on one such task, correct answers fell by 19 percentage points.",
+      "published_by": [
+        "Harvard Business School"
+      ],
+      "source_year": "2023",
       "studies": [
         "jagged-frontier",
         "chatgpt-writing-experiment",
@@ -1446,6 +1508,10 @@
       "correct": "In a UK government trial of Microsoft 365 Copilot with about 20,000 staff from October to December 2024, users estimated in a survey that it saved them 26 minutes a day on average. The figure is self-reported, and two departments that evaluated the tool separately found smaller or unproven gains.",
       "figure_kind": "Self-reported",
       "scope": "",
+      "published_by": [
+        "UK Government Digital Service"
+      ],
+      "source_year": "2025",
       "studies": [],
       "sources": [
         {
@@ -1474,6 +1540,12 @@
       "correct": "In an experiment run in May and June 2022 by researchers from GitHub, Microsoft and MIT, 95 freelance developers hired through Upwork were asked to write a small web server in JavaScript. Those given GitHub Copilot who finished took 71.17 minutes on average, against 160.89 minutes for those without it: a 55.8% cut in time. The study tested one task, and its authors say it “does not examine the effects of AI on code quality”.",
       "figure_kind": "Measured",
       "scope": "One task, writing a small web server in JavaScript against tests given in advance, done by 95 freelance developers hired through Upwork in May and June 2022 with an early version of Copilot. It does not show gains in everyday work, on other tasks or in the quality of the code.",
+      "published_by": [
+        "GitHub",
+        "Microsoft",
+        "MIT"
+      ],
+      "source_year": "2023",
       "studies": [
         "developers-slower-with-ai"
       ],
@@ -1583,6 +1655,10 @@
       "correct": "In US payroll records from ADP up to June 2026, employment of 22–25-year-olds in the occupations most exposed to AI was 19% below where it would have been had it kept pace with less exposed occupations, mainly because fewer young people were hired; experienced workers showed no such gap (Brynjolfsson, Chandar and Chen, Stanford Digital Economy Lab working paper, revised 12 August 2026). The authors describe these as “early, descriptive indicators” and not proof that AI caused the gap.",
       "figure_kind": "Measured",
       "scope": "22–25-year-olds in US payroll records from ADP, compared by how exposed their occupation is to AI. A relative gap that describes a pattern; the authors do not claim AI caused it. Cite the version and its date: 13% (August 2025), 16% (November 2025), 19% on a different measure (August 2026).",
+      "published_by": [
+        "Stanford Digital Economy Lab"
+      ],
+      "source_year": "2025",
       "studies": [
         "young-workers-in-ai-exposed-jobs",
         "genai-adopters-and-junior-hiring"
@@ -1709,6 +1785,10 @@
       "correct": "In an August 2024 survey for Microsoft, which sells generative AI, IDC asked business leaders responsible for AI at their organizations to estimate the return on each $1 their organization spent on generative AI. The 3,343 who used generative AI and gave an answer estimated 3.7 times on average; the survey did not say what counted as return. In the 2025 round of the same survey, the average estimate was 2.8 times.",
       "figure_kind": "Self-reported",
       "scope": "What decision-makers at organizations already using generative AI estimated in August 2024, leaving out those who were not sure, with return left undefined. It is not a measured return, and the 2025 round of the survey gave 2.8 times.",
+      "published_by": [
+        "IDC"
+      ],
+      "source_year": "2024",
       "studies": [
         "firm-data-on-ai-four-countries"
       ],
@@ -1830,6 +1910,10 @@
       "correct": "In June 2023, the McKinsey Global Institute estimated that 63 uses of generative AI, chosen with its own experts, could be worth “the equivalent of $2.6 trillion to $4.4 trillion annually” if they were adopted across the whole economy. McKinsey, which sells AI consulting, gave no date for this value. It is a calculation of potential, not a forecast of economic growth.",
       "figure_kind": "Model or scenario",
       "scope": "The value of 63 uses of generative AI that McKinsey chose, if every company in the 2022 global economy adopted them: $2.6 trillion to $4.4 trillion a year. It has no date, and it is not a forecast of added GDP.",
+      "published_by": [
+        "McKinsey Global Institute"
+      ],
+      "source_year": "2023",
       "studies": [
         "us-census-ai-use-by-firms",
         "chatbots-and-the-labour-market-denmark"
@@ -1956,6 +2040,10 @@
       "correct": "In an online survey run by the economists Bick, Blandin and Deming in November 2024, US workers aged 18 to 64 who had used generative AI for work in the previous week estimated that it saved them 5.4% of their work hours, about 2.2 hours in a 40-hour week. Across all workers, including those who did not use it, the figure was 1.4%. Both figures are self-reported, and the authors’ revised paper of October 2025 puts the users’ figure at 5.2%.",
       "figure_kind": "Self-reported",
       "scope": "US workers aged 18 to 64 who used generative AI for work in one week of November 2024, estimating how many more hours their work would have taken without it. It is not time measured, not all workers (1.4%), and not a gain in output.",
+      "published_by": [
+        "Federal Reserve Bank of St. Louis"
+      ],
+      "source_year": "2025",
       "studies": [
         "chatbots-and-the-labour-market-denmark",
         "copilot-field-experiment-66-firms"
@@ -2082,6 +2170,10 @@
       "correct": "Microsoft Research’s Responsible AI Maturity Model (Vorvoreanu and colleagues, 2023) describes 24 dimensions of responsible AI practice, each at five levels from Latent to Leading. It is a planning framework for responsible AI, not a measure of general AI readiness.",
       "figure_kind": "Framework or commentary",
       "scope": "Responsible AI practice only. It does not measure AI readiness or AI maturity in general, and no published study has tested it as a measure.",
+      "published_by": [
+        "Microsoft Research"
+      ],
+      "source_year": "2023",
       "studies": [
         "decade-of-digital-maturity-models"
       ],
@@ -2104,6 +2196,10 @@
       "correct": "Microsoft researchers (Tomlinson and others, version of December 2025, a preprint not peer-reviewed) matched 200,000 anonymized Bing Copilot conversations from 2024 to the work activities of US occupations. Interpreters and translators, historians, and writers and authors scored highest on their “AI applicability score”, a relative measure of overlap with what Copilot users asked for. The authors write that AI’s effects on employment and wages “will depend on hard-to-predict business decisions”.",
       "figure_kind": "Model or scenario",
       "scope": "A ranking of US occupations by how far their O*NET work activities overlap with Bing Copilot conversations from January to September 2024, as calculated by Microsoft researchers. It compares occupations with each other. It does not say how many jobs will go, or when.",
+      "published_by": [
+        "Microsoft Research"
+      ],
+      "source_year": "2025",
       "studies": [
         "working-with-ai-microsoft-occupations",
         "exposure-is-not-adoption",
@@ -2229,6 +2325,10 @@
       "correct": "MIT Sloan Management Review’s collection “The Path to Digital Transformation” says that “a variety of cultural, organizational, and technical shifts need to take place” as companies build digital capabilities. It does not rank them. For evidence that people-related barriers weigh most, cite a study that measured it.",
       "figure_kind": "Framework or commentary",
       "scope": "",
+      "published_by": [
+        "MIT Sloan Management Review"
+      ],
+      "source_year": "",
       "studies": [
         "ai-barriers-and-ai-maturity",
         "individual-adoption-vs-organisational-maturity",
@@ -2253,6 +2353,10 @@
       "correct": "RAND’s 2024 report on why AI projects fail did not measure a failure rate. It interviewed 65 experienced data scientists and engineers between August and December 2023, and named five root causes, the first being that people misunderstand or miscommunicate what problem the AI should solve. The “more than 80 percent” figure in its introduction rests on a Fortune article that names no source for it.",
       "figure_kind": "Unsourced estimate",
       "scope": "",
+      "published_by": [
+        "RAND Corporation"
+      ],
+      "source_year": "2024",
       "studies": [],
       "sources": [
         {
@@ -2341,6 +2445,10 @@
       "correct": "In a McKinsey survey of 118 US C-suite executives at companies with at least $1 billion in annual revenue, in October and November 2024, 1% described their company’s generative AI rollout as “mature”: “fundamentally changing how work is done, driving substantial business outcomes”. Another 22% placed it one step lower, “scaled across departments”. McKinsey sells AI consulting.",
       "figure_kind": "Self-reported",
       "scope": "What 118 US executives at companies with at least $1 billion in revenue said in late 2024 about their own company’s generative AI rollout. It is not a count of companies in general, and not a measure of results.",
+      "published_by": [
+        "McKinsey"
+      ],
+      "source_year": "2025",
       "studies": [
         "state-of-ai-2025-survey",
         "firm-data-on-ai-four-countries"
@@ -2444,6 +2552,10 @@
       "correct": "In Cisco’s 2024 AI Readiness Index, a survey of 7,985 senior business leaders at organizations with 500 or more employees in 30 markets, 13% of organizations were classed as fully ready for AI, down from 14% in 2023.",
       "figure_kind": "Self-reported",
       "scope": "",
+      "published_by": [
+        "Cisco"
+      ],
+      "source_year": "2024",
       "studies": [
         "digital-readiness-model-for-smes",
         "decade-of-digital-maturity-models"
@@ -2475,6 +2587,10 @@
       "correct": "In a survey of 2,000 chief executives in 33 countries in the first quarter of 2025, by the research arm of IBM, which sells AI software and consulting, the chief executives said 25% of their AI initiatives over the previous three years had delivered the return they expected, and 16% had been rolled out across the whole company. IBM did not publish the question or say how the 25% was calculated.",
       "figure_kind": "Self-reported",
       "scope": "What chief executives said in early 2025 about their own organizations’ AI initiatives over the previous three years, judged against each organization’s own expected return. It is not a count of projects and not a failure rate.",
+      "published_by": [
+        "IBM Institute for Business Value"
+      ],
+      "source_year": "2025",
       "studies": [
         "firm-data-on-ai-four-countries"
       ],
@@ -2592,6 +2708,10 @@
       "correct": "PwC, which sells AI consulting and training, compared the salaries offered in job ads posted in 2024. Within the same occupation, ads that asked for at least one of 376 AI skills, most of them specialist machine-learning skills, offered on average 56% more than ads that did not (2025 Global AI Jobs Barometer). This compares advertised salaries, not what workers earn, and it does not show that AI skills cause the higher pay.",
       "figure_kind": "Measured",
       "scope": "Salaries offered in job ads posted in 2024 (PwC’s data covers 24 countries, almost half of the ads from the US), for jobs that list at least one of 376 AI skills, compared with ads for the same occupation. It does not measure what workers are paid, or what using AI tools at work adds to pay.",
+      "published_by": [
+        "PwC"
+      ],
+      "source_year": "2025",
       "studies": [
         "chatbots-and-the-labour-market-denmark"
       ],
