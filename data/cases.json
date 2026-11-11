@@ -282,6 +282,12 @@
       "figures_from": "Court or tribunal record",
       "practices": [
         {
+          "id": "find-out-which-ai-tools-staff-already-use",
+          "title": "Find out which AI tools staff already use, then give them an approved one",
+          "url": "https://www.ai-first.company/practices/find-out-which-ai-tools-staff-already-use/",
+          "relation": "missing"
+        },
+        {
           "id": "write-a-short-ai-use-policy",
           "title": "Write a one-page AI-use policy staff will actually read",
           "url": "https://www.ai-first.company/practices/write-a-short-ai-use-policy/",
@@ -474,6 +480,12 @@
       "outcome": "Went wrong",
       "figures_from": "Official record",
       "practices": [
+        {
+          "id": "find-out-which-ai-tools-staff-already-use",
+          "title": "Find out which AI tools staff already use, then give them an approved one",
+          "url": "https://www.ai-first.company/practices/find-out-which-ai-tools-staff-already-use/",
+          "relation": "missing"
+        },
         {
           "id": "decide-what-data-goes-into-which-ai-tools",
           "title": "Decide what data may go into which AI tools",
@@ -1432,6 +1444,12 @@
       "outcome": "Went wrong",
       "figures_from": "Official record",
       "practices": [
+        {
+          "id": "find-out-which-ai-tools-staff-already-use",
+          "title": "Find out which AI tools staff already use, then give them an approved one",
+          "url": "https://www.ai-first.company/practices/find-out-which-ai-tools-staff-already-use/",
+          "relation": "missing"
+        },
         {
           "id": "decide-what-data-goes-into-which-ai-tools",
           "title": "Decide what data may go into which AI tools",

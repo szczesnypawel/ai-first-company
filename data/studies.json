@@ -901,6 +901,7 @@
       "setting": "Online experiments run by researchers at Duke University's Fuqua School of Business, United States.",
       "practices_supported": [
         "protect-psychological-safety-during-rollout",
+        "find-out-which-ai-tools-staff-already-use",
         "write-a-short-ai-use-policy"
       ],
       "practices_limited": [],
@@ -1216,6 +1217,7 @@
       "setting": "Poland.",
       "practices_supported": [
         "budget-for-people-and-process",
+        "find-out-which-ai-tools-staff-already-use",
         "name-one-accountable-ai-owner",
         "assess-readiness-from-several-sources"
       ],

@@ -845,7 +845,7 @@
     },
     {
       "id": "nanda-95-percent",
-      "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-90-percent-shadow-ai-economy/",
       "claim": "The MIT NANDA report's '95%' is the share of organizations in its sample getting no measurable profit-and-loss return from generative AI; it also says only 5% of custom enterprise AI tools reached production.",
       "value": 95,
       "low": null,
@@ -864,7 +864,7 @@
     },
     {
       "id": "nanda-success-definition",
-      "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail/",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-90-percent-shadow-ai-economy/",
       "claim": "The same report defines success as a tool that users or executives 'remarked' had a marked and lasting effect, which is a judgement and not a measurement.",
       "value": null,
       "low": null,

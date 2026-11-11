@@ -2,10 +2,10 @@
   "name": "Checks of widely repeated AI figures against their primary sources",
   "description": "Figures about AI that are often quoted, each checked against the source it is credited to, one row per claim. Each row gives the claim as it is usually repeated, the verdict, why, the sentence to cite instead, the sources and, where traced, how the claim travelled from its origin.",
   "url": "https://www.ai-first.company/evidence/claim-checks/",
-  "version": "2026-10-25",
+  "version": "2026-11-11",
   "licence": "Data: CC BY 4.0, Paweł Szczęsny, ai-first.company",
   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "count": 29,
+  "count": 31,
   "rows": [
     {
       "id": "gartner-30-percent-genai-abandoned-after-poc",
@@ -590,6 +590,121 @@
         }
       ],
       "reviewed": "2026-10-20"
+    },
+    {
+      "id": "mit-90-percent-shadow-ai-economy",
+      "url": "https://www.ai-first.company/evidence/claim-checks/mit-90-percent-shadow-ai-economy/",
+      "title": "“90% of employees use personal AI tools at work, but only 40% of companies have an official subscription (MIT)”",
+      "claim": "90% of employees use personal AI tools like ChatGPT at work, while only 40% of companies have bought an official LLM subscription, according to MIT.",
+      "verdict": "Needs correcting",
+      "summary": "Both numbers are in a preliminary 2025 report from MIT’s Project NANDA, but the report’s text gives the 90% as a share of companies, not of employees. The text says workers “from over 90% of the companies we surveyed” reported regular use of personal AI tools; the report’s own chart relabels this “Employees who use LLMs regularly, 90%”. The report does not say how many companies the figures cover or which part of its research they come from, and it asked no question about whether the tools were approved.",
+      "correct": "A preliminary 2025 report from MIT’s Project NANDA, based on interviews at 52 organizations and 153 survey answers from senior leaders at four industry conferences, said that “only 40% of companies say they purchased an official LLM subscription”, while “workers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks”. The 90% is a share of the companies in that sample, not of employees. In a survey weighted to the US workforce, Gallup found in May 2026 that 52% of US workers used AI in their role.",
+      "figure_kind": "Self-reported",
+      "scope": "",
+      "published_by": [
+        "MIT NANDA"
+      ],
+      "source_year": "2025",
+      "studies": [],
+      "sources": [
+        {
+          "label": "Challapally, Pease, Raskar and Chari (July 2025). The GenAI Divide: State of AI in Business 2025. MIT NANDA, preliminary findings. Copy of the report hosted by MLQ.ai.",
+          "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf"
+        },
+        {
+          "label": "Lichtenberg (19 August 2025). The ‘shadow AI economy’ is booming: Workers at 90% of companies say they use chatbots, but most of them are hiding it from IT. Fortune.",
+          "url": "https://fortune.com/2025/08/19/shadow-ai-economy-mit-study-genai-divide-llm-chatbots/"
+        },
+        {
+          "label": "Nuñez (21 August 2025). MIT report misunderstood: Shadow AI economy booms while headlines cry failure. VentureBeat.",
+          "url": "https://venturebeat.com/ai/mit-report-misunderstood-shadow-ai-economy-booms-while-headlines-cry-failure"
+        },
+        {
+          "label": "Harmonic Security (2 September 2025). Shadow AI Discovery: A Critical Part of Enterprise AI Governance. Contributed article in The Hacker News.",
+          "url": "https://thehackernews.com/2025/09/shadow-ai-discovery-critical-part-of.html"
+        },
+        {
+          "label": "Harmonic Security (15 January 2026). What 22 Million Enterprise AI Prompts Reveal About Shadow AI in 2025. Vendor report.",
+          "url": "https://www.harmonic.security/resources/what-22-million-enterprise-ai-prompts-reveal-about-shadow-ai-in-2025"
+        },
+        {
+          "label": "CloudEagle.ai (25 September 2026). The Shadow AI Economy: Why Employees Use Personal AI Accounts. Vendor blog.",
+          "url": "https://www.cloudeagle.ai/blogs/the-shadow-ai-economy"
+        },
+        {
+          "label": "Kemp (20 July 2026). Organizational AI Adoption Jumps Six Points. Gallup. Gallup Panel survey of 22,573 US employees, May 2026.",
+          "url": "https://www.gallup.com/workplace/712736/organizational-ai-adoption-jumps-six-points.aspx"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "mit-nanda-2025",
+          "date": "2025-07",
+          "who": "MIT NANDA (Challapally, Pease, Raskar and Chari)",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+          "archive": "https://web.archive.org/web/20250820190554/https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+          "wording": "While only 40% of companies say they purchased an official LLM subscription, workers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work. Exhibit: the shadow AI economy, employee usage far outpaces official adoption … Employees who use LLMs regularly, 90%",
+          "change": "Origin. The text counts companies: workers “from over 90% of the companies we surveyed”. The chart beside it is labelled “Employees who use LLMs regularly, 90%”. The report does not say how many companies, which part of its research gave the figures, or what “regular” means."
+        },
+        {
+          "id": "fortune-2025",
+          "date": "2025-08-19",
+          "who": "Fortune (Nick Lichtenberg)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://fortune.com/2025/08/19/shadow-ai-economy-mit-study-genai-divide-llm-chatbots/",
+          "archive": "https://web.archive.org/web/20250819142811/https://fortune.com/2025/08/19/shadow-ai-economy-mit-study-genai-divide-llm-chatbots/",
+          "wording": "The ‘shadow AI economy’ is booming: Workers at 90% of companies say they use chatbots, but most of them are hiding it from IT",
+          "change": "The headline keeps the base, companies. It adds “most of them are hiding it from IT”. The report says “often without IT knowledge or approval”, and none of its published questions asks about IT or approval."
+        },
+        {
+          "id": "venturebeat-2025",
+          "date": "2025-08-21",
+          "who": "VentureBeat (Michael Nuñez)",
+          "kind": "press",
+          "kind_label": "Press",
+          "url": "https://venturebeat.com/ai/mit-report-misunderstood-shadow-ai-economy-booms-while-headlines-cry-failure",
+          "archive": "https://web.archive.org/web/20250821203055/https://venturebeat.com/ai/mit-report-misunderstood-shadow-ai-economy-booms-while-headlines-cry-failure",
+          "wording": "The researchers found that 90% of employees regularly use personal AI tools for work, even though only 40% of their companies have official AI subscriptions.",
+          "change": "Workers “from over 90% of the companies” become “90% of employees”. “Over” is dropped. The next sentence quotes the report’s own words, with the company base, so the article carries both readings. An “LLM subscription” becomes an “AI subscription”."
+        },
+        {
+          "id": "harmonic-thn-2025",
+          "date": "2025-09-02",
+          "who": "Harmonic Security, in The Hacker News",
+          "kind": "vendor",
+          "kind_label": "Vendor",
+          "url": "https://thehackernews.com/2025/09/shadow-ai-discovery-critical-part-of.html",
+          "archive": "https://web.archive.org/web/20250902114026/https://thehackernews.com/2025/09/shadow-ai-discovery-critical-part-of.html",
+          "wording": "MITs State of AI in Business report revealed that while 40% of organizations have purchased enterprise LLM subscriptions, over 90% of employees are actively using AI tools in their daily work.",
+          "change": "“Personal” is dropped, so the 90% reads as any use of AI, by employees, every day. “Regular use” becomes use “in their daily work”. The article is a contributed piece by Harmonic Security, which sells software that watches how staff use AI tools."
+        },
+        {
+          "id": "harmonic-2026",
+          "date": "2026-01-15",
+          "who": "Harmonic Security",
+          "kind": "vendor",
+          "kind_label": "Vendor",
+          "url": "https://www.harmonic.security/resources/what-22-million-enterprise-ai-prompts-reveal-about-shadow-ai-in-2025",
+          "archive": "https://web.archive.org/web/20260116173615/https://www.harmonic.security/resources/what-22-million-enterprise-ai-prompts-reveal-about-shadow-ai-in-2025",
+          "wording": "MIT's Project NANDA studied over 300 publicly disclosed AI initiatives and found a stark disconnect: … 40% of companies have purchased official LLM subscriptions … 90%+ of employees regularly use personal AI tools for work",
+          "change": "The finding is credited to the review of “over 300 publicly disclosed AI initiatives”, which could not show what workers do. The base is “employees”. The same page opens with “employees at over 90% of organizations” and adds “personal accounts that IT never approved”."
+        },
+        {
+          "id": "cloudeagle-2026",
+          "date": "2026-09-25",
+          "who": "CloudEagle.ai",
+          "kind": "vendor",
+          "kind_label": "Vendor",
+          "url": "https://www.cloudeagle.ai/blogs/the-shadow-ai-economy",
+          "archive": "https://web.archive.org/web/20261111131854/https://www.cloudeagle.ai/blogs/the-shadow-ai-economy",
+          "wording": "The 90% is leaders characterizing their own workforce, not a headcount of employees. It is an estimate made by the people with the least visibility into the behavior being estimated. Which makes it a floor, not a ceiling.",
+          "change": "A method is supplied. The report does not say that the 90% came from the 153 senior leaders, or that they estimated use across their staff. “A floor, not a ceiling” has no source. CloudEagle sells software to find and manage the apps staff use."
+        }
+      ],
+      "reviewed": "2026-11-11"
     },
     {
       "id": "mit-95-percent-of-ai-pilots-fail",
@@ -2697,6 +2812,130 @@
         }
       ],
       "reviewed": "2026-10-20"
+    },
+    {
+      "id": "ibm-670000-shadow-ai-breach-cost",
+      "url": "https://www.ai-first.company/evidence/claim-checks/ibm-670000-shadow-ai-breach-cost/",
+      "title": "“Shadow AI adds $670,000 to a data breach and hit one in five organizations (IBM)”",
+      "claim": "Shadow AI adds $670,000 to the average cost of a data breach, and one in five organizations has suffered a breach because of shadow AI, according to IBM’s Cost of a Data Breach Report 2025.",
+      "verdict": "Needs correcting",
+      "summary": "Both numbers are in IBM’s 2025 report, but the claim changes what they measure. The $670,000 is the gap between breached organizations with high levels of shadow AI and those with low levels or none. For breaches that involved shadow AI, the same report gives about $200,000 more than average. The one in five is of 600 organizations that had all suffered a breach, not of organizations in general. The costs are estimates from interviews, collected by Ponemon Institute for IBM, which sells security and AI governance software.",
+      "correct": "Ponemon Institute interviewed managers at 600 organizations that had a data breach between March 2024 and February 2025, for IBM, which sells security and AI governance software. 20% said they had a security incident involving shadow AI, meaning AI used without the employer’s approval, and such breaches cost an estimated $200,000 more than the average breach. Breaches at organizations with high levels of shadow AI cost $670,000 more than at those with low levels or none, a gap IBM did not adjust for other differences between the groups.",
+      "figure_kind": "Self-reported",
+      "scope": "",
+      "published_by": [
+        "IBM",
+        "Ponemon Institute"
+      ],
+      "source_year": "2025",
+      "studies": [],
+      "sources": [
+        {
+          "label": "IBM and Ponemon Institute (30 July 2025; PDF revised 5 September 2025). Cost of a Data Breach Report 2025: The AI Oversight Gap. Research by Ponemon Institute, sponsored, analysed and published by IBM.",
+          "url": "https://www.ibm.com/downloads/documents/us-en/131cf87b20b31c91"
+        },
+        {
+          "label": "IBM (30 July 2025). IBM Report: 13% Of Organizations Reported Breaches Of AI Models Or Applications, 97% Of Which Reported Lacking Proper AI Access Controls. Press release.",
+          "url": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls"
+        },
+        {
+          "label": "Kessem (30 July 2025). 2025 Cost of a Data Breach Report: Navigating the AI rush without sidelining security. IBM Think (X-Force) blog.",
+          "url": "https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai"
+        },
+        {
+          "label": "Geller (30 July 2025). ‘Shadow AI’ increases cost of data breaches, report finds. Cybersecurity Dive.",
+          "url": "https://www.cybersecuritydive.com/news/artificial-intelligence-security-shadow-ai-ibm-report/"
+        },
+        {
+          "label": "Spencer (updated 30 August 2025). How Shadow AI Costs Companies $670K Extra: IBM’s 2025 Breach Report. Kiteworks blog.",
+          "url": "https://www.kiteworks.com/cybersecurity-risk-management/ibm-2025-data-breach-report-ai-risks/"
+        },
+        {
+          "label": "CloudNuro (3 June 2026). Shadow AI: The $670,000 Blind Spot Your Enterprise Cannot Afford to Ignore. Blog.",
+          "url": "https://www.cloudnuro.ai/blog/shadow-ai-670000-blind-spot-enterprise-risk"
+        },
+        {
+          "label": "IBM (29 July 2026). IBM Study: One in Four Malicious Breaches are AI-Enabled, Costing Companies $6 Million on Average. Press release on the 2026 report.",
+          "url": "https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average"
+        },
+        {
+          "label": "Baker Donelson (30 July 2026). Ten Takeaways from IBM’s 2026 Cost of a Data Breach Report. Law firm’s summary.",
+          "url": "https://www.bakerdonelson.com/ten-takeaways-from-ibms-2026-cost-of-a-data-breach-report"
+        },
+        {
+          "label": "Verizon (April 2025). 2025 Data Breach Investigations Report.",
+          "url": "https://www.verizon.com/business/resources/Te3/reports/2025-dbir-data-breach-investigations-report.pdf"
+        }
+      ],
+      "lineage": [
+        {
+          "id": "ibm-report-2025",
+          "date": "2025-07-30",
+          "who": "IBM and Ponemon Institute",
+          "kind": "research",
+          "kind_label": "Research",
+          "url": "https://www.ibm.com/downloads/documents/us-en/131cf87b20b31c91",
+          "archive": "https://web.archive.org/web/20250731012327/https://www.ibm.com/downloads/documents/us-en/131cf87b20b31c91",
+          "wording": "Among the organizations studied this year, 20% said they suffered a breach due to security incidents involving shadow AI. For organizations with high levels of shadow AI, those breaches added USD 670,000 to the average breach price tag compared to those that had low levels of shadow AI or none.",
+          "change": "Origin. Ponemon Institute interviewed managers at 600 organizations that had a breach between March 2024 and February 2025, and turned their estimates into costs. The $670,000 compares organizations with high levels of shadow AI against those with low levels or none. The same report gives about $200,000 for breaches that involved shadow AI."
+        },
+        {
+          "id": "ibm-press-2025",
+          "date": "2025-07-30",
+          "who": "IBM",
+          "kind": "press-release",
+          "kind_label": "Press release",
+          "url": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+          "archive": "https://web.archive.org/web/20250730230745/https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+          "wording": "One in five organizations reported a breach due to shadow AI, and only 37% have policies to manage AI or detect shadow AI. Organizations that used high levels of shadow AI observed an average of $670,000 in higher breach costs than those with a low level or no shadow AI.",
+          "change": "“Among the organizations studied” becomes “One in five organizations”, so the reader no longer sees that every organization in the study had a breach. The comparison for the $670,000 stays. News stories took “one in five organizations” from here."
+        },
+        {
+          "id": "ibm-think-2025",
+          "date": "2025-07-30",
+          "who": "IBM Think (Limor Kessem)",
+          "kind": "sponsor-summary",
+          "kind_label": "Sponsor’s summary",
+          "url": "https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai",
+          "archive": "https://web.archive.org/web/20250730102250/https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai",
+          "wording": "The report shows that having a high level of shadow AI—where workers download or use unapproved internet-based AI tools—added an extra USD 670,000 to the global average breach cost.",
+          "change": "IBM’s own blog drops the comparison with organizations that had low levels of shadow AI or none. The gap between two groups becomes an amount “added … to the global average breach cost”."
+        },
+        {
+          "id": "kiteworks-2025",
+          "date": "2025-08-30",
+          "who": "Kiteworks (Patrick Spencer)",
+          "kind": "vendor",
+          "kind_label": "Vendor",
+          "url": "https://www.kiteworks.com/cybersecurity-risk-management/ibm-2025-data-breach-report-ai-risks/",
+          "archive": "https://web.archive.org/web/20251008020549/https://www.kiteworks.com/cybersecurity-risk-management/ibm-2025-data-breach-report-ai-risks/",
+          "wording": "IBM’s research reveals that shadow AI breaches cost organizations $670,000 more than average—$4.63 million versus $3.96 million for standard incidents.",
+          "change": "A baseline is invented. The report’s $4.63 million is the average for breaches that involved shadow AI. “$3.96 million for standard incidents” is not in the report. The gap between two groups of organizations becomes the extra cost of each shadow AI breach. Kiteworks sells software for sharing sensitive data."
+        },
+        {
+          "id": "cloudnuro-2026",
+          "date": "2026-06-03",
+          "who": "CloudNuro",
+          "kind": "vendor",
+          "kind_label": "Vendor",
+          "url": "https://www.cloudnuro.ai/blog/shadow-ai-670000-blind-spot-enterprise-risk",
+          "archive": "https://web.archive.org/web/20260609235620/https://www.cloudnuro.ai/blog/shadow-ai-670000-blind-spot-enterprise-risk",
+          "wording": "A recent enterprise risk analysis found that the average cost of a single Shadow AI-related data breach in large enterprises reached $670,000 in 2026.",
+          "change": "Dead end. No source is named. The extra $670,000 becomes the whole cost of a breach, in “large enterprises”, and is dated 2026. CloudNuro sells software for managing a company’s software and AI tools."
+        },
+        {
+          "id": "bakerdonelson-2026",
+          "date": "2026-07-30",
+          "who": "Baker Donelson",
+          "kind": "consultancy",
+          "kind_label": "Consultancy",
+          "url": "https://www.bakerdonelson.com/ten-takeaways-from-ibms-2026-cost-of-a-data-breach-report",
+          "archive": "https://web.archive.org/web/20260923231355/https://www.bakerdonelson.com/ten-takeaways-from-ibms-2026-cost-of-a-data-breach-report",
+          "wording": "Incidents involving shadow AI by employees more than doubled to 43 percent – compared to 20 percent in 2025. Such incidents also resulted in higher costs ($5.39 million versus $4.63 million).",
+          "change": "Follow-up. IBM’s 2026 report covers 602 breaches between March 2025 and February 2026. This law firm’s summary gives 43% for incidents involving shadow AI, up from 20%, and $5.39 million as their average cost. This check could not read the 2026 report itself, which IBM gives out only after a sign-up form."
+        }
+      ],
+      "reviewed": "2026-11-11"
     },
     {
       "id": "pwc-56-percent-ai-wage-premium",
